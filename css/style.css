@@ -59,7 +59,6 @@ a:focus {
 .navbar {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255,255,255,.3);
-	
 }
 
 .navbar-brand {
@@ -70,6 +69,14 @@ a:focus {
   padding: 5px 15px;
   font-size: 18px;
   line-height: 1em;
+}
+#logo{
+    flex-basis: 20%;
+    font-size:0;
+}
+#logo img{
+    height:100px;
+    width: 150px;
 }
 
 .navbar-brand h1{
@@ -84,6 +91,7 @@ a:focus {
 
 .nav.navbar-nav {
     background-color: rgba(255,255,255,.4);
+   
 }
 
 .navbar-custom.top-nav-collapse .nav.navbar-nav {
@@ -97,6 +105,8 @@ a:focus {
     color: #444;
 	text-transform: uppercase;
 	font-weight: 700;
+    
+    
 }
 
 .navbar-custom.top-nav-collapse ul.nav li a {
