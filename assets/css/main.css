@@ -2098,6 +2098,9 @@ input, select, textarea {
 				background: #3B353C;
 			}
 
+			#apply {
+				margin-left: 42.5%;
+			}
 /* Post */
 
 	.post.stub {
