@@ -2558,11 +2558,6 @@ input, select, textarea {
 		padding: 2em 0 2em 0;
 		margin-bottom: 0;
 	}
-	.images {
-		width: 336px;
-		height: 336px;
-		object-fit: cover;
-	}
 
 		.carousel .forward, .carousel .backward {
 			position: absolute;
@@ -2671,6 +2666,7 @@ input, select, textarea {
 			.carousel article p {
 				text-align: center;
 			}
+			
 
 /* Wide */
 
@@ -3153,11 +3149,7 @@ input, select, textarea {
 			#banner {
 				padding: 3em 2em 3em 2em;
 			}
-			#banner header > #myVideo {
-				position: absolute;
-				top: 0;
-				left: 0;
-			}
+
 		/* Sidebar */
 
 			#sidebar > hr:first-of-type {
@@ -3198,4 +3190,8 @@ input, select, textarea {
 					}
 
 	}
-	
+	.images {
+		width: 336px;
+		height: 336px;
+		object-fit: cover;
+	}
