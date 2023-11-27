@@ -1974,7 +1974,7 @@ input, select, textarea {
 		form select:focus,
 		form textarea:focus {
 			background: #fff;
-			border-color: #df7366;
+			border-color: #5b05f9;
 		}
 
 	form input[type="text"],
@@ -2006,6 +2006,9 @@ input, select, textarea {
 
 	form ::-moz-focus-inner {
 		border: 0;
+	}
+	form div button {
+		margin-left: 45%;
 	}
 
 /* Table */
@@ -2057,16 +2060,18 @@ input, select, textarea {
 	.button {
 		position: relative;
 		display: inline-block;
-		background: #df7366;
+		background: #5b05f9;
 		color: #fff;
 		text-align: center;
 		border-radius: 0.5em;
 		text-decoration: none;
-		padding: 0.65em 3em 0.65em 3em;
+		padding: 0.65em 2em 0.65em 2em;
 		border: 0;
 		cursor: pointer;
 		outline: 0;
-		font-weight: 300;
+		font-weight: 500;
+		font-size: 13px;
+		height: 45px;
 		-moz-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 		-webkit-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 		-ms-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
@@ -2180,6 +2185,10 @@ input, select, textarea {
 			float: left;
 			width: 50%;
 		}
+		#column1 {
+			margin-right: -25%;
+			margin-left: 12%;
+		}
 		.row:after {
 			content: "";
 			display: table;
@@ -2188,6 +2197,15 @@ input, select, textarea {
 
 		#time, #day {
 			text-align: center;
+		}
+		#day {
+			margin-top: -20px;
+		}
+		.info {
+			display: inline;
+		}
+		h4 {
+			font-weight: bold;
 		}
 
 /* Header */
