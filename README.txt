@@ -1,4 +1,6 @@
-Okanagan Inclusion Business Website @sierrawillliams
+Okanagan Inclusion Business Website 
+
+Updated by @sierrawillliams (sierrawilliams.ca)
 
 
 
