@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600");
 @import url("fontawesome-all.min.css");
-
+@import url('https://fonts.cdnfonts.com/css/tenderness-4');
 /*
 	Helios by HTML5 UP
 	html5up.net | @ajlkn
@@ -87,9 +87,9 @@ input, select, textarea {
 	body {
 		background: #f0f4f4;
 		color: #5b5b5b;
-		font-size: 15pt;
+		font-size: 17pt;
 		line-height: 1.85em;
-		font-family: 'Source Sans Pro', sans-serif;
+		font-family: 'Tenderness', sans-serif;
 		font-weight: 300;
 	}
 
@@ -2187,7 +2187,7 @@ input, select, textarea {
 		background-attachment: fixed;
 		color: #fff;
 		text-align: center;
-		padding: 5.5em 0 2em 0;
+		padding: 4.5em 0 2em 0;
 		cursor: default;
 	}
 
@@ -2293,9 +2293,10 @@ input, select, textarea {
 		left: 0;
 		width: 100%;
 		text-align: center;
-		padding: 4em 0 1.5em 0;
+		padding: 3em 0 1.5em 0;
 		z-index: 1;
 		overflow: hidden;
+		font-size: 16pt;
 	}
 
 	.nav-logo {
@@ -3186,4 +3187,10 @@ input, select, textarea {
 
 	#main-title {
 		padding-top: 200px;
+	}
+
+	.images {
+		width: 336px;
+		height: 336px;
+		object-fit: cover;
 	}
