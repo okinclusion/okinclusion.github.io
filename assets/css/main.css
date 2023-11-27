@@ -2461,6 +2461,7 @@ input, select, textarea {
 			position: absolute;
 			top: 0;
 			left: 0;
+			width: 100%;
 		}
 		#banner header > p {
 			margin-bottom: 0;
