@@ -2835,7 +2835,7 @@ input, select, textarea {
 		/* Image */
 
 			.image.featured {
-				margin: 0 0 2em 0;
+				margin: 0 0 0em 0;
 			}
 
 			.image.left {
