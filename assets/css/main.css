@@ -2846,9 +2846,10 @@ input, select, textarea {
 			.image.centered {
 				margin: 0 0 1em 0;
 			}
+
 			.images {
-				width: 336px;
-				height: 336px;
+				width: 236px;
+				height: 236px;
 				object-fit: cover;
 			}
 
