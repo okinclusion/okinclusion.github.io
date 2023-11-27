@@ -2176,6 +2176,19 @@ input, select, textarea {
 		.wrapper.style2 {
 			padding-top: 0;
 		}
+		.column {
+			float: left;
+			width: 50%;
+		}
+		.row:after {
+			content: "";
+			display: table;
+			clear: both;
+		}
+
+		#time, #day {
+			text-align: center;
+		}
 
 /* Header */
 
