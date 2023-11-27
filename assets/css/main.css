@@ -3153,7 +3153,11 @@ input, select, textarea {
 			#banner {
 				padding: 3em 2em 3em 2em;
 			}
-
+			#banner header > #myVideo {
+				position: absolute;
+				top: 0;
+				left: 0;
+			}
 		/* Sidebar */
 
 			#sidebar > hr:first-of-type {
