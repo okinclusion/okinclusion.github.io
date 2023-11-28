@@ -1773,6 +1773,14 @@ input, select, textarea {
 			line-height: 1.5em;
 			text-align: inherit;
 		}
+		header > h2 {
+			margin-top: 20px;
+		}
+
+		#info {
+			text-align: center;
+			font-size: larger;
+		}
 
 	footer {
 		margin: 2.5em 0 0 0;
@@ -1816,6 +1824,10 @@ input, select, textarea {
 			.image.centered img {
 				margin: 0 auto;
 				width: auto;
+			}
+
+			#img2 {
+				padding-top: -10em;
 			}
 
 /* List */
@@ -2104,7 +2116,11 @@ input, select, textarea {
 			}
 
 			#apply {
-				margin-left: 42.5%;
+				margin-left: 45%;
+				font-size: 15px;
+				font-weight: 600;
+				height: auto;
+				font-family: 'Tenderness', sans-serif;
 			}
 /* Post */
 
@@ -2533,7 +2549,7 @@ input, select, textarea {
 		#main section:first-of-type {
 			padding-top: 2em;
 		}
-
+		
 /* Footer */
 
 	#footer {
@@ -2867,7 +2883,7 @@ input, select, textarea {
 		/* Image */
 
 			.image.featured {
-				margin: 0 0 0em 0;
+				margin: 0 0 2em 0;
 			}
 
 			.image.left {
@@ -2879,7 +2895,6 @@ input, select, textarea {
 			}
 
 			.images {
-				width: 236px;
 				height: 236px;
 				object-fit: cover;
 			}
@@ -3224,7 +3239,6 @@ input, select, textarea {
 
 	}
 	.images {
-		width: 336px;
 		height: 336px;
 		object-fit: cover;
 	}
