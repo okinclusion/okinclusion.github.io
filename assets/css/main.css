@@ -2516,6 +2516,9 @@ input, select, textarea {
 
 /* Content */
 
+	#content {
+		margin-right: -200px;
+	}
 	#content > hr {
 		top: 3em;
 		margin-bottom: 6em;
@@ -2548,6 +2551,72 @@ input, select, textarea {
 
 		#main section:first-of-type {
 			padding-top: 2em;
+		}
+		ul {
+			list-style-type: none;
+		}
+		.month {
+			padding: 25px 25px;
+			width: 100%;
+			background: #5b05f9;
+			text-align: center;
+			color: white;
+		}
+		.month ul {
+			margin: 0;
+			padding: 0;
+		}
+		.month ul li {
+			color: white;
+			font-size: 20px;
+			text-transform: uppercase;
+			letter-spacing: 3px;
+		}
+		.month .prev {
+			float: left;
+			padding-top: 10px;
+		}
+		.month .next {
+			float: right;
+			padding-top: 10px;
+		}
+		.weekdays {
+			margin: 0;
+			padding: 10px 0;
+			font-size: 15px;
+			background-color: #ddd;
+		}
+		.weekdays li {
+			display: inline-block;
+			width: 13%;
+			color: #666;
+			text-align: center;
+		}
+		#sun, #mon, #tues, #wed, #thur, #fri, #sat {
+			padding-left: 15px;
+			font-weight: bolder;
+		}
+		#sun, #sat {
+			color: #8b8b8b;
+		}
+		.days {
+			padding: 5px 5px;
+			background: #eee;
+			margin: 0;
+		}
+		.days li {
+			list-style-type: none;
+			display: inline-block;
+			width: 13%;
+			text-align: center;
+			margin-bottom: 5px;
+			font-size: 20px;
+			color: #777;
+		}
+		.important {
+			padding: 2px;
+			background: #5b05f9;
+			color: white !important;
 		}
 		
 /* Footer */
