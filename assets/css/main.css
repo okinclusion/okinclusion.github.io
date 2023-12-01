@@ -2618,6 +2618,9 @@ input, select, textarea {
 			background: #5b05f9;
 			color: white !important;
 		}
+		.posts {
+			margin-top: -10px;
+		}
 		
 /* Footer */
 
