@@ -2814,6 +2814,11 @@ input, select, textarea {
 					margin: 0 1.25em 0 0;
 				}
 
+		/* Header */ 
+		#header {
+			padding-bottom: 3.5em;
+		}
+
 	}
 
 /* Normal */
@@ -2838,13 +2843,18 @@ input, select, textarea {
 
 			#header {
 				background-attachment: scroll;
+				padding-bottom: 5em;
 			}
 
 				#header .inner {
 					padding-left: 2em;
 					padding-right: 2em;
 				}
-
+		/* Nav */
+		#nav-items {
+			padding-left: 15em;
+		}
+		
 		/* Banner */
 
 			#banner {
@@ -2865,7 +2875,7 @@ input, select, textarea {
 
 /* Narrower */
 
-	@media screen and (max-width: 840px) {
+	@media screen and (max-width: 760px) {
 
 		/* Basic */
 
@@ -2883,6 +2893,11 @@ input, select, textarea {
 				text-align: center;
 			}
 
+		/* Header */
+		#header {
+			padding-bottom: 5.5em;
+		}
+
 		/* Footer */
 
 			#footer {
@@ -2899,6 +2914,7 @@ input, select, textarea {
 					width: 18em;
 					margin: 0 1em 0 0;
 				}
+
 
 	}
 
@@ -3030,7 +3046,7 @@ input, select, textarea {
 
 		/* Nav */
 
-			#page-wrapper {
+			/* #page-wrapper {
 				-moz-backface-visibility: hidden;
 				-webkit-backface-visibility: hidden;
 				-ms-backface-visibility: hidden;
@@ -3040,9 +3056,9 @@ input, select, textarea {
 				-ms-transition: -ms-transform 0.5s ease;
 				transition: transform 0.5s ease;
 				padding-bottom: 1px;
-			}
+			} */
 
-			#navButton {
+			/* #navButton {
 				-moz-backface-visibility: hidden;
 				-webkit-backface-visibility: hidden;
 				-ms-backface-visibility: hidden;
@@ -3102,9 +3118,9 @@ input, select, textarea {
 						background: rgba(132, 128, 136, 0.75);
 						border-top: 0;
 						border-radius: 0 0 0.35em 0.35em;
-					}
+					} */
 
-			#navPanel {
+			/* #navPanel {
 				-moz-backface-visibility: hidden;
 				-webkit-backface-visibility: hidden;
 				-ms-backface-visibility: hidden;
@@ -3210,7 +3226,7 @@ input, select, textarea {
 				-webkit-transform: translateY(0);
 				-ms-transform: translateY(0);
 				transform: translateY(0);
-			}
+			} */
 
 		/* Wrapper */
 
@@ -3221,8 +3237,7 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				background-attachment: scroll;
-				padding: 2.5em 0 0 0;
+				padding-bottom: 6em;
 			}
 
 				#header .inner {
@@ -3244,11 +3259,7 @@ input, select, textarea {
 					margin-bottom: 2.5em;
 				}
 
-			body.homepage #header {
-				min-height: 0;
-				padding: 5.5em 0 5em 0;
-				height: auto;
-			}
+			
 
 				body.homepage #header:before {
 					display: none;
@@ -3260,14 +3271,14 @@ input, select, textarea {
 
 		/* Nav */
 
-			#nav {
+			/* #nav {
 				display: none;
-			}
+			} */
 
 		/* Banner */
 
 			#banner {
-				padding: 3em 2em 3em 2em;
+				padding: 3em 2em em 2em;
 			}
 
 		/* Sidebar */
@@ -3310,6 +3321,19 @@ input, select, textarea {
 					}
 
 	}
+	@media screen and (max-width: 620px) {
+		/* Header */ 
+		#header {
+			padding-bottom: 7em;
+		}
+	}
+	@media screen and (max-width: 585px) {
+		/* Header */ 
+		#header {
+			padding-bottom: 8em;
+		}
+	}
+
 	.images {
 		height: 336px;
 		object-fit: cover;
