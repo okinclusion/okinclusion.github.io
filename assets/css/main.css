@@ -188,6 +188,7 @@ input, select, textarea {
 
 	p {
 		text-align: justify;
+		font-size: 22px;
 	}
 
 	br.clear {
@@ -1831,6 +1832,13 @@ input, select, textarea {
 			}
 
 /* List */
+	.diff {
+		list-style: circle;
+		font-size: 20px;
+	}
+	hr {
+		padding: -2em 0 -2em 0;
+	}
 	ol {
 		text-align: left;
 		font-size: 25px;
