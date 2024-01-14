@@ -1836,6 +1836,9 @@ input, select, textarea {
 		list-style: circle;
 		font-size: 20px;
 	}
+	.ker-title, .pen-title {
+		display: inline-block;
+	}
 	hr {
 		padding: -2em 0 -2em 0;
 	}
