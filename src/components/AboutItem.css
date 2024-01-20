@@ -16,7 +16,57 @@
     font-family: 'Courgette', sans-serif;
 }
 
+/* Carousel */
+a {
+    font-family: 'Tahoma';
+    text-decoration: none;
+    color: #000;
+    font-weight: 400;
+}
 
+.images {
+    width: 27vmax;
+    height: 27vmax;
+    object-Fit: cover;
+}
+
+h3 {
+    padding: 20px;
+}
+
+    .carousel .reel {
+        white-space: nowrap;
+        position: relative;
+        -webkit-overflow-scrolling: touch;
+        padding: 0 2em 0 2em;
+    }
+
+    .carousel article {
+        display: inline-block;
+        text-align: center;
+        background-color: #fff;
+    }
+
+.carousel {
+    overflow-x: auto;
+}
+@media screen and (max-width: 1680px) {
+    /* Carousel */
+
+			.carousel {
+				padding: 1.5em 0 1.5em 0;
+			}
+
+				.carousel .reel {
+					padding: 0 1.5em 0 1.5em;
+				}
+
+				.carousel article {
+					width: 18em;
+					margin: 0 1.25em 0 0;
+				}
+    
+}
 @media screen and (max-width: 720px) {
     .all-icons {
         display: flex;

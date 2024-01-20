@@ -13,7 +13,7 @@ function Main() {
           <source src={backgroundVideo} type='video/mp4' alt='Video by 33studiodesign from Pixabay'/>
         </video>
         <div className='responsive-type-animation'>
-          <TypeAnimation className='name' sequence={["Community Inclusion", 1000]} speed={20} style={{ fontSize: '8vw', fontFamily: 'Tahoma', textShadow: '3px 2px #5b05f9', color: '#fff'}}/>
+          <TypeAnimation className='name' sequence={["Okanagan Inclusion", 1000]} speed={20} style={{ fontSize: '8vw', fontFamily: 'Tahoma', textShadow: '3px 2px #5b05f9', color: '#fff'}}/>
         </div> 
         <p className='title'>Est. 2013</p>
         <div className='main-btns'>

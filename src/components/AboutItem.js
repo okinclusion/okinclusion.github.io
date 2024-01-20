@@ -6,39 +6,68 @@ function AboutItem(props) {
   return (
     <>
    <div>
-      <Box className="all-icons" style={{
-        width: '100%', 
-        display:'inline-block'
-        }} 
-        textAlign="center" fontFamily="Montserrat" fontSize="2rem" bgcolor="#fad1d6" p={1}>
-        <img className="icons" src="../../images/icons/css.png"/>
-        <img className="icons" src="../../images/icons/html-5.png"/>
-        <img className="icons" src="../../images/icons/java-script.png"/>
-        <img className="icons" src="../../images/icons/node.png"/>
-        <img className="icons" src="../../images/icons/react.png"/>
-        <img className="icons" src="../../images/icons/python.png"/>
-        <img className="icons" src="../../images/icons/nextjs.png"/>
-        <img className="icons" src="../../images/icons/git.png"/>
-        <img className="icons" src="../../images/icons/Bootstrap.png"/>
-        <img className="icons" src="../../images/icons/Tailwind.png"/>
-      </Box>
-      <Box color="#ed8495" textAlign="center" fontFamily="Montserrat" fontSize="1.5rem" bgcolor="#fad1d6" p={1}>
-          Hello, I am a full stack developer with a love for all things web development.
-          <br/>
-          I recently graduated from The University of British Columbia with a Bachelor's in Computer Science.
-          <br/>
-          I am ever so passionate about web development and coding. I enjoy a challenge and learning.
-          <br/>
-          I am proficient in HTML, CSS, Bootstrap, Tailwind and React.
-          <br/>
-          I am also familiar with many other programming languages, and frameworks.
-          <br/>
-          Lately I have been working on increasing my skills with React, Angular, and JavaScript. 
-          <br/>
-          I am hoping to obtain a career in web development, but I am open to other options to get my foot in the door. 
-          <br/>
-          <br/>
-          <br/>
+      <section class="carousel">
+					<div class="reel">
+
+						<article>
+							<a href="/communityinclusion" class="image featured"><img class="images" src="images/okinc-pic01.jpg" alt=""/></a>
+							<header>
+								<h3><a href="penticton.html">Community Inclusion</a></h3>
+							</header>
+						</article>
+
+						<article>
+							<a href="/news#events" class="image featured"><img class="images" src="images/okinc-pic02.jpg" alt=""/></a>
+							<header>
+								<h3><a href="news.html#events">Events</a></h3>
+							</header>
+						</article>
+
+						<article>
+							<a href="/news" class="image featured"><img class="images" src="images/okinc-pic08.jpg"  alt="" /></a>
+							<header>
+								<h3><a href="news.html">News</a></h3>
+							</header>
+						</article>
+
+						<article>
+							<a href="/missionvision" class="image featured"><img class="images" src="images/okinc-pic11.jpg" alt="" /></a>
+							<header>
+								<h3><a href="mission-vision.html">Mission + Vision</a></h3>
+							</header>
+						</article>
+
+						<article>
+							<a href="/employment" class="image featured"><img class="images" src="images/okinc-pic06.jpg" alt="" /></a>
+							<header>
+								<h3><a href="employment.html">Employment</a></h3>
+							</header>
+						</article>
+
+						<article>
+							<a href="/resources" class="image featured"><img class="images" src="images/okinc-pic10.jpg" alt="" /></a>
+							<header>
+								<h3><a href="resources.html">Resources</a></h3>
+							</header>
+						</article>
+					</div>
+				</section>
+
+      <Box color="#000" textAlign="center" margin="50px 0 0 0" fontFamily="Tahoma" fontSize="1.25rem" bgcolor="#fff" p={1}>
+        Okanagan Inclusion provides Agency Coordinated Home Sharing, Respite, Employment and Community Inclusion programs to adults with developmental disabilities.
+        <br/>
+        Okanagan Inclusion (OI) began services to adults with developmental disabilities in 2013, the organization incorporated in 2018.          
+        <br/>
+        It was developed as there was a need for more individualized, person centred services in the South Okanagan. OI has grown extensively since then, adding Shared Living, Respite as well as Employment to the already thriving Community Inclusion program.          <br/>
+        <br/>
+        We employ highly qualified staff and contractors to deliver our programs and services. 
+        <br/>
+        We provide services mainly in Penticton but extend to Summerland, Okanagan Falls, Twin Lakes and Kelowna.
+        <br/>
+        Our services are provided by referral from Community Living British Columbia (CLBC).
+        <br/>
+        <br/>
+        <br/>
       </Box>
 
     </div>
