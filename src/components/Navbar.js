@@ -37,7 +37,7 @@ function Navbar() {
     <>
     <nav className='navbar'>
         <div className="navbar-container">
-            <h1 className='logo-name'>Sierra Williams</h1>
+            <img className='logo' src='../../images/logocrop-nobg.png'/>
             <div className='menu-icon' onClick={handleClick}>
                 <FontAwesomeIcon icon={click ? faAngleDoubleRight: faAlignJustify}/>
             </div>
@@ -49,22 +49,27 @@ function Navbar() {
                 </li>
                 <li className='nav-item'>
                     <Link to="/about" className={"nav-links" + (url === "/about" ?" active" : "")} onClick={closeMobileMenu}>
-                        About
+                        About Us
                     </Link>
                 </li>
                 <li className='nav-item'>
-                    <Link to="https://github.com/sierrawillliams" className={"nav-links" + (url === "/github" ?" active" : "")} onClick={closeMobileMenu}>
-                        Github
+                    <Link to="/services" className={"nav-links" + (url === "/services" ?" active" : "")} onClick={closeMobileMenu}>
+                        Our Services
                     </Link>
                 </li>
                 <li className='nav-item'>
-                    <Link to="https://www.linkedin.com/in/sierrawillliams/" className={"nav-links" + (url === "/linkedin" ?" active" : "")} onClick={closeMobileMenu}>
-                        LinkedIn
+                    <Link to="/news" className={"nav-links" + (url === "/news" ?" active" : "")} onClick={closeMobileMenu}>
+                        News
                     </Link>
                 </li>
                 <li className='nav-item'>
-                    <Link to="/work" className={"nav-links" + (url === "/work" ?" active" : "")} onClick={closeMobileMenu}>
-                        Work
+                    <Link to="/work" className={"nav-links" + (url === "/resources" ?" active" : "")} onClick={closeMobileMenu}>
+                        Resources
+                    </Link>
+                </li>
+                <li className='nav-item'>
+                    <Link to="/contact" className={"nav-links" + (url === "/contact" ?" active" : "")} onClick={closeMobileMenu}>
+                        Contact Us
                     </Link>
                 </li>
             </ul>            

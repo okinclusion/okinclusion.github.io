@@ -2,39 +2,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
 
 @font-face {
-  font-family: Bright;
-  src: url(/public/fonts/Bright.otf);
+  font-family: Wolfsbane;
+  src: url(/public/fonts/wolfs_bane/wolfsbane2.ttf);
 }
 
 .navbar {
   font-size: 1.2rem;
-
 }
 
 .navbar-container {
   display:inherit;
   height: fit-content;
-  background-color: #000000;
+  background-color: #fff;
   position: fixed;
   width: 100%;
   z-index: 1;
-
+  height: fit-content;
+  max-height: 8vh;
 }
 
-.logo-name {
-  font-family: 'Bright';
-  text-shadow: 3px 2px #f67c90;
-  color: #fad1d6;
-  font-size: 5vmax;
-  text-decoration: none;
-  margin-left: 2vw;
-  margin-top: 1.5vmin;
-  float: left;
+.logo {
+  height: 7vh;
+  margin: 1vw;
 }
 
 .menu-icon {
   display: none;
-  color: #ffffff;
+  color: #000;
 }
 
 .nav-menu {
@@ -44,27 +38,31 @@
 }
 
 .active {
-  border-bottom: 4px solid #fff;
+  border-bottom: 4px solid #5b05f9;
   transition: all 0.2s ease-out;
 }
 
 .nav-item {
-  height: 5.5vmax;
+  height: 4vmax;
   display: inline;
 }
 
 .nav-links {
-  color: #f6c4ca;
+  color: #000;
   display: flex;
   align-items: center;
   text-decoration: none;
   padding: 0.5rem 1rem;
   height: 100%;
   font-family: 'Montserrat';
+  max-height: 5vh;
+  min-height: 5vh;
+  margin-top: 3vh;
+  padding-bottom: 2vh;
 }
 
 .nav-links:hover {
-  border-bottom: 4px solid #fff;
+  border-bottom: 4px solid #5b05f9;
   transition: all 0.2s ease-out;
 }
 
@@ -78,7 +76,11 @@
 }
 
 .fa-bars {
-  color: #fff;
+  color: #000;
+}
+
+@media screen and (max-width: 1335px) {
+
 }
 
 @media screen and (max-width: 1025px) {
