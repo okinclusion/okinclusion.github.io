@@ -12,18 +12,18 @@
 
 .btn--primary {
     background-color: var(--primary);
-    color: #ed8495;
+    color: #5b05f9;
     border: 1px solid var(--primary);
-    box-shadow: 5px 5px #fab5c1;
+    box-shadow: 5px 5px #5b05f9;
 
 }
 
 .btn--outline {
-    background-color: #fab5c1;
-    color: #ffffff;
+    background-color: #fff;
+    color: #5b05f9;
     padding: 8px 20px;
-    border: #ed8495 1px solid;
-    box-shadow: 5px 5px #ed8495;
+    border: #5b05f9 1px solid;
+    box-shadow: 5px 5px #5b05f9;
     transition: all 0.3s ease-out;
 }
 

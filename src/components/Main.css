@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
 
 @font-face {
-    font-family: Wolfsbane;
-    src: url(/public/fonts/wolfs_bane/wolfsbane2.ttf);
+    font-family: 'Wolfsbane';
+    src: url(../../public/fonts/wolfsbane2.woff);
   }
 
 video {
@@ -45,10 +45,11 @@ video::-webkit-media-controls {
 }
 
 .name {
-    font-family: Wolfsbane;
+    font-family: 'Montserrat';
 }
 .title {
     font-family: 'Montserrat';
+    font-size: 5vh;
 }
 
 Button {
