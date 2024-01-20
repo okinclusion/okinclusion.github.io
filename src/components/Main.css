@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Courgette');
 @import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
 
+@font-face {
+    font-family: Wolfsbane;
+    src: url(/public/fonts/wolfs_bane/wolfsbane2.ttf);
+  }
 
 video {
     object-fit: cover;
@@ -41,7 +45,7 @@ video::-webkit-media-controls {
 }
 
 .name {
-    font-family: 'Bright';
+    font-family: Wolfsbane;
 }
 .title {
     font-family: 'Montserrat';

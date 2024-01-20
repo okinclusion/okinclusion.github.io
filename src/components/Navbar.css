@@ -22,8 +22,9 @@
 }
 
 .logo {
-  height: 7vh;
-  margin: 1vw;
+  max-height: 7vh;
+  min-height: 7vh;
+  margin: 1vmin;
 }
 
 .menu-icon {

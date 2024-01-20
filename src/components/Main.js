@@ -1,10 +1,10 @@
-import React, { useState, useEffect} from 'react';
+import React from 'react';
 import '../App.css';
+import './Main.css';
 import { Button } from './Button';
 import { Button2 } from './Button2';
-import './Main.css';
 import { TypeAnimation } from 'react-type-animation';       
-import backgroundVideo from '../videos/wave.mp4';
+import backgroundVideo from '../videos/snow.mp4';
 
 function Main() { 
   return (
@@ -19,12 +19,12 @@ function Main() {
         <div className='main-btns'>
             <a href="/work"><Button className='btns' buttonStyle='btn--outline'
             buttonSize='btn--large'>
-                View My Work
+                Meet the Team
             </Button>
             </a>
             <Button2 className='btns' buttonStyle='btn--primary'
             buttonSize='btn--large'>
-                Contact Me
+                Contact Us
             </Button2>
         </div>
     </div>
