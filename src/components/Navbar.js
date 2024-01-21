@@ -92,7 +92,7 @@ function Navbar() {
                         Our Services
                         {showDropdown2 && (
                             <div className='dropdown-menu'>
-                                <Link to="/communityinclusion" className="dropdown-item" onMouseEnter={handleSubDropdownEnter} onMouseLeave={handleSubDropdownLeave}>
+                                <div to="/communityinclusion" className="dropdown-item" onMouseEnter={handleSubDropdownEnter} onMouseLeave={handleSubDropdownLeave}>
                                     Community Inclusion
                                     {showSubDropdown && (
                                         <div className='sub-dropdown-menu' onMouseEnter={handleSubDropdownEnter} onMouseLeave={handleSubDropdownLeave}>
@@ -104,7 +104,7 @@ function Navbar() {
                                             </Link>
                                         </div>
                                     )}
-                                </Link>                             
+                                </div>                             
                                 <Link to="/homeshare" className="dropdown-item">
                                     Home Share
                                 </Link>   

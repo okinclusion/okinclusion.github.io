@@ -8,7 +8,8 @@ import Mission from './components/pages/Mission';
 import Team from './components/pages/Team';
 import Priorities from './components/pages/Priorities';
 import Accreditation from './components/pages/Accreditation.js';
-import Inclusion from './components/pages/CommunityInclusion';
+import Penticton from './components/pages/Penticton';
+import Keremeos from './components/pages/Keremeos';
 import HomeShare from './components/pages/HomeShare';
 import Employment from './components/pages/Employment';
 import SupportedLiving from './components/pages/SupportedLiving';
@@ -29,7 +30,8 @@ function App() {
           <Route path="/team" element={<Team/>}/>
           <Route path="/strategicpriorities" element={<Priorities/>}/>
           <Route path="/accreditation" element={<Accreditation/>}/>
-          <Route path="/communityinclusion" element={<Inclusion/>}/>
+          <Route path="/penticton" element={<Penticton/>}/>
+          <Route path="/keremeos" element={<Keremeos/>}/>
           <Route path="/homeshare" element={<HomeShare/>}/>
           <Route path="/employment" element={<Employment/>}/>
           <Route path="/supportedliving" element={<SupportedLiving/>}/>

@@ -5,7 +5,6 @@ import { TypeAnimation } from 'react-type-animation';
 import backgroundVideo from '../../videos/snow.mp4';
 import ToolTip from '../ToolTip';
 import Footer from '../Footer';
-import arrow from '../../images/down-arrow.png';
 
 function Accreditation() { 
   return (
@@ -17,9 +16,6 @@ function Accreditation() {
         <div className='responsive-type-animation'>
           <TypeAnimation className='name' sequence={["Accreditation", 1000]} speed={20} style={{ fontSize: '8vw', fontFamily: 'Tahoma', textShadow: '3px 2px #5b05f9', color: '#fff'}}/>
         </div> 
-        <div className='main-btns'>
-            <img src={arrow} height={60}/>
-        </div>
     </div>
     <ToolTip/>
     <Footer/>
