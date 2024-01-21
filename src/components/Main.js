@@ -17,7 +17,7 @@ function Main() {
         </div> 
         <p className='title'>Est. 2013</p>
         <div className='main-btns'>
-            <a href="/work"><Button className='btns' buttonStyle='btn--outline'
+            <a href="/team"><Button className='btns' buttonStyle='btn--outline'
             buttonSize='btn--large'>
                 Meet the Team
             </Button>

@@ -4,7 +4,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAlignJustify } from '@fortawesome/free-solid-svg-icons';
 import { faAngleDoubleRight } from '@fortawesome/free-solid-svg-icons';
 import '../components/Navbar.css'; 
-import { Button2 } from './Button2';
 
 function Navbar() {
     const [click, setClick] = useState(false);
@@ -33,48 +32,89 @@ function Navbar() {
         setUrl(location.pathname);
     }, [location]);
 
+    const [showDropdown1, setShowDropdown1] = useState(false);
+    const handleDropdownEnter1 = () => {
+        setShowDropdown1(true);
+    };
+    const handleDropdownLeave1 = () => {
+        setShowDropdown1(false);
+    }
+    const [showDropdown2, setShowDropdown2] = useState(false);
+    const handleDropdownEnter2 = () => {
+        setShowDropdown2(true);
+    };
+    const handleDropdownLeave2 = () => {
+        setShowDropdown2(false);
+    }
+
   return (
     <>
-    <nav className='navbar'>
+    <div className='navbar'>
         <div className="navbar-container">
             <img className='logo' src='../../images/logocrop-nobg.png'/>
             <div className='menu-icon' onClick={handleClick}>
                 <FontAwesomeIcon icon={click ? faAngleDoubleRight: faAlignJustify}/>
             </div>
-            <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-                <li className='nav-item'>
-                    <Link to="/" className={"nav-links" + (url === "/" ?" active" : "")} onClick={closeMobileMenu}>
-                        Home
-                    </Link>
-                </li>
-                <li className='nav-item'>
-                    <Link to="/about" className={"nav-links" + (url === "/about" ?" active" : "")} onClick={closeMobileMenu}>
-                        About Us
-                    </Link>
-                </li>
-                <li className='nav-item'>
-                    <Link to="/services" className={"nav-links" + (url === "/services" ?" active" : "")} onClick={closeMobileMenu}>
+            <div className={click ? 'nav-menu active' : 'nav-menu'}>
+                <Link to="/" className={"nav-item nav-links" + (url === "/" ?" active" : "")} onClick={closeMobileMenu}>
+                    Home
+                </Link>
+                <div className='nav-links nav-item dropdown' onMouseEnter={handleDropdownEnter1} onMouseLeave={handleDropdownLeave1}>
+                        About Us 
+                        {showDropdown1 && (
+                            <div className='dropdown-menu'>
+                                <Link to="/history" className="dropdown-item">
+                                    History
+                                </Link>                             
+                                <Link to="/missionvision" className="dropdown-item">
+                                    Mission + Vision
+                                </Link>   
+                                <Link to="/team" className="dropdown-item">
+                                    Leadership Team
+                                </Link>     
+                                <Link to="/strategicpriorities" className="dropdown-item">
+                                    Strategic Priorities
+                                </Link>    
+                                <Link to="/accreditation" className="dropdown-item">
+                                    Accreditation
+                                </Link>    
+                            </div>
+                        )}
+                </div>
+                <div className='nav-links nav-item dropdown' onMouseEnter={handleDropdownEnter2} onMouseLeave={handleDropdownLeave2}>
                         Our Services
-                    </Link>
-                </li>
-                <li className='nav-item'>
+                        {showDropdown2 && (
+                            <div className='dropdown-menu'>
+                                <Link to="/history" className="dropdown-item">
+                                    Community Inclusion
+                                </Link>                             
+                                <Link to="/missionvision" className="dropdown-item">
+                                    Home Share
+                                </Link>   
+                                <Link to="/team" className="dropdown-item">
+                                    Employment
+                                </Link>     
+                                <Link to="/strategicpriorities" className="dropdown-item">
+                                    Supported Living
+                                </Link>    
+                                <Link to="/accreditation" className="dropdown-item">
+                                    Respite
+                                </Link>    
+                            </div>
+                        )}
+                </div>
                     <Link to="/news" className={"nav-links" + (url === "/news" ?" active" : "")} onClick={closeMobileMenu}>
                         News
                     </Link>
-                </li>
-                <li className='nav-item'>
                     <Link to="/work" className={"nav-links" + (url === "/resources" ?" active" : "")} onClick={closeMobileMenu}>
                         Resources
                     </Link>
-                </li>
-                <li className='nav-item'>
                     <Link to="/contact" className={"nav-links" + (url === "/contact" ?" active" : "")} onClick={closeMobileMenu}>
                         Contact Us
                     </Link>
-                </li>
-            </ul>            
+            </div>            
         </div>
-    </nav>
+    </div>
     </>
   )
 }
