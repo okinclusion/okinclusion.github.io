@@ -40,11 +40,18 @@ function Navbar() {
         setShowDropdown1(false);
     }
     const [showDropdown2, setShowDropdown2] = useState(false);
+    const [showSubDropdown, setShowSubDropdown] = useState(false);
     const handleDropdownEnter2 = () => {
         setShowDropdown2(true);
     };
     const handleDropdownLeave2 = () => {
         setShowDropdown2(false);
+    }
+    const handleSubDropdownEnter = () => {
+        setShowSubDropdown(true);
+    };
+    const handleSubDropdownLeave = () => {
+        setShowSubDropdown(false);
     }
 
   return (
@@ -85,8 +92,18 @@ function Navbar() {
                         Our Services
                         {showDropdown2 && (
                             <div className='dropdown-menu'>
-                                <Link to="/history" className="dropdown-item">
+                                <Link to="/communityinclusion" className="dropdown-item" onMouseEnter={handleSubDropdownEnter} onMouseLeave={handleSubDropdownLeave}>
                                     Community Inclusion
+                                    {showSubDropdown && (
+                                        <div className='sub-dropdown-menu' onMouseEnter={handleSubDropdownEnter} onMouseLeave={handleSubDropdownLeave}>
+                                            <Link to='/penticton' className='sub-dropdown-item'>
+                                                Penticton
+                                            </Link>
+                                            <Link to='/keremeos' className='sub-dropdown-item'>
+                                                Keremeos
+                                            </Link>
+                                        </div>
+                                    )}
                                 </Link>                             
                                 <Link to="/missionvision" className="dropdown-item">
                                     Home Share
