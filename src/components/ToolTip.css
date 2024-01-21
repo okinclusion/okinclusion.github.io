@@ -1,3 +1,8 @@
+.first-sentence {
+    text-align: center;
+    font-size: 2.6vmin;
+}
+
 .hover-popup-page {
     margin: 0 auto;
     padding: 20px;
@@ -32,3 +37,13 @@
   .requirements-item {
     margin-bottom: 10px;
   }
+
+  .seal-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .seal {
+    height: 200px;  
+}
