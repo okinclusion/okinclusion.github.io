@@ -3,59 +3,65 @@ import CardItem from './CardItem';
 import './Cards.css';
 
 function Cards() {
+  const leanneEmail = "okinclusion@shaw.ca";
+  const sherylEmail = "sherylm.okinclusion@shaw.ca";
+  const michelleEmail = "michelleb.okinclusion@shaw.ca";
+
   return (
     <div className='cards'>
-        <h1 className='title-work'>Check out my work!</h1>
+        <h1 className='title-work'></h1>
         <div className='cards__container'>
             <div className='cards__wrapper'>
               <ul className='cards__items'>
               <CardItem
-                  src="images/img3.png"
-                  text="Business Website"
-                  label="Freelance" 
-                  language="JavaScript, HTML, CSS"
-                  path="https://okinclusion.github.io"/>
+                  src="images/leanne.png"
+                  text="Leanne Williams"
+                  label="CEO" 
+                  email={leanneEmail} />
                   <br/>
                   <CardItem
-                  src="images/img2.png"
-                  text="Admin Application"
-                  label="University Project"
-                  language="React, Prisma, Docker, Node.js, JavaScript, HTML, CSS"
-                  path="https://github.com/UBCO-COSC-499-Summer-2023/project-7-b-rental-marketplace-tool-capstone-rental-marketplace-p7b"/>
+                  src="images/sheryl.png"
+                  text="Sheryl Martin"
+                  label="Program Coordinator"
+                  email={sherylEmail}/>
+                  <CardItem
+                    src="images/michelle.png"
+                    text="Michelle Fritsche"
+                    label="Home Share Coordinator" 
+                    email={michelleEmail}/>
+                  <br/>
               </ul>
               <ul className='cards__items'>
               <CardItem
-                    src="images/Portfolio.png"
-                    text="Portfolio"
-                    label="Freelance" 
-                    language="React, Node.js, JavaScript, HTML, CSS"
-                    path="/"/>
+                    src="images/staff1.png"
+                    text=""
+                    label="" 
+                    email=""/>
                   <br/>
                   <CardItem
-                  src="images/menu.png"
-                  text="Mock Menu"
-                  label="Freelance" 
-                  language="HTML, CSS"
-                  path="https://github.com/sierrawillliams/menu"/>
+                  src="images/staff2.png"
+                  text=""
+                  label="" 
+                  email=""/>
                   <br/>
                 <CardItem
-                  src="images/coming-soon.jpg"
-                  text="Chatbot"
-                  label="Coming Soon" 
-                  path="https://okinclusion.github.io"/>
+                  src="images/staff3.jpg"
+                  text=""
+                  label=""
+                  email=""/>
                 </ul>
                 <ul className='cards__items'>
                   <CardItem
-                    src="images/coming-soon.jpg"
-                    text="Scheduling Software"
-                    label="Coming Soon" 
-                    path="https://okinclusion.github.io"/>
+                    src="images/staff4.jpg"
+                    text=""
+                    label="" 
+                    email=""/>
                     <br/>
                   <CardItem
-                    src="images/coming-soon.jpg"
-                    text="To Do List"
-                    label="Coming Soon" 
-                    path="/"/>
+                    src="images/staff5.jpg"
+                    text=""
+                    label="" 
+                    email=""/>
                 </ul>
             </div>
         </div>

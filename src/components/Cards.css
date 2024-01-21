@@ -2,7 +2,7 @@
 
 .cards {
     padding: 4rem;
-    background-color: #fad1d6;
+    background-color: #d8d8d8;
     font-family: 'Montserrat', sans-serif;
   }
   
@@ -13,15 +13,11 @@
   .cards__container {
     display: flex;
     flex-flow: column;
-    align-items: center;
-    max-width: 1120px;
-    width: 90%;
     margin: 0 auto;
   }
   
   .cards__wrapper {
     position: relative;
-    margin: 50px 0 45px;
   }
   
   .cards__items {
@@ -39,7 +35,7 @@
     display: flex;
     flex-flow: column;
     width: 100%;
-    box-shadow: 0 6px 20px #ed8495;
+    box-shadow: 0 6px 20px #5b05f9;
     -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
     filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
     border-radius: 10px;
@@ -69,7 +65,7 @@
     font-size: 12px;
     font-weight: 700;
     color: #fff;
-    background-color: #ed8495;
+    background-color: #5b05f9;
     box-sizing: border-box;
   }
   
@@ -102,12 +98,13 @@
     line-height: 24px;
   }
 
-  .cards__item__languages {
+  .cards__item__email {
     padding: 0 20px 30px;
   }
 
-  .cards__item__language__text {
-    color: #ed8495;
+  .cards__item__email__text {
+    color: #5b05f9;
+    text-decoration: none;
   }
   
   @media only screen and (min-width: 1200px) {
