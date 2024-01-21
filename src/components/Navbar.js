@@ -105,16 +105,16 @@ function Navbar() {
                                         </div>
                                     )}
                                 </Link>                             
-                                <Link to="/missionvision" className="dropdown-item">
+                                <Link to="/homeshare" className="dropdown-item">
                                     Home Share
                                 </Link>   
-                                <Link to="/team" className="dropdown-item">
+                                <Link to="/employment" className="dropdown-item">
                                     Employment
                                 </Link>     
-                                <Link to="/strategicpriorities" className="dropdown-item">
+                                <Link to="/supportedliving" className="dropdown-item">
                                     Supported Living
                                 </Link>    
-                                <Link to="/accreditation" className="dropdown-item">
+                                <Link to="/respite" className="dropdown-item">
                                     Respite
                                 </Link>    
                             </div>

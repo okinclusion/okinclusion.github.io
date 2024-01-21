@@ -27,7 +27,7 @@ function App() {
           <Route path="/history" element={<History/>}/>
           <Route path="/missionvision" element={<Mission/>}/>
           <Route path="/team" element={<Team/>}/>
-          <Route path="/stategicpriorities" element={<Priorities/>}/>
+          <Route path="/strategicpriorities" element={<Priorities/>}/>
           <Route path="/accreditation" element={<Accreditation/>}/>
           <Route path="/communityinclusion" element={<Inclusion/>}/>
           <Route path="/homeshare" element={<HomeShare/>}/>

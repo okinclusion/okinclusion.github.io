@@ -1,8 +1,8 @@
 import React from 'react';
 import { Box } from '@mui/material';
-import './AboutItem.css';
+import './Item.css';
 
-function AboutItem(props) {
+function Item(props) {
   return (
     <>
    <div>
@@ -75,4 +75,4 @@ function AboutItem(props) {
   )
 }
 
-export default AboutItem;
+export default Item;
