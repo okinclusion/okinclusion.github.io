@@ -1,0 +1,34 @@
+.hover-popup-page {
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  .tooltip-trigger {
+    cursor: pointer;
+    color: #5b05f9;
+    margin: 5px;
+  }
+  
+  /* Tooltip styles */
+  .tooltip {
+    background-color: #5b05f9;
+    color: #fff;
+    border-radius: 4px;
+    padding: 8px;
+    font-size: 1.5vmin;
+  }
+
+  .information {
+    font-size: 2vmin;
+    padding: 20px;
+  }
+
+  .requirements {
+    list-style:square;
+    margin: 20px;
+  }
+
+  .requirements-item {
+    margin-bottom: 10px;
+  }
