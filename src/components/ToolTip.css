@@ -6,7 +6,8 @@
 .hover-popup-page {
     margin: 0 auto;
     padding: 20px;
-    background-color: #fff;
+    background-image: url(../../public/images/background.jpg);
+
   }
   
   .tooltip-trigger {

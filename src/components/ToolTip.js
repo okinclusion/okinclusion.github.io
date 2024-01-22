@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './ToolTip.css'; 
-import CARFSeal from '../images/CARF_CA_Seal.jpg';
+import CARFSeal from '../images/CARFSEAL-nobg.png';
 
 const ToolTip = () => {
   const [tooltipText, setTooltipText] = useState('');

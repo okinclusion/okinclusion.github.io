@@ -1,9 +1,8 @@
-.main {
-    background-color: #fff;
-}
+
 
 .container {
-    background-color: #fff;
+    background-image: url(../../public/images/background.jpg);
+
 }
 
 .contact-info {

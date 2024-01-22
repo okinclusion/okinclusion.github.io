@@ -1,7 +1,5 @@
-/* List */
-
-.wrapper, .style2 {
-    background-color: #fff;
+.main-area {
+    background-image: url(../../public/images/background.jpg);
 }
 
 ol {
@@ -16,9 +14,10 @@ ol {
     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
 }
 
-    ol li {
-        padding-left: 0.25em;
-    }
+ol li {
+    padding-left: 0.25em;
+}
+
 .list a{
     position: relative;
     display: block;

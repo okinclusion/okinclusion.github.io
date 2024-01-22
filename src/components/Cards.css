@@ -2,7 +2,7 @@
 
 .cards {
     padding: 4rem;
-    background-color: #d8d8d8;
+    background-image: url(../../public/images/background.jpg);
     font-family: 'Montserrat', sans-serif;
   }
   
