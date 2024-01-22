@@ -4,6 +4,8 @@ import backgroundVideo from '../../videos/snow.mp4';
 import Footer from '../Footer';
 import '../Cards.css';
 import '../ToolTip.css'; 
+import { Button } from '../Button';
+import '../Button.css';
 
 const HomeShare = () => {
   const [tooltipText, setTooltipText] = useState('');
@@ -103,7 +105,12 @@ const HomeShare = () => {
                     {tooltipText}
                 </div>
             )}
-        </div>
+            <div className='main-btns apply'>
+                <Button className='btns' link="/homeshare-apply" buttonStyle='btn--outline' buttonSize='btn--large'>
+                    Apply to Be a Home Share provider
+                </Button>
+            </div>
+        </div> 
     <Footer/>
     </>
   )

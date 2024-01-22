@@ -21,22 +21,30 @@ export const ContactForm = () => {
   return (
     <>
     <div className='contact-container'>
-        <h1 className='messageTitle'>Send Me A Message</h1>
-        <form ref={form} onSubmit={sendEmail}>
-            <label className='name'>Name</label>
-            <br/>
-            <input className="nameField" type="text" name="from_name" style={{fontWeight: 'bolder', fontSize: 'large'}}/>
-            <br/>
-            <label className='email'>Email</label>
-            <br/>
-            <input className="emailField" type="email" name="from_email" style={{fontWeight: 'bolder', fontSize: 'large'}}/>
-            <br/>
-            <label className='msg'>Message</label>
-            <br/>
-            <textarea className='msg-area' name="message" style={{fontWeight: 'bolder', fontSize: 'large'}}/>
-            <br/>
-            <input className='btn-submit' type="submit" value="Send" style={{fontWeight: 'bolder'}}/>
-        </form>
+        <h1 className='messageTitle'>Send Us A Message</h1>
+        <div className='holder'>
+          <form ref={form} onSubmit={sendEmail}>
+            <div className='holder-group'>
+              <label className='name'>Name:</label>
+              <br/>
+              <input className="nameField" required='yes' type="text" name="from_name" style={{fontWeight: 'bolder', fontSize: 'large'}}/>
+              <br/>
+            </div>
+            <div className='holder-group'>
+              <label className='email'>Email:</label>
+              <br/>
+              <input className="emailField" required='yes' type="email" name="from_email" style={{fontWeight: 'bolder', fontSize: 'large'}}/>
+              <br/>
+            </div>
+            <div className='holder-group'>
+              <label className='msg'>Message:</label>
+              <br/>
+              <textarea className='msg-area' required='yes' name="message" style={{fontWeight: 'bolder', fontSize: 'large'}}/>
+              <br/>
+            </div>
+              <input className='btn-submit' type="submit" value="Send" style={{fontWeight: 'bolder'}}/>
+          </form>
+        </div>
     </div>
     </>
   );

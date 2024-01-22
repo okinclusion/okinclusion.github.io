@@ -17,12 +17,12 @@ function Main() {
         </div> 
         <p className='title'>Est. 2013</p>
         <div className='main-btns'>
-            <a href="/team"><Button className='btns' buttonStyle='btn--outline'
+            <a href="/team"><Button className='btns' link="/team" buttonStyle='btn--outline'
             buttonSize='btn--large'>
                 Meet the Team
             </Button>
             </a>
-            <Button2 className='btns' buttonStyle='btn--primary'
+            <Button2 className='btns' link="/contact" buttonStyle='btn--primary'
             buttonSize='btn--large'>
                 Contact Us
             </Button2>

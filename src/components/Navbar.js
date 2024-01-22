@@ -3,7 +3,7 @@ import { Link, useLocation } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAlignJustify } from '@fortawesome/free-solid-svg-icons';
 import { faAngleDoubleRight } from '@fortawesome/free-solid-svg-icons';
-import '../components/Navbar.css'; 
+import './Navbar.css'; 
 
 function Navbar() {
     const [click, setClick] = useState(false);
@@ -123,7 +123,7 @@ function Navbar() {
                     <Link to="/news" className={"nav-links" + (url === "/news" ?" active" : "")} onClick={closeMobileMenu}>
                         News
                     </Link>
-                    <Link to="/work" className={"nav-links" + (url === "/resources" ?" active" : "")} onClick={closeMobileMenu}>
+                    <Link to="/resources" className={"nav-links" + (url === "/resources" ?" active" : "")} onClick={closeMobileMenu}>
                         Resources
                     </Link>
                     <Link to="/contact" className={"nav-links" + (url === "/contact" ?" active" : "")} onClick={closeMobileMenu}>

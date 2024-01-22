@@ -49,3 +49,9 @@
     transform: translate(5px, 5px);
     
 }
+
+.apply {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}

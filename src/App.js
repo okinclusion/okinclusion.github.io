@@ -11,7 +11,9 @@ import Accreditation from './components/pages/Accreditation.js';
 import Penticton from './components/pages/Penticton';
 import Keremeos from './components/pages/Keremeos';
 import HomeShare from './components/pages/HomeShare';
+import HomeShareApply from './components/HomeShareApply';
 import Employment from './components/pages/Employment';
+import EmploymentApply from './components/EmploymentApply';
 import SupportedLiving from './components/pages/SupportedLiving';
 import Respite from './components/pages/Respite';
 import Resources from './components/pages/Resources';
@@ -33,7 +35,9 @@ function App() {
           <Route path="/penticton" element={<Penticton/>}/>
           <Route path="/keremeos" element={<Keremeos/>}/>
           <Route path="/homeshare" element={<HomeShare/>}/>
+          <Route path="/homeshare-apply" element={<HomeShareApply/>}/>
           <Route path="/employment" element={<Employment/>}/>
+          <Route path="/employment-apply" element={<EmploymentApply/>}/>
           <Route path="/supportedliving" element={<SupportedLiving/>}/>
           <Route path="/respite" element={<Respite/>}/>
           <Route path="/news" element={<News/>}/>
