@@ -127,3 +127,22 @@
     font-size: 300%;
     padding-bottom: 30px;
   }
+
+  /* Home Share */
+  .main-card {
+    background-image: url(../../public/images/background.jpg);
+  }
+  .main-text {
+    padding: 20px 40px;
+    font-size: 2.6vmin;
+    text-align: center;
+  }
+  
+  .main_info {
+    font-size: 2vmin;
+    padding: 5px 40px;
+  }
+
+  .disclaimer {
+    padding: 20px 40px 40px 40px;
+  }

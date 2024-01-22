@@ -1,4 +1,6 @@
-
+.main {
+    background-image: url(../../public/images/background.jpg);
+}
 .icons {
     margin: 35px 25px;
     max-height: 120px;
@@ -25,9 +27,11 @@ a {
 }
 
 .images {
-    width: 27vmax;
-    height: 27vmax;
+    width: 27vmin;
+    height: 27vmin;
     object-Fit: cover;
+    min-width: 288px;
+    min-height: 288px;
 }
 
 h3 {
@@ -42,7 +46,11 @@ h3 {
     }
 
     .carousel article {
+        width: 18em;
+        margin: 0 1.25em 0 0;
         display: inline-block;
+        justify-content: center;
+        align-items: center;
         text-align: center;
         background-color: #fff;
     }
@@ -53,18 +61,18 @@ h3 {
 @media screen and (max-width: 1680px) {
     /* Carousel */
 
-			.carousel {
-				padding: 1.5em 0 1.5em 0;
-			}
+    .carousel {
+        padding: 1.5em 0 1.5em 0;
+    }
 
-				.carousel .reel {
-					padding: 0 1.5em 0 1.5em;
-				}
+    .carousel .reel {
+        padding: 0 1.5em 0 1.5em;
+    }
 
-				.carousel article {
-					width: 18em;
-					margin: 0 1.25em 0 0;
-				}
+    .carousel article {
+        width: 18em;
+        margin: 0 1.25em 0 0;
+    }
     
 }
 @media screen and (max-width: 720px) {
