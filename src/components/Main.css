@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Courgette');
 @import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
 
-@font-face {
-    font-family: 'Wolfsbane';
-    src: url(../../public/fonts/wolfsbane2.woff);
-  }
 
 video {
     object-fit: cover;

@@ -19,6 +19,8 @@ import Respite from './components/pages/Respite';
 import Resources from './components/pages/Resources';
 import News from './components/pages/News';
 import Contact from './components/pages/Contact';
+import Staff from './components/pages/Staff';
+
 
 function App() {
   return (
@@ -43,6 +45,7 @@ function App() {
           <Route path="/news" element={<News/>}/>
           <Route path="/resources" element={<Resources/>}/>
           <Route path="/contact" element={<Contact/>}/>
+          <Route path="/staff" element={<Staff/>}/>
         </Routes>
       </Router>
     </>

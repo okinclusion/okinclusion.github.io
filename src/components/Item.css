@@ -81,3 +81,16 @@ h3 {
         flex-direction: column;
     }
 }
+
+.link-item {
+    color: #5b05f9;
+    font-size: larger;
+}
+
+.link-item:hover {
+    color: #8c8c8c;
+}
+
+.pics {
+    padding-top: 30px;
+}

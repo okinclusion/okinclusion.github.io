@@ -34,3 +34,10 @@ p {
     font-family: 'Tahoma';
     font-size: x-small;
 }
+
+.staff-resources {
+    margin: 10px;
+    text-align: center;
+    color: #5b05f9;;
+    text-decoration: underline;
+}

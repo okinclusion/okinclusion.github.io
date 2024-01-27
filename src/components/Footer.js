@@ -21,8 +21,10 @@ function Footer() {
               <img className='instagram' src='../../images/icons/instagram.png' alt='instagram logo' height={50}/>
             </Link>
             <br/>
+            <a href='/staff' className='staff-resources'>Staff Resources</a>
             <br/>
             <img className='logo' src='../../images/logocrop-nobg.png' alt='personal logo'/>
+            <br/>
             <p>© Okanagan Inclusion. All rights reserved.</p>
       </section>
     </div>
