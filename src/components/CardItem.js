@@ -15,6 +15,9 @@ function CardItem(props) {
             <div className='cards__item__email'>
               <a href={`mailto:${props.email}`} className='cards__item__email__text' style={{fontFamily: 'Tahoma'}}>{props.email}</a>
             </div>
+            <div className='cards__item__text'>
+              <p className='cards__item__text1' style={{fontFamily: 'Tahoma'}}>{props.text1}</p>
+            </div>
         </div>
     </li>
     </>
