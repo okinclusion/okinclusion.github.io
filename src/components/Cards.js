@@ -5,7 +5,9 @@ import './Cards.css';
 function Cards() {
   const leanneEmail = "okinclusion@shaw.ca";
   const sherylEmail = "sherylm.okinclusion@shaw.ca";
-  const michelleEmail = "michelleb.okinclusion@shaw.ca";
+  const michelleFEmail = "michelleb.okinclusion@shaw.ca";
+  const michelleYEmail = "KeremeosCO.okinclusion@shaw.ca";
+  const amyEmail = "tbd";
 
   return (
     <div className='cards'>
@@ -28,21 +30,21 @@ function Cards() {
                     src="images/michelle.png"
                     text="Michelle Fritsche"
                     label="Home Share Coordinator" 
-                    email={michelleEmail}/>
+                    email={michelleFEmail}/>
                   <br/>
               </ul>
               <ul className='cards__items'>
               <CardItem
                     src="images/staff1.png"
-                    text=""
-                    label="" 
-                    email=""/>
+                    text="Michelle Young"
+                    label="Program Coordinator" 
+                    email={michelleYEmail}/>
                   <br/>
                   <CardItem
                   src="images/staff2.png"
-                  text=""
-                  label="" 
-                  email=""/>
+                  text="Amy Temple"
+                  label="Program Coordinator" 
+                  email={amyEmail}/>
                   <br/>
                 <CardItem
                   src="images/staff3.jpg"
