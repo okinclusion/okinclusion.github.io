@@ -63,6 +63,10 @@ Button {
 /* Macboook Screen */
 @media screen and (max-height: 720px) {
     .main-container {
-        min-height: 54rem;
+        min-height: 52rem;
+    }
+
+    .responsive-type-animation {
+        padding-bottom: 2rem;
     }
 }
