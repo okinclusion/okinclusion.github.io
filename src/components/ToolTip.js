@@ -40,12 +40,8 @@ const ToolTip = () => {
   return (
     <div className="hover-popup-page">
         <h2 className='first-sentence'>Okanagan Inclusion is proud to announce the achievement of a three-year 
-            <span data-tip="CARF International is a nonprofit accreditor of health and human services. Its goal is to ensure that persons served remain at the center of the service delivery process." className="tooltip-trigger">
-                CARF
-            </span> 
-            <span data-tip="Accreditation is official recognition that our organization is guided by internationally recognized service standards and best practices." className="tooltip-trigger">
-            Accreditation
-            </span>
+            <span data-tip="CARF International is a nonprofit accreditor of health and human services. Its goal is to ensure that persons served remain at the center of the service delivery process. Accreditation is official recognition that our organization is guided by internationally recognized service standards and best practices." className="tooltip-trigger">
+              CARF Accreditation</span>
         </h2>
         <p className='information'>
         "This achievement is an indication of your organization's dedication and commitment to improving the 

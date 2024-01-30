@@ -5,7 +5,7 @@
 video {
     object-fit: cover;
     width: 100%;
-    height: 100%;
+    height: 120%;
     position: fixed;
     z-index: -1;
 }
@@ -15,7 +15,7 @@ video::-webkit-media-controls {
   }
 
 .main-container {
-    height: 100vh;
+    height: 200vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -63,7 +63,7 @@ Button {
 /* Macboook Screen */
 @media screen and (max-height: 720px) {
     .main-container {
-        min-height: 52rem;
+        min-height: 60rem;
     }
 
     .responsive-type-animation {
