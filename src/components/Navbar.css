@@ -194,6 +194,14 @@
   }
 } 
 
+@media screen and (max-width: 1020px) {
+
+  .nav-links {
+    color: #fff;
+  }
+  
+}
+
 /* iPhone Screen */
 @media screen and (max-width: 720px) {
   

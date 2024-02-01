@@ -9,6 +9,7 @@
     margin: 20px 20px 0 50px;
     list-style: none;
     padding: 20px 0;
+    text-align: center;
 }
 
 .hours-of-operation {
@@ -40,22 +41,22 @@
 
 @media screen and (max-width: 1070px)  {
     .hours-of-operation {
-        font-size: 2.4vmax;
+        font-size: 3.5vmax;
         list-style: none;
         padding: 20px 0;
     }
     
     .hours-of-operation-items {
-        font-size: 1.9vmax;
+        font-size: 3vmax;
     }
     .phone, .fax, .email, .address {
-        font-size: 1.6vmax;
+        font-size: 2.5vmax;
         font-weight: 600;
         padding-bottom: 5px;
     }
     
     .phone-number, .fax-number, .email-, .address- {
-        font-size: 1.6vmax;
+        font-size: 2.5vmax;
         display: inline;
         font-weight: 100;
     }
