@@ -54,17 +54,17 @@ function Employment() {
             </div> 
         </div>
         <div className='main-card'>
-            <h5 className='main-text' style={{fontFamily: 'Tahoma'}}>Work With Us</h5>
-            <div className='main_info'>
+            <h5 className='main-text' style={{fontFamily: 'Tahoma', fontSize: '4vmin'}}>Work With Us</h5>
+            <div className='main_info' style={{fontSize: '3vmin'}}>
                 Okanagan Inclusion Employment Services responds to the desire of individuals living with a developmental disability to pursue employment as a means to full inclusion in our community. At the same time, the program also addresses employers’ growing demand for qualified, reliable employees by providing creative employment solutions, candidate screening and one-to-one support through the hiring and training process.
             </div>
-            <div className='main_info'>
+            <div className='main_info' style={{fontSize: '3vmin'}}>
                 Employers who choose to hire an individual with a developmental disability demonstrate their commitment to our community and to diversity in the workplace. They benefit by hiring an enthusiastic individual who is capable and dependable. OI Employment Services helps employers identify opportunities for improved efficiency and employee retention and matches specific needs with individuals who are willing and able to work.
             </div>
-            <div className='main_info'>
+            <div className='main_info' style={{fontSize: '3vmin'}}>
                 Individuals who wish to become employed identify the types of work that they find of interest, and OI’s Job Developer surveys the local labour market for suitable employment opportunities. OI staff also look for possibilities to “job carve” specific responsibilities from an existing position or multiple positions in order to create a suitable employment opportunity for the individual. Once an employment opportunity is found, OI’s job developer supports the individual through the application, interview, orientation and training process. OI staff continue to liaise with the employee, the employer and his/her business to ensure long-term success.
             </div>
-            <div className='main_info'>
+            <div className='main_info' style={{fontSize: '3vmin'}}>
                 Support services are typically provided during the week Monday to Friday between the hours of 8:30 – 5:00 pm. The service is designed to be flexible and some individuals, based on individual need may include support services after 5:00 pm and on weekends. Supports will be provided both at the OI program sites and at the employment sites.
             </div>
             {tooltipText && (

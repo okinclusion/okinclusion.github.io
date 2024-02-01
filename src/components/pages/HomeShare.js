@@ -52,8 +52,8 @@ const HomeShare = () => {
         </div> 
     </div>
         <div className='main-card'>
-            <h5 className='main-text' style={{fontFamily: 'Tahoma'}}>Shared Living Services</h5>
-            <div className='main_info'>
+            <h5 className='main-text' style={{fontFamily: 'Tahoma', fontSize: '4vmin'}}>Shared Living Services</h5>
+            <div className='main_info' style={{fontSize: '3vmin'}}>
                 Shared Living 
                 <span data-tip="enables adults with developmental disabilities to choose an environment that addresses their specific needs and desires." className="tooltip-trigger">
                 (Home Share)
@@ -64,18 +64,18 @@ const HomeShare = () => {
                 Share provider&apos;s family lives in the home. In others, the Home Share provider and the supported 
                 individual live together as roommates in a cooperative relationship.
             </div>
-            <div className='main_info'>
+            <div className='main_info' style={{fontSize: '3vmin'}}>
                 The individuals within the home share not only their living space, but also their lives. In some homes 
                 the members of the household spend significant amounts of time together and are actively involved in 
                 one another&apos;s daily activities. In other situations, the home sharing arrangement is characterized 
                 by more independent relationships.
             </div>
-            <div className='main_info'>
+            <div className='main_info' style={{fontSize: '3vmin'}}>
                 People are happiest when they feel valued and are a contributing member of their household. Home Sharing 
                 increases opportunities for people to establish natural relationships and social connections within their 
                 community.
             </div>
-            <div className='main_info'>
+            <div className='main_info' style={{fontSize: '3vmin'}}>
                 Individuals tend to choose this option because it provides an ideal balance of support and independence. 
                 The program is 
                 <span data-tip="helps to minimise the risk of negative, unfair or harmful treatment and neglect to the recipients of health and social care services." className="tooltip-trigger">
@@ -85,11 +85,11 @@ const HomeShare = () => {
                 the changing needs of the individual. For some, Home Share is a stepping stone to even greater 
                 independence. For others, it is an arrangement that will last for many years.
             </div>
-            <div className='main_info'>
+            <div className='main_info' style={{fontSize: '3vmin'}}>
                 Home share contractors complete a lengthy application and screening process prior to being approved as an OI 
                 provider. Ongoing monitoring and screening is completed throughout the duration of the contract.
             </div>
-            <div className='main_info'>
+            <div className='main_info' style={{fontSize: '3vmin'}}>
                 Suppport services are provided 24 hours per day/7 days per week with an additional 24 hour emergency on-call system.
             </div>
             <div className='disclaimer'>

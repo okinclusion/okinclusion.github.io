@@ -52,15 +52,15 @@ const HomeShare = () => {
         </div> 
     </div>
         <div className='main-card'>
-            <h5 className='main-text' style={{fontFamily: 'Tahoma'}}>Respite Services</h5>
-            <div className='main_info'>
+            <h5 className='main-text' style={{fontFamily: 'Tahoma', fontSize: '4vmin'}}>Respite Services</h5>
+            <div className='main_info' style={{fontSize: '3vmin'}}>
                 Respite Services provides short-term relief and support services to primary caregivers of adults with 
                 intellectual disabilities and families of children with intellectual and/or physical disabilities residing 
                 in the South & Central Okanagan. Respite can be provided for a few hours, a day, a weekend or a week. It 
                 may be provided on an occasional or on a regular basis. Services may be provided in the individual&apos;s 
                 home or the respite provider&apos;s home.
             </div>
-            <div className='main_info'>
+            <div className='main_info' style={{fontSize: '3vmin'}}>
             Contracted respite providers go through a screening process similar to that of our home share providers.
             </div>
             <div className='disclaimer'>

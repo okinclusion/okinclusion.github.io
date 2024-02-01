@@ -12,22 +12,22 @@
 }
 
 .hours-of-operation {
-    font-size: 2.4vmin;
+    font-size: 4vmin;
     list-style: none;
     padding: 20px 0;
 }
 
 .hours-of-operation-items {
-    font-size: 1.9vmin;
+    font-size: 2.8vmin;
 }
 .phone, .fax, .email, .address {
-    font-size: 1.6vmin;
+    font-size: 2.8vmin;
     font-weight: 600;
     padding-bottom: 5px;
 }
 
 .phone-number, .fax-number, .email-, .address- {
-    font-size: 1.6vmin;
+    font-size: 2.8vmin;
     display: inline;
     font-weight: 100;
 }

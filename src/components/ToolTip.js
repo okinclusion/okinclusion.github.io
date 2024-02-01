@@ -64,12 +64,6 @@ const ToolTip = () => {
                     effective by CARF. 
                 </li>
             </ul>
-            <span data-tip="This is a tooltip for the second word." className="tooltip-trigger">
-            SecondWord
-            </span>
-            <span data-tip="This is a tooltip for the third word." className="tooltip-trigger">
-            ThirdWord
-            </span>
         </p>
         {tooltipText && (
             <div className="tooltip" style={{ top: tooltipPosition.top, left: tooltipPosition.left }}>

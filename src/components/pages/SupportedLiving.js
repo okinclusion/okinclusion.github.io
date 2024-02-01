@@ -52,15 +52,15 @@ const HomeShare = () => {
         </div> 
     </div>
         <div className='main-card'>
-            <h5 className='main-text' style={{fontFamily: 'Tahoma'}}>Supported Living Services</h5>
-            <div className='main_info'>
+            <h5 className='main-text' style={{fontFamily: 'Tahoma', fontSize: '4vmin'}}>Supported Living Services</h5>
+            <div className='main_info' style={{fontSize: '3vmin'}}>
                 Supported living is an independent living options for people who want to live independently in their 
                 own home, but still need some help with daily living. Support staff assist individuals in their home 
                 and in the community with things like banking, medical appointments and cooking healthy meals, etc. 
                 Supported Living is possible for a wide range of individuals with different support requirements, as 
                 long as the person has the desire to live more independently and make choices for themself.
             </div>
-            <div className='main_info'>
+            <div className='main_info' style={{fontSize: '3vmin'}}>
                 Support services are typically provided during the week Monday to Friday between the hours of 8:30 – 5:00 pm. 
                 The service is designed to be flexible and some individuals, based on individual need may include support 
                 services after 5:00 pm and on weekends. Supports will be provided both at the OI program sites and at the 
