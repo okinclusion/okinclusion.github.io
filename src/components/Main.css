@@ -23,6 +23,8 @@ video::-webkit-media-controls {
     align-items: center;
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
     margin-bottom: -150px;
+    background-image: url(../images/background.png);
+    background-size: cover;
 }
 
 .main-container > p {
