@@ -66,7 +66,7 @@ const ToolTip = () => {
             </ul>
         </p>
         {tooltipText && (
-            <div className="tooltip" style={{ top: tooltipPosition.top, left: tooltipPosition.left }}>
+            <div className="tooltip" style={{ top: tooltipPosition.top, left: tooltipPosition.left, fontSize: "2.5vmin" }}>
                 {tooltipText}
             </div>
         )}
