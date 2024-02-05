@@ -1,5 +1,6 @@
 .main-area {
     background-image: url(../../public/images/background.jpg);
+    background-size: cover;
 }
 
 ol {

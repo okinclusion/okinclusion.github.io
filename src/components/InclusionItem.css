@@ -2,14 +2,17 @@
 
 .container {
     background-image: url(../../public/images/background.jpg);
+    background-size: cover;
+}
 
+.main {
+    text-align: center;
 }
 
 .contact-info {
-    margin: 20px 20px 0 50px;
+    margin: 20px 0 0 0;
     list-style: none;
     padding: 20px 0;
-    text-align: center;
 }
 
 .hours-of-operation {
@@ -37,6 +40,7 @@
     justify-content: center;
     display: flex;
     padding-bottom: 20px;
+    width: 1000px;
 }
 
 @media screen and (max-width: 1070px)  {

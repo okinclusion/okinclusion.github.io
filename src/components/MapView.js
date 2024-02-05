@@ -17,7 +17,7 @@ const MapView = ({ center }) => {
 
   return (
     <div className='mapcontainer'>
-        <MapContainer center={position} zoom={13} style={{ height: '400px', width: '50%', maxWidth: '500px' }}>
+        <MapContainer center={position} zoom={15} style={{ height: '400px', width: '50%', maxWidth: '500px' }}>
         <TileLayer
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
             attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
