@@ -3,6 +3,7 @@
 .container {
     background-image: url(../../public/images/background.jpg);
     background-size: cover;
+    position: initial;
 }
 
 .main {
@@ -41,8 +42,8 @@
     display: flex;
     padding-bottom: 20px;
     width: 1000px;
+    z-index: 0;
 }
-
 @media screen and (max-width: 1070px)  {
     .hours-of-operation {
         font-size: 3.5vmax;
@@ -65,4 +66,5 @@
         font-weight: 100;
     }
 }
+
 
