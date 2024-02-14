@@ -1,25 +1,13 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import Calendar from "react-calendar";
 import "react-calendar/dist/Calendar.css";
 import "./Calendar.css";
+import { useEventContext } from "./EventContext";
 
 const App = () => {
+  const { events, addEvent, deleteEvent } = useEventContext();
   const [selectedDate, setSelectedDate] = useState(null);
   const [eventName, setEventName] = useState("");
-  const [events, setEvents] = useState([]);
-
-  useEffect(() => {
-    // Load events from localStorage on component mount
-    const storedEvents = JSON.parse(localStorage.getItem("events"));
-    if (storedEvents) {
-      setEvents(storedEvents);
-    }
-  }, []);
-
-  useEffect(() => {
-    // Save events to localStorage whenever events state changes
-    localStorage.setItem("events", JSON.stringify(events));
-  }, [events]);
 
   const handleDateClick = (date) => {
     setSelectedDate(date);
@@ -33,23 +21,21 @@ const App = () => {
     if (selectedDate && eventName) {
       const newEvent = {
         id: new Date().getTime(),
-        date: selectedDate, // Ensure selectedDate is a Date object
+        date: selectedDate,
         title: eventName,
       };
-      setEvents([...events, newEvent]);
+      addEvent(newEvent);
       setEventName("");
     }
   };
 
   const getEventsForDate = (date) => {
     return events.filter(
-      (event) => event.date instanceof Date && event.date.toDateString() === date.toDateString()
-    );
+		(event) => event.date instanceof Date && event.date.toDateString() === date.toDateString()    );
   };
 
   const handleDeleteEvent = (eventId) => {
-    const updatedEvents = events.filter((event) => event.id !== eventId);
-    setEvents(updatedEvents);
+    deleteEvent(eventId);
   };
 
   return (

@@ -3,7 +3,8 @@ import Calendar from "../Calendar.js";
 import '../../App.css';
 import Footer from '../Footer';
 import backgroundVideo from '../../videos/snow.mp4';
-import { TypeAnimation } from 'react-type-animation';  
+import { TypeAnimation } from 'react-type-animation'; 
+import { EventProvider } from "../EventContext.js"; 
 
 function News() {
 
@@ -15,7 +16,9 @@ function News() {
                 </div> 
             </div>
             <div className="container">
-            <Calendar/>
+                <EventProvider>
+                    <Calendar/>
+                </EventProvider>
             </div>
             <Footer/>
         </>
