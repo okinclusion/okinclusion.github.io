@@ -13,7 +13,10 @@ export default function Resources() {
           <TypeAnimation className='name' sequence={["Resources", 1000]} speed={20} style={{ fontSize: '12vmin', fontFamily: 'Tahoma', textShadow: '3px 2px #5b05f9', color: '#fff'}}/>
         </div> 
     </div>
-    <Item/>
+    <div className='coming-soon'>
+			<h1>Coming Soon</h1>
+		</div>
+    {/* <Item/> */}
     <Footer/>
 </>;
 }
