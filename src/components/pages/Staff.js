@@ -3,7 +3,6 @@ import '../../App.css';
 import '../Item.css';
 import { Box } from '@mui/material';
 import Footer from '../Footer';
-import backgroundVideo from '../../videos/snow.mp4';
 import { TypeAnimation } from 'react-type-animation';  
 import ShareVision from '../../images/shareVision.png';
 import Relias from '../../images/relias.png';
@@ -26,7 +25,6 @@ export default function Staff() {
                 <img className="pics" src={Relias} width={"150px"}/>
                 <br/>
                 <a href="https://okinclusion.sharevision.ca/Account/Login?ReturnUrl=%2f" className="link-item">Relias</a>
-
             </div>
 			<br/>
 			<br/>
