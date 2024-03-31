@@ -14,7 +14,9 @@ export default function Mission() {
         </div> 
     </div>
     <div className='coming-soon'>
-			<h1>Coming Soon</h1>
+      <Box textAlign="center" fontFamily="Tahoma" fontSize="3vmin" p={1} padding={"50px 30px"}>
+			  <h1>Coming Soon</h1>
+        </Box>
 		</div>
     {/* <Item/> */}
     <Footer/>
