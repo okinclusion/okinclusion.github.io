@@ -45,25 +45,6 @@ function Cards() {
                   text="Amy Temple"
                   label="Program Coordinator" 
                   email={amyEmail}/>
-                  <br/>
-                <CardItem
-                  src="images/staff3.jpg"
-                  text=""
-                  label=""
-                  email=""/>
-                </ul>
-                <ul className='cards__items'>
-                  <CardItem
-                    src="images/staff4.jpg"
-                    text=""
-                    label="" 
-                    email=""/>
-                    <br/>
-                  <CardItem
-                    src="images/staff5.jpg"
-                    text=""
-                    label="" 
-                    email=""/>
                 </ul>
             </div>
         </div>
