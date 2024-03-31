@@ -6,7 +6,10 @@ function Item(props) {
   return (
     <>
 	<div className='main'>
-	<section class="carousel">
+		<div className='coming-soon'>
+			<h1>Coming Soon</h1>
+		</div>
+	{/* <section class="carousel">
 		<div class="reel">
 			<article>
 				<a href="/communityinclusion" class="image featured"><img class="images" src="images/okinc-pic01.jpg" alt=""/></a>
@@ -61,7 +64,7 @@ function Item(props) {
 			<br/>
 			<br/>
 			<br/>
-		</Box>
+		</Box> */}
     </div>
     </>
   )
