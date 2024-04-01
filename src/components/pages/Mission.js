@@ -1,9 +1,8 @@
 import React from "react";
 import '../../App.css';
 import '../Item.css';
-import Item from "../Item.js";
+import { Box } from '@mui/material';
 import Footer from '../Footer';
-import backgroundVideo from '../../videos/snow.mp4';
 import { TypeAnimation } from 'react-type-animation';  
 
 export default function Mission() {
@@ -16,7 +15,7 @@ export default function Mission() {
     <div className='coming-soon'>
       <Box textAlign="center" fontFamily="Tahoma" fontSize="3vmin" p={1} padding={"50px 30px"}>
 			  <h1>Coming Soon</h1>
-        </Box>
+      </Box>
 		</div>
     {/* <Item/> */}
     <Footer/>

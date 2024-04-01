@@ -1,9 +1,8 @@
 import React from "react";
 import '../../App.css';
 import '../Item.css';
-import Item from "../Item.js";
+import { Box } from '@mui/material';
 import Footer from '../Footer';
-import backgroundVideo from '../../videos/snow.mp4';
 import { TypeAnimation } from 'react-type-animation';  
 
 export default function Resources() {
