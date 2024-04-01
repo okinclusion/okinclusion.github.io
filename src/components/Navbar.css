@@ -191,7 +191,6 @@
   }
 
   .dropdown-menu {
-    margin-left: 400px;
     background-color: #fff;
   }
 
@@ -239,6 +238,13 @@
   .menu-icon {
     font-size: 3vh;
     padding-bottom: -3vw;
+  }
+  
+}
+
+@media screen and (max-width: 1025px) and (min-width: 715px) {
+  .dropdown-menu {
+    margin-left: 40%;
   }
   
 }
