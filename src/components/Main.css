@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Tahoma;
+    src: local('Tahoma'), url(../../public/font/tahoma.ttf) format('otf');
+  }
+
 video {
     object-fit: cover;
     width: 100%;
@@ -11,7 +16,7 @@ video::-webkit-media-controls {
   }
 
 .main-container {
-    height: 200vh;
+    min-height: 120vh;
     width: 100%;
     display: flex;
     flex-direction: column;
