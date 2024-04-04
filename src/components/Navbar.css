@@ -244,9 +244,9 @@
   .dropdown-menu {
     margin-left: 40%;
   }
-  
-}
 
-@media screen and (max-width: 400px) {
+  .navbar-container {
+    max-height: 9vh;
+  }
   
 }
