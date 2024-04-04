@@ -44,6 +44,13 @@
     width: 1000px;
     z-index: 0;
 }
+
+@media screen and (max-width: 715) {
+    .mapcontainer {
+        margin-right: 45px;
+    }
+    
+}
 @media screen and (max-width: 1070px)  {
     .hours-of-operation {
         font-size: 3.5vmax;

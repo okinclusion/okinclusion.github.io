@@ -1,6 +1,6 @@
 .first-sentence {
     text-align: center;
-    font-size: 4vmin;
+    font-size: 4vmax;
 }
 
 .hover-popup-page {
@@ -23,11 +23,11 @@
     color: #fff;
     border-radius: 4px;
     padding: 8px;
-    font-size: 1.5vmin;
+    font-size: 1.5vmax;
   }
 
   .information {
-    font-size: 3vmin;
+    font-size: 3vmax;
     padding: 20px;
   }
 
