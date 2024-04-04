@@ -241,13 +241,14 @@
     font-size: 3vh;
     padding-bottom: -3vw;
   }
+  .dropdown-menu {
+    margin-left: 40%;
+  }
   
 }
 
 @media screen and (max-width: 1025px) and (min-width: 715px) {
-  .dropdown-menu {
-    margin-left: 40%;
-  }
+  
 
   .navbar-container {
     max-height: 9vh;
