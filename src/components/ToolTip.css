@@ -51,7 +51,7 @@
 }
 
 @media screen and (min-width: 900px) {
-  .hover-popup-page {
+  .information, .first-sentence {
       font-size: 28.86px;
   }
 }

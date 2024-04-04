@@ -43,6 +43,11 @@ const ToolTip = () => {
             <span data-tip="CARF International is a nonprofit accreditor of health and human services. Its goal is to ensure that persons served remain at the center of the service delivery process. Accreditation is official recognition that our organization is guided by internationally recognized service standards and best practices." className="tooltip-trigger">
               CARF Accreditation</span>
         </h2>
+        {tooltipText && (
+            <div className="tooltip" style={{ top: tooltipPosition.top, left: tooltipPosition.left, fontSize: "2.5vmin" }}>
+                {tooltipText}
+            </div>
+        )}
         <p className='information'>
         "This achievement is an indication of your organization's dedication and commitment to improving the 
         quality of the lives of the persons served." In addition, Okanagan Inclusion received no 
@@ -65,11 +70,6 @@ const ToolTip = () => {
                 </li>
             </ul>
         </p>
-        {tooltipText && (
-            <div className="tooltip" style={{ top: tooltipPosition.top, left: tooltipPosition.left, fontSize: "2.5vmin" }}>
-                {tooltipText}
-            </div>
-        )}
         <div className='seal-wrapper'> 
             <img className='seal' src={CARFSeal}/>
         </div>
