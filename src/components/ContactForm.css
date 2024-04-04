@@ -25,7 +25,7 @@
   .name, .email, .msg {
     font-size: 16px;
     font-weight: bold;
-    font-family: "Tahoma";
+    font-family: 'Montserrat', sans-serif;
   }
   
   label {
