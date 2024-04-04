@@ -3,7 +3,7 @@ import CardItem from './CardItem';
 import './Cards.css';
 
 function Cards() {
-  const leanneEmail = "okinclusion@shaw.ca";
+  const leanneEmail = "ceo@okinclusion.ca";
   const sherylEmail = "sherylm.okinclusion@shaw.ca";
   const michelleFEmail = "michelleb.okinclusion@shaw.ca";
   const michelleYEmail = "KeremeosCO.okinclusion@shaw.ca";
