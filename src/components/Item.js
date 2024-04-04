@@ -46,7 +46,7 @@ function Item(props) {
 			</article>
 		</div>
 	</section>
-		<Box textAlign="center" fontFamily="Tahoma" fontSize="3vmin" p={1} padding={"50px 30px"}>
+		<Box textAlign="center" className="background" fontFamily="Tahoma" fontSize="3vmax" p={1} padding={"50px 30px"}>
 			Okanagan Inclusion provides Agency Coordinated Home Sharing, Respite, Employment and Community Inclusion programs to adults with developmental disabilities.
 			<br/>
 			Okanagan Inclusion (OI) began services to adults with developmental disabilities in 2013, the organization incorporated in 2018.          

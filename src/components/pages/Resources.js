@@ -13,7 +13,7 @@ export default function Resources() {
         </div> 
     </div>
     <div className='coming-soon'>
-      <Box textAlign="center" fontFamily="Tahoma" fontSize="3vmin" p={1} padding={"50px 30px"}>
+      <Box textAlign="center" className="background" fontFamily="Tahoma" fontSize="3vmin" p={1} padding={"50px 30px"}>
 			  <h1>Coming Soon</h1>
         </Box>
 		</div>
