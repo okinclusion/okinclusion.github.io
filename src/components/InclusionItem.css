@@ -16,22 +16,22 @@
 }
 
 .hours-of-operation {
-    font-size: 4vmin;
+    font-size: 28.32px;
     list-style: none;
     padding: 20px 0;
 }
 
 .hours-of-operation-items {
-    font-size: 2.8vmin;
+    font-size: 24.27px;
 }
 .phone, .fax, .email, .address {
-    font-size: 2.8vmin;
+    font-size: 20.23px;
     font-weight: 600;
     padding-bottom: 5px;
 }
 
 .phone-number, .fax-number, .email-, .address- {
-    font-size: 2.8vmin;
+    font-size: 20.23px;
     display: inline;
     font-weight: 100;
 }
@@ -45,7 +45,7 @@
     align-items: center;
 }
 
-@media screen and (max-width: 1070px)  {
+@media screen and (max-width: 809px)  {
     .hours-of-operation {
         font-size: 3.5vmax;
         list-style: none;
@@ -66,6 +66,15 @@
         display: inline;
         font-weight: 100;
     }
+}
+
+@media screen and (max-width: 780px) {
+    MapContainer {
+        margin-left: -15%;
+        max-height: 3vh;
+    }
+
+    
 }
 
 
