@@ -45,11 +45,11 @@ const HomeShare = () => {
     <>
     <div className='main-container'>
         <div className='responsive-type-animation'>
-          <TypeAnimation className='name' sequence={["Supported Living", 1000]} speed={20} style={{ fontSize: '12vmin', fontFamily: 'Tahoma', textShadow: '3px 2px #5b05f9', color: '#fff'}}/>
+          <TypeAnimation className='name' sequence={["Supported Living", 1000]} speed={20} style={{ fontSize: '12vmin', fontFamily: 'Montserrat', textShadow: '3px 2px #5b05f9', color: '#fff'}}/>
         </div> 
     </div>
         <div className='main-card'>
-            <h5 className='main-text' style={{fontFamily: 'Tahoma', fontSize: '4vmin'}}>Supported Living Services</h5>
+            <h5 className='main-text' style={{fontFamily: 'Montserrat', fontSize: '4vmin'}}>Supported Living Services</h5>
             <div className='main_info' style={{fontSize: '3vmin'}}>
                 Supported living is an independent living options for people who want to live independently in their 
                 own home, but still need some help with daily living. Support staff assist individuals in their home 

@@ -11,12 +11,12 @@ export default function Staff() {
     return <> 
     <div className='main-container'>
         <div className='responsive-type-animation'>
-          <TypeAnimation className='name' sequence={["Staff Resources", 1000]} speed={20} style={{ fontSize: '12vmin', fontFamily: 'Tahoma', textShadow: '3px 2px #5b05f9', color: '#fff'}}/>
+          <TypeAnimation className='name' sequence={["Staff Resources", 1000]} speed={20} style={{ fontSize: '12vmin', fontFamily: 'Montserrat', textShadow: '3px 2px #5b05f9', color: '#fff'}}/>
         </div> 
     </div>
     <div className='main'>
-		<Box textAlign="center" margin="40px 0 0 0" fontFamily="Tahoma" fontSize="1.25rem" p={1} padding={"50px 30px"}>
-        <h5 className='main-text' style={{fontFamily: 'Tahoma'}}>Click the Link to Access the Webpage.</h5>
+		<Box textAlign="center" margin="40px 0 0 0" fontFamily="Montserrat" fontSize="1.25rem" p={1} padding={"50px 30px"}>
+        <h5 className='main-text' style={{fontFamily: 'Montserrat'}}>Click the Link to Access the Webpage.</h5>
             <div className="links">
                 <img className="pics" src={ShareVision} width={"150px"}/>
                 <br/>

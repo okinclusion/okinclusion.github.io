@@ -47,11 +47,11 @@ function Employment() {
     <>
         <div className='main-container'>
             <div className='responsive-type-animation'>
-            <TypeAnimation className='name' sequence={["Employment", 1000]} speed={20} style={{ fontSize: '12vmin', fontFamily: 'Tahoma', textShadow: '3px 2px #5b05f9', color: '#fff'}}/>
+            <TypeAnimation className='name' sequence={["Employment", 1000]} speed={20} style={{ fontSize: '12vmin', fontFamily: 'Montserrat', textShadow: '3px 2px #5b05f9', color: '#fff'}}/>
             </div> 
         </div>
         <div className='main-card'>
-            <h5 className='main-text' style={{fontFamily: 'Tahoma', fontSize: '4vmin'}}>Work With Us</h5>
+            <h5 className='main-text' style={{fontFamily: 'Montserrat', fontSize: '4vmin'}}>Work With Us</h5>
             <div className='main_info' style={{fontSize: '3vmin'}}>
                 Okanagan Inclusion Employment Services responds to the desire of individuals living with a developmental disability to pursue employment as a means to full inclusion in our community. At the same time, the program also addresses employers’ growing demand for qualified, reliable employees by providing creative employment solutions, candidate screening and one-to-one support through the hiring and training process.
             </div>
