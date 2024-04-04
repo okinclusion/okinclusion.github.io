@@ -82,3 +82,9 @@ Button {
     }
     
 }
+
+@media screen and (max-width: 400px) {
+    .responsive-type-animation {
+        font-size: 12vw;
+    }
+}
