@@ -59,7 +59,15 @@ h3 {
 
 .background {
     background-image: url(../../public/images/background.jpg);
+    font-size: 3vmax;
 }
+
+@media screen and (min-width: 900px) {
+    .background {
+        font-size: 28.86px;
+    }
+}
+
 @media screen and (max-width: 1680px) {
     /* Carousel */
 

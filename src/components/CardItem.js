@@ -6,17 +6,17 @@ function CardItem(props) {
     <>
     <li className='cards__item' style={{backgroundColor: '#ffffff'}}>
         <div className='cards__item__link'>
-            <figure className='cards__item__pic-wrap' style={{fontFamily: 'Tahoma'}} data-category={props.label}>
+            <figure className='cards__item__pic-wrap' style={{fontFamily: 'Montserrat'}} data-category={props.label}>
                 <img className='cards__item__img' src={props.src} alt="staff image"/>
             </figure>
             <div className='cards__item__info'>
-                <h5 className='cards__item__text' style={{fontFamily: 'Tahoma'}}>{props.text}</h5>
+                <h5 className='cards__item__text' style={{fontFamily: 'Montserrat'}}>{props.text}</h5>
             </div>
             <div className='cards__item__email'>
-              <a href={`mailto:${props.email}`} className='cards__item__email__text' style={{fontFamily: 'Tahoma'}}>{props.email}</a>
+              <a href={`mailto:${props.email}`} className='cards__item__email__text' style={{fontFamily: 'Montserrat'}}>{props.email}</a>
             </div>
             <div className='cards__item__text'>
-              <p className='cards__item__text1' style={{fontFamily: 'Tahoma'}}>{props.text1}</p>
+              <p className='cards__item__text1' style={{fontFamily: 'Montserrat'}}>{props.text1}</p>
             </div>
         </div>
     </li>

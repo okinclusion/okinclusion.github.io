@@ -16,18 +16,18 @@ function Cards() {
             <div className='cards__wrapper'>
               <ul className='cards__items'>
               <CardItem
-                  src="images/leanne.png"
+                  src="images/comingsoon.png"
                   text="Leanne Williams"
                   label="CEO" 
                   email={leanneEmail} />
                   <br/>
                   <CardItem
-                  src="images/sheryl.png"
+                  src="images/comingsoon.png"
                   text="Sheryl Martin"
                   label="Program Coordinator"
                   email={sherylEmail}/>
                   <CardItem
-                    src="images/michelle.png"
+                    src="images/comingsoon.png"
                     text="Michelle Fritsche"
                     label="Home Share Coordinator" 
                     email={michelleFEmail}/>
@@ -35,13 +35,13 @@ function Cards() {
               </ul>
               <ul className='cards__items'>
               <CardItem
-                    src="images/staff1.png"
+                    src="images/comingsoon.png"
                     text="Michelle Young"
                     label="Program Coordinator" 
                     email={michelleYEmail}/>
                   <br/>
                   <CardItem
-                  src="images/staff2.png"
+                  src="images/comingsoon.png"
                   text="Amy Temple"
                   label="Program Coordinator" 
                   email={amyEmail}/>
@@ -53,5 +53,4 @@ function Cards() {
 }
 
 export default Cards
-
-/* Coming Soon - Image by Ann Carter from Pixabay */
+// Image by <a href="https://pixabay.com/users/mohamed_hassan-5229782/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3080102">Mohamed Hassan</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3080102">Pixabay</a>
