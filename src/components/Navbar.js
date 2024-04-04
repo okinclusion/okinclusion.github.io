@@ -70,19 +70,19 @@ function Navbar() {
                         About Us 
                         {showDropdown1 && (
                             <div className='dropdown-menu'>
-                                <Link to="/history" className="dropdown-item">
+                                <Link to="/history" className={"dropdown-item" + (url === "/history" ?" active" : "")} onClick={closeMobileMenu}>
                                     History
                                 </Link>                             
-                                <Link to="/missionvision" className="dropdown-item">
+                                <Link to="/missionvision" className={"dropdown-item" + (url === "/missionvision" ?" active" : "")} onClick={closeMobileMenu}>
                                     Mission + Vision
                                 </Link>   
-                                <Link to="/team" className="dropdown-item">
+                                <Link to="/team" className={"dropdown-item" + (url === "/team" ?" active" : "")} onClick={closeMobileMenu}>
                                     Leadership Team
                                 </Link>     
-                                <Link to="/strategicpriorities" className="dropdown-item">
+                                <Link to="/strategicpriorities" className={"dropdown-item" + (url === "/strategicpriorities" ?" active" : "")} onClick={closeMobileMenu}>
                                     Strategic Priorities
                                 </Link>    
-                                <Link to="/accreditation" className="dropdown-item">
+                                <Link to="/accreditation" className={"dropdown-item" + (url === "/accreditation" ?" active" : "")} onClick={closeMobileMenu}>
                                     Accreditation
                                 </Link>    
                             </div>
@@ -96,25 +96,25 @@ function Navbar() {
                                     Community Inclusion
                                     {showSubDropdown && (
                                         <div className='sub-dropdown-menu' onMouseEnter={handleSubDropdownEnter} onMouseLeave={handleSubDropdownLeave}>
-                                            <Link to='/penticton' className='sub-dropdown-item'>
+                                            <Link to='/penticton' className={'sub-dropdown-item' + (url === "/penticton" ?" active" : "")} onClick={closeMobileMenu}>
                                                 Penticton
                                             </Link>
-                                            <Link to='/keremeos' className='sub-dropdown-item'>
+                                            <Link to='/keremeos' className={'sub-dropdown-item' + (url === "/keremeos" ?" active" : "")} onClick={closeMobileMenu}>
                                                 Keremeos
                                             </Link>
                                         </div>
                                     )}
                                 </div>                             
-                                <Link to="/homeshare" className="dropdown-item">
+                                <Link to="/homeshare" className={"dropdown-item" + (url === "/homeshare" ?" active" : "")} onClick={closeMobileMenu}>
                                     Home Share
                                 </Link>   
-                                <Link to="/employment" className="dropdown-item">
+                                <Link to="/employment" className={"dropdown-item" + (url === "/employment" ?" active" : "")} onClick={closeMobileMenu}>
                                     Employment
                                 </Link>     
-                                <Link to="/supportedliving" className="dropdown-item">
+                                <Link to="/supportedliving" className={"dropdown-item" + (url === "/supportedliving" ?" active" : "")} onClick={closeMobileMenu}>
                                     Supported Living
                                 </Link>    
-                                <Link to="/respite" className="dropdown-item">
+                                <Link to="/respite" className={"dropdown-item" + (url === "/respite" ?" active" : "")} onClick={closeMobileMenu}>
                                     Respite
                                 </Link>    
                             </div>
