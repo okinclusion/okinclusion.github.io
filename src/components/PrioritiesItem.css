@@ -8,7 +8,6 @@ ol {
     font-size: 3vmax;
     counter-reset: li;
     list-style: none;
-    font-size: vmin;
     padding: 0;
     margin: 2em 3em 0 3em;
     padding-bottom: 100px;
@@ -61,3 +60,8 @@ ol li {
     transition: all .3s ease-out;
 }
 
+@media screen and (min-width: 900px) {
+    ol {
+        font-size: 28.86px;
+    }
+}

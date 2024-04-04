@@ -49,3 +49,9 @@
   .seal {
     height: 200px;  
 }
+
+@media screen and (min-width: 900px) {
+  .hover-popup-page {
+      font-size: 28.86px;
+  }
+}
