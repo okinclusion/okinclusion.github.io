@@ -8,6 +8,7 @@ function Cards() {
   const michelleFEmail = "michelleb.okinclusion@shaw.ca";
   const michelleYEmail = "KeremeosCO.okinclusion@shaw.ca";
   const amyEmail = "tbd";
+  const andreaEmail = "tbd";
 
   return (
     <div className='cards'>
@@ -35,16 +36,22 @@ function Cards() {
               </ul>
               <ul className='cards__items'>
               <CardItem
-                    src="images/comingsoon.png"
-                    text="Michelle Young"
-                    label="Program Coordinator" 
-                    email={michelleYEmail}/>
-                  <br/>
-                  <CardItem
                   src="images/comingsoon.png"
-                  text="Amy Temple"
+                  text="Michelle Young"
                   label="Program Coordinator" 
-                  email={amyEmail}/>
+                  email={michelleYEmail}/>
+                <br/>
+              <CardItem
+                src="images/comingsoon.png"
+                text="Amy Temple"
+                label="Program Coordinator" 
+                email={amyEmail}/>
+              <CardItem 
+                src="images/comingsoon.png"
+                text="Andrea Scarfo"
+                label="Employment Specialist/Job Developer"
+                email={andreaEmail}/>
+
                 </ul>
             </div>
         </div>
