@@ -19,7 +19,7 @@ ol li {
     padding-left: 0.25em;
 }
 
-.list a{
+.list li{
     position: relative;
     display: block;
     padding: .4em .4em .4em .8em;
@@ -30,13 +30,13 @@ ol li {
     transition: all .3s ease-out;
 }
 
-.list a:hover {
+.list li:hover {
     background: #eee;
     cursor: default;
     color: #5b05f9;
 }
 
-.list a:before {
+.list li:before {
     content: counter(li);
     counter-increment: li;
     position: absolute;
@@ -51,7 +51,7 @@ ol li {
     font-weight: bold;
 }
 
-.list a:after {
+.list li:after {
     position: absolute;
     content: '';
     border: .5em solid transparent;
