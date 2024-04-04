@@ -9,7 +9,7 @@ function Main() {
   return (
     <div className='main-container'>
         <div className='responsive-type-animation'>
-          <TypeAnimation className='name' sequence={["Okanagan Inclusion", 1000]} speed={20} style={{ fontSize: '115.2px', fontFamily: 'Tahoma', textShadow: '3px 2px #5b05f9'}}/>
+          <TypeAnimation className='name' sequence={["Okanagan Inclusion", 1000]} speed={20} style={{fontFamily: 'Tahoma', color: '#fff', textShadow: '3px 2px #5b05f9'}}/>        
         </div> 
         <p className='title'>Est. 2013</p>
         <div className='main-btns'>
