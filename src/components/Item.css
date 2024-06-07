@@ -109,3 +109,12 @@ h3 {
 .main-text {
     margin-top: 20px;
 }
+
+.p {
+    display: inline;
+    font-size: 28.86px;
+}
+
+.ap {
+    font-size: 35px;
+}

@@ -14,7 +14,11 @@ export default function Mission() {
     </div>
     <div className='coming-soon'>
       <Box textAlign="center" className="background" fontFamily="Tahoma" fontSize="3vmin" p={1} padding={"50px 30px"}>
-			  <h1>Coming Soon</h1>
+			  
+          <p className="p"><b className="ap">Mission:</b> We support adults with developmental disabilities to participate meaningfully in all aspects of community life.</p>
+        
+        <br/>
+          <p className="p"><b className="ap">Vision:</b> Okanagan Inclusion envisions a community in which all individuals are included, accepted and valued.</p>
       </Box>
 		</div>
     {/* <Item/> */}

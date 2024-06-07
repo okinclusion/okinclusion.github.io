@@ -49,7 +49,7 @@ function Item(props) {
 		<Box textAlign="center" className="background" fontFamily="Tahoma" p={1} padding={"50px 30px"}>
 			Okanagan Inclusion provides Agency Coordinated Home Sharing, Respite, Employment and Community Inclusion programs to adults with developmental disabilities.
 			<br/>
-			Okanagan Inclusion (OI) began services to adults with developmental disabilities in 2013, the organization incorporated in 2018.          
+			Okanagan Inclusion (OI) began services to adults with developmental disabilities in 2013, incorporated in 2018, and became CARF accredited in 2021.          
 			<br/>
 			It was developed as there was a need for more individualized, person centred services in the South Okanagan. OI has grown extensively since then, adding Shared Living, Respite as well as Employment to the already thriving Community Inclusion program.          <br/>
 			<br/>
