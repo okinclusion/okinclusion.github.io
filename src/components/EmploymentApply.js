@@ -1,36 +1,10 @@
-import { React, useState, useEffect } from 'react';
+import React from 'react';
 import { TypeAnimation } from 'react-type-animation';       
 import backgroundVideo from '../videos/snow.mp4';
 import Footer from './Footer';
+import UploadForm from './UploadForm';
 
 function Apply() { 
-    const [file, setFile] = useState(null);
-
-    const handleFileChange = (e) => {
-        setFile(e.target.files[0]);
-    };
-
-    const handleSubmit = async (e) => {
-        e.preventDefault();
-
-    const formData = new FormData();
-    formData.append('file', file);
-
-    try {
-        const response = await fetch('http://your-server-endpoint', {
-            method: 'POST',
-            body: formData,
-        });
-
-        if (response.ok) {
-            console.log('File uploaded sucessfully.');
-        } else {
-            console.error('File upload failed.');
-        }
-    } catch (error) {
-        console.error('Error', error);
-    }
-  };
 
   return (
     <>
@@ -43,10 +17,7 @@ function Apply() {
             </div> 
         </div>
         <div className='main-card'>
-            <form onSubmit={handleSubmit}>
-                <input type='file' onChange={handleFileChange}/>
-                <button type='submit'>Upload File</button>
-            </form>
+            <UploadForm/>
         </div>
         <Footer/>
     </>
