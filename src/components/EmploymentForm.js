@@ -7,7 +7,7 @@ function EmploymentForm() {
     const sendEmail = (e) => {
     e.preventDefault();
     // service_id, templte_id and public key will get from Emailjs website when you create account and add template service and email service 
-    emailjs.sendForm('service_vvxcblm', 'template_ijg3p4h', form.current, 
+    emailjs.sendForm('service_c4mmrrr', 'template_ijg3p4h', form.current, 
     'TInXkn9D4lftKds5g')
       .then((result) => {
           console.log(result.text);

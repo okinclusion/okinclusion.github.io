@@ -7,11 +7,11 @@ function HomeShareForm() {
     const sendEmail = (e) => {
     e.preventDefault();
     // service_id, templte_id and public key will get from Emailjs website when you create account and add template service and email service 
-    emailjs.sendForm('service_vvxcblm', 'template_ijg3p4h', form.current, 
+    emailjs.sendForm('service_c4mmrrr', 'template_0v7u4r8', form.current, 
     'TInXkn9D4lftKds5g')
       .then((result) => {
           console.log(result.text);
-          alert('Application Sent!')
+          alert('Information Sent!')
       }, (error) => {
           console.log(error.text);
           alert('Error');
