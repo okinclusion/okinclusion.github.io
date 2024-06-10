@@ -1,0 +1,26 @@
+.name, .email {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  label {
+    display: block;
+  }
+
+
+  .btn-submit {
+    width: 100%;
+    padding: 10px;
+    background-color: #5b05f9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .btn-submit:hover {
+    background-color: #fff;
+    color: #5b05f9;
+  }
