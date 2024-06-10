@@ -4,31 +4,14 @@ import emailjs from "emailjs-com";
 function UploadForm() {
   const [file, setFile] = useState(null);
 
-
-  const handleSubmit = (event) => {
-    event.preventDefault();
-
-    //We need to convert the file to base64 so we use the inbuilt javascript 
-    // FileReader class
-    const reader = new FileReader();
-    reader.readAsDataURL(file);
-
-    reader.onload = async (e) => {
-
-    const serviceId = "service_vvxcblm";
-    const templateId = "template_ijg3p4h";
-    // const userId = "TInXkn9D4lftKds5g"; 
-
-    emailjs.sendForm(serviceId, templateId)
-    .then((result) => {
-        console.log(result);    
-        alert('message sent');
-    }, (error) => {
-        console.log(error)
-        alert('error');
-    })
-    }
-  };
+  emailjs.sendForm('service_vvxcblm', 'template_ijg3p4h').then(
+    (response) => {
+      console.log('SUCCESS!', response.status, response.text);
+    },
+    (error) => {
+      console.log('FAILED...', error);
+    },
+  );
 
   return (
     <form id="form">
