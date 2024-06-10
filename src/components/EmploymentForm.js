@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
-function UploadForm() {
+function EmploymentForm() {
     const form = useRef();
 
     const sendEmail = (e) => {
@@ -43,4 +43,4 @@ function UploadForm() {
     );
 };
 
-export default UploadForm;
+export default EmploymentForm;
