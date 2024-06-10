@@ -2,7 +2,6 @@ import React from 'react';
 import '../../App.css';
 import '../Main.css';
 import { TypeAnimation } from 'react-type-animation';       
-import backgroundVideo from '../../videos/snow.mp4';
 import ToolTip from '../ToolTip';
 import Footer from '../Footer';
 

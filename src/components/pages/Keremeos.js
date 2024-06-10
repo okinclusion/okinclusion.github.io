@@ -1,7 +1,6 @@
 import React from 'react';
 import '../../App.css';
 import Footer from '../Footer';
-import backgroundVideo from '../../videos/snow.mp4';
 import { TypeAnimation } from 'react-type-animation';  
 import InclusionItem from '../InclusionItem';
 import '../InclusionItem.css';

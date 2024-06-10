@@ -1,7 +1,5 @@
 import { React, useState, useEffect } from 'react';
-import { TypeAnimation } from 'react-type-animation';       
-import backgroundVideo from '../../videos/snow.mp4';
-import ToolTip from '../ToolTip';
+import { TypeAnimation } from 'react-type-animation';    
 import Footer from '../Footer';
 import { Button } from '../Button';
 import '../Button.css';

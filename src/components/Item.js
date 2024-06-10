@@ -2,7 +2,7 @@ import React from 'react';
 import { Box } from '@mui/material';
 import './Item.css';
 
-function Item(props) {
+function Item(props, { fontSize }) {
   return (
     <>
 	<div className='main'>
@@ -46,7 +46,7 @@ function Item(props) {
 			</article>
 		</div>
 	</section>
-		<Box textAlign="center" className="background" fontFamily="Tahoma" p={1} padding={"50px 30px"}>
+		<Box textAlign="center" className="background" fontFamily="Tahoma" p={1} padding={"50px 30px"} >
 			Okanagan Inclusion provides Agency Coordinated Home Sharing, Respite, Employment and Community Inclusion programs to adults with developmental disabilities.
 			<br/>
 			Okanagan Inclusion (OI) began services to adults with developmental disabilities in 2013, incorporated in 2018, and became CARF accredited in 2021.          

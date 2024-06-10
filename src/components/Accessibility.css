@@ -1,0 +1,27 @@
+
+.btn1 {
+    position: absolute;
+    right: 0;
+    font-size: medium;
+    box-shadow: 3px 3px #5b05f9;
+    transition: all 0.3s ease-out;
+    background-color: #fff;
+    color: #5b05f9;
+    padding: 8px 20px;
+    border: #5b05f9 1px solid;
+}
+
+.btn2 {
+    position: absolute;
+    right: 0;
+    font-size: medium;
+    margin-top: 37px;
+    box-shadow: 3px 3px #5b05f9;
+    transition: all 0.3s ease-out;
+    background-color: #fff;
+    color: #5b05f9;
+    padding: 9px 21.5px;
+    border: #5b05f9 1px solid;
+    
+}
+
