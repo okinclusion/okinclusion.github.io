@@ -23,6 +23,7 @@ function Main() {
                 Contact Us
             </Button2>
         </div>
+        
     </div>
   )
 };

@@ -3,6 +3,7 @@ import { Link, useLocation } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAlignJustify } from '@fortawesome/free-solid-svg-icons';
 import { faAngleDoubleRight } from '@fortawesome/free-solid-svg-icons';
+import Accessibility from './Accessibility.js';
 import './Navbar.css'; 
 
 function Navbar() {
@@ -129,7 +130,8 @@ function Navbar() {
                     <Link to="/contact" className={"nav-links" + (url === "/contact" ?" active" : "")} onClick={closeMobileMenu}>
                         Contact Us
                     </Link>
-            </div>            
+            </div>
+            <Accessibility/>            
         </div>
     </div>
     </>
