@@ -96,3 +96,11 @@ h1 {
 .react-calendar__navigation button {
 	font-size: 20px; /* Adjust this value to your preferred font size */
 }
+
+.event-info {
+	font-size: 18px;
+	margin-top: 10px;
+	list-style: none;
+	color: #5b05f9;
+	font-style: italic;
+}
