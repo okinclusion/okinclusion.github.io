@@ -1,36 +1,26 @@
-import React, { createContext, useContext, useState, useEffect } from "react";
+import React, { createContext, useContext, useState } from "react";
 
 const EventContext = createContext();
 
-export const useEventContext = () => useContext(EventContext);
+export const useEventContext = () => {
+  return useContext(EventContext);
+};
 
 export const EventProvider = ({ children }) => {
-  const [events, setEvents] = useState([]);
+  // Predefined events
+  const [events] = useState([
+    { id: 1, date: new Date(2024, 5, 5), title: "OI BBQ Lunch" },
+    { id: 2, date: new Date(2024, 5, 6), title: "Tour of Basset House" },
+    { id: 3, date: new Date(2024, 5, 13), title: "Skaha Games" },
+    { id: 4, date: new Date(2024, 5, 19), title: "PDSCL Dance" },
+    { id: 5, date: new Date(2024, 5, 20), title: "Beach Day" },
+    { id: 6, date: new Date(2024, 5, 26), title: "Gotta Goat Farm" },
+    { id: 7, date: new Date(2024, 5, 27), title: "Linden Garden" },
 
-  useEffect(() => {
-    // Load events from localStorage on component mount
-    const storedEvents = JSON.parse(localStorage.getItem("events"));
-    if (storedEvents) {
-      setEvents(storedEvents);
-    }
-  }, []);
-
-  useEffect(() => {
-    // Save events to localStorage whenever events state changes
-    localStorage.setItem("events", JSON.stringify(events));
-  }, [events]);
-
-  const addEvent = (newEvent) => {
-    setEvents([...events, newEvent]);
-  };
-
-  const deleteEvent = (eventId) => {
-    const updatedEvents = events.filter((event) => event.id !== eventId);
-    setEvents(updatedEvents);
-  };
+  ]);
 
   return (
-    <EventContext.Provider value={{ events, addEvent, deleteEvent }}>
+    <EventContext.Provider value={{ events }}>
       {children}
     </EventContext.Provider>
   );
