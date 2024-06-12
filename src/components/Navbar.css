@@ -3,7 +3,7 @@
 }
 
 .navbar-container {
-  display:inherit;
+  display: inherit;
   height: fit-content;
   background-color: #fff;
   position: fixed;
@@ -104,13 +104,12 @@
   position: absolute;
   top: 0;
   left: 100%;
-  margin-top: -1px; /* Adjust this value to align the sub-dropdown menu with the parent item */
-  margin-left: -10px;
+  margin-top: -1px;
   background-color: #242424;
   border-radius: 5px;
   padding: 10px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-  z-index: 2; /* Ensure the sub-dropdown is on top of the main dropdown */
+  z-index: 2;
 }
 
 .sub-dropdown-item {
@@ -138,7 +137,7 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 40vh;
+    height: auto;
     position: absolute;
     top: 80px;
     left: -100%;
@@ -149,8 +148,8 @@
 
   .nav-menu.active {
     background: #242424;
-    top: 4.8vw;
-    height: fit-content;
+    top: 7.8vh;
+    height: auto;
     left: 0;
     z-index: 1;
   }
@@ -187,13 +186,12 @@
     cursor: pointer;
     margin-top: 0vw;
   }
-  .nav-menu.active {
-    height: fit-content;
-    top: 8vh;
-  }
 
   .dropdown-menu {
     background-color: #fff;
+    left: 0; /* Ensure it stays within the viewport */
+    margin-left: 50%;
+    transform: translateX(-50%);
   }
 
   .dropdown-item {
@@ -202,56 +200,43 @@
 
   .sub-dropdown-menu {
     background-color: #fff;
+    left: 100%; /* Adjust to ensure it stays within the viewport */
   }
 
   .sub-dropdown-item {
     color: #000;
   }
-} 
+
+  .dropdown-menu.open + .nav-item {
+    margin-top: 150px; /* Adjust this value based on the height of the dropdown-menu */
+  }
+}
 
 @media screen and (max-width: 1020px) {
-
   .nav-links {
     color: #fff;
   }
-  
 }
 
 /* iPhone Screen */
 @media screen and (max-width: 720px) {
-  
   .logo-name {
     font-size: 5vmax;
     margin-top: 10px;
   }
 
-  .nav-menu.active {
-    height: fit-content;
-    top: 8vh;
-  }
-
   .menu-icon {
     font-size: 3vh;
   }
-
-} 
+}
 
 @media screen and (max-width: 650px) {
   .menu-icon {
     font-size: 3vh;
-    padding-bottom: -3vw;
   }
+
   .dropdown-menu {
     margin-left: 40%;
+    left: auto; /* Reset to default */
   }
-  
-}
-
-@media screen and (max-width: 1025px) and (min-width: 715px) {
-  
-
-  .navbar-container {
-    max-height: 9vh;
-  }
-  
 }
