@@ -5,37 +5,17 @@ import "./Calendar.css";
 import { useEventContext } from "./EventContext";
 
 const App = () => {
-  const { events, addEvent, deleteEvent } = useEventContext();
+  const { events } = useEventContext();
   const [selectedDate, setSelectedDate] = useState(null);
-  const [eventName, setEventName] = useState("");
 
   const handleDateClick = (date) => {
     setSelectedDate(date);
   };
 
-  const handleEventNameChange = (event) => {
-    setEventName(event.target.value);
-  };
-
-  const handleCreateEvent = () => {
-    if (selectedDate && eventName) {
-      const newEvent = {
-        id: new Date().getTime(),
-        date: selectedDate,
-        title: eventName,
-      };
-      addEvent(newEvent);
-      setEventName("");
-    }
-  };
-
   const getEventsForDate = (date) => {
     return events.filter(
-		(event) => event.date instanceof Date && event.date.toDateString() === date.toDateString()    );
-  };
-
-  const handleDeleteEvent = (eventId) => {
-    deleteEvent(eventId);
+      (event) => event.date instanceof Date && event.date.toDateString() === date.toDateString()
+    );
   };
 
   return (
@@ -46,6 +26,7 @@ const App = () => {
           <Calendar
             value={selectedDate}
             onClickDay={handleDateClick}
+            calendarType="US" // Set the calendar type to start weeks on Sunday
             tileClassName={({ date }) =>
               selectedDate && date.toDateString() === selectedDate.toDateString()
                 ? "selected"
@@ -63,19 +44,9 @@ const App = () => {
               <h2>Events on {selectedDate.toDateString()}</h2>
               <ul>
                 {getEventsForDate(selectedDate).map((event) => (
-                  <li key={event.id}>
-                    {event.title}
-                    <button onClick={() => handleDeleteEvent(event.id)}>Delete</button>
-                  </li>
+                  <li className="event-info" key={event.id}>{event.title}</li>
                 ))}
               </ul>
-              <input
-                type="text"
-                placeholder="Event Name"
-                value={eventName}
-                onChange={handleEventNameChange}
-              />
-              <button onClick={handleCreateEvent}>Add Event</button>
             </div>
           )}
         </div>
