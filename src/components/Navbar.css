@@ -9,7 +9,6 @@
   position: fixed;
   width: 100%;
   z-index: 1;
-  height: fit-content;
   max-height: 8vh;
 }
 
@@ -64,10 +63,6 @@
   transition: all 0.2s ease-out;
 }
 
-.nav-links-mobile {
-  display: none;
-}
-
 .dropdown {
   position: relative;
   cursor: pointer;
@@ -104,12 +99,13 @@
   position: absolute;
   top: 0;
   left: 100%;
-  margin-top: -1px;
+  margin-top: -1px; /* Adjust this value to align the sub-dropdown menu with the parent item */
+  margin-left: -10px;
   background-color: #242424;
   border-radius: 5px;
   padding: 10px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-  z-index: 2;
+  z-index: 2; /* Ensure the sub-dropdown is on top of the main dropdown */
 }
 
 .sub-dropdown-item {
@@ -157,11 +153,9 @@
   .nav-item {
     margin-bottom: 25px;
   }
-
   .logo-name {
     font-size: 5vmax;
   }
-
   .nav-links {
     text-align: center;
     width: 100%;
@@ -200,29 +194,17 @@
 
   .sub-dropdown-menu {
     background-color: #fff;
-    left: 100%; /* Adjust to ensure it stays within the viewport */
+    
   }
 
   .sub-dropdown-item {
     color: #000;
   }
+} 
 
-  .dropdown-menu.open + .nav-item {
-    margin-top: 150px; /* Adjust this value based on the height of the dropdown-menu */
-  }
-}
-
-@media screen and (max-width: 1020px) {
-  .nav-links {
-    color: #fff;
-  }
-}
-
-/* iPhone Screen */
 @media screen and (max-width: 720px) {
-  .logo-name {
-    font-size: 5vmax;
-    margin-top: 10px;
+  .nav-menu.active {
+    top: 8vh;
   }
 
   .menu-icon {
@@ -236,7 +218,16 @@
   }
 
   .dropdown-menu {
-    margin-left: 40%;
-    left: auto; /* Reset to default */
+    margin-left: 50%;
+    transform: translateX(-50%);
   }
+}
+
+/* Additional styles to push menu items down when dropdown is active */
+.dropdown:hover .dropdown-menu {
+  display: flex;
+}
+
+.nav-item.dropdown:hover + .nav-item {
+  margin-top: 160px; /* Adjust this value based on the height of your dropdown */
 }
