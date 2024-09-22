@@ -37,27 +37,29 @@ export const EventProvider = ({ children }) => {
 
     { id: 17, date: new Date(2024, 6, 1), title: "Canada Day" },
     // September
-    { id: 18, date: new Date(2024, 9, 2), title: "Labour Day" },
+    { id: 18, date: new Date(2024, 8, 2), title: "Labour Day" },
     { id: 19, date: new Date(2024, 8, 9), title: "FASD Day" },
     { id: 20, date: new Date(2024, 8, 21), title: "A Day to Remember (CHARGE)" },
     { id: 21, date: new Date(2024, 8, 30), title: "National Day for Truth and Reconciliation" },
+    // October
+    { id: 22, date: new Date(2024, 9, 31), title: "Halloween" },
+
     // November
-    { id: 22, date: new Date(2024, 10, 11), title: "Remembrance Day" },
-    { id: 23, date: new Date(2024, 10, 20), title: "Transgender Day of Remembrance" },
+    { id: 23, date: new Date(2024, 10, 11), title: "Remembrance Day" },
+    { id: 24, date: new Date(2024, 10, 20), title: "Transgender Day of Remembrance" },
     // December
-    { id: 24, date: new Date(2024, 11, 3), title: "International Day of Persons with Disabilities" },
+    { id: 25, date: new Date(2024, 11, 3), title: "International Day of Persons with Disabilities" },
 
 
 
     
-    { id: 25, date: new Date(2024, 9, 3), title: "Summerland Fairy Garden" },
-    { id: 26, date: new Date(2024, 9, 5), title: "OK Inclusion End of Summer BBQ" },
-    { id: 27, date: new Date(2024, 9, 12), title: "Vaseaux Lake Boardwalk" },
-    { id: 28, date: new Date(2024, 9, 19), title: "Sncewips Heritage Museum" },
-    { id: 29, date: new Date(2024, 9, 25), title: "Nk'Mp Desert Cultural Centre" },
-    { id: 30, date: new Date(2024, 9, 26), title: "Talking Circle" },
-    { id: 31, date: new Date(2024, 5, 27), title: "Orange Shirt Day at OI" },
-    { id: 32, date: new Date(2024, 9, 30), title: "Truth and Reconciliation Day" },
+    { id: 26, date: new Date(2024, 8, 3), title: "Summerland Fairy Garden" },
+    { id: 27, date: new Date(2024, 8, 5), title: "OK Inclusion End of Summer BBQ" },
+    { id: 28, date: new Date(2024, 8, 12), title: "Vaseaux Lake Boardwalk" },
+    { id: 29, date: new Date(2024, 8, 19), title: "Sncewips Heritage Museum" },
+    { id: 30, date: new Date(2024, 8, 25), title: "Nk'Mp Desert Cultural Centre" },
+    { id: 31, date: new Date(2024, 8, 26), title: "Talking Circle" },
+    { id: 32, date: new Date(2024, 8, 27), title: "Orange Shirt Day at OI" },
     { id: 100, date: new Date(2025, 0, 1), title: "New Year's Day" },
 
 
