@@ -33,28 +33,31 @@ export const EventProvider = ({ children }) => {
     { id: 14, date: new Date(2024, 5, 1), title: "Pride Month" },
     { id: 15, date: new Date(2024, 5, 1), title: "Red Shirt Day" },
     { id: 16, date: new Date(2024, 5, 21), title: "National Indigenous Peoples Day" },
+    // July
+
+    { id: 17, date: new Date(2024, 6, 1), title: "Canada Day" },
     // September
-    { id: 17, date: new Date(2024, 8, 9), title: "FASD Day" },
-    { id: 18, date: new Date(2024, 8, 21), title: "A Day to Remember (CHARGE)" },
-    { id: 19, date: new Date(2024, 8, 30), title: "National Day for Truth and Reconciliation" },
+    { id: 18, date: new Date(2024, 9, 2), title: "Labour Day" },
+    { id: 19, date: new Date(2024, 8, 9), title: "FASD Day" },
+    { id: 20, date: new Date(2024, 8, 21), title: "A Day to Remember (CHARGE)" },
+    { id: 21, date: new Date(2024, 8, 30), title: "National Day for Truth and Reconciliation" },
     // November
-    { id: 20, date: new Date(2024, 10, 11), title: "Remembrance Day" },
-    { id: 21, date: new Date(2024, 10, 20), title: "Transgender Day of Remembrance" },
+    { id: 22, date: new Date(2024, 10, 11), title: "Remembrance Day" },
+    { id: 23, date: new Date(2024, 10, 20), title: "Transgender Day of Remembrance" },
     // December
-    { id: 22, date: new Date(2024, 11, 3), title: "International Day of Persons with Disabilities" },
+    { id: 24, date: new Date(2024, 11, 3), title: "International Day of Persons with Disabilities" },
 
 
 
-    { id: 23, date: new Date(2024, 5, 5), title: "OI BBQ Lunch" },
-    { id: 24, date: new Date(2024, 5, 6), title: "Tour of Basset House" },
-    { id: 25, date: new Date(2024, 5, 13), title: "Skaha Games" },
-    { id: 26, date: new Date(2024, 5, 16), title: "Father's Day" },
-    { id: 27, date: new Date(2024, 5, 19), title: "PDSCL Dance" },
-    { id: 28, date: new Date(2024, 5, 20), title: "Beach Day" },
-    { id: 29, date: new Date(2024, 5, 26), title: "Gotta Goat Farm" },
-    { id: 30, date: new Date(2024, 5, 27), title: "Linden Garden" },
-    { id: 31, date: new Date(2024, 6, 1), title: "Canada Day" },
-    { id: 32, date: new Date(2024, 0, ), title: "" },
+    
+    { id: 25, date: new Date(2024, 9, 3), title: "Summerland Fairy Garden" },
+    { id: 26, date: new Date(2024, 9, 5), title: "OK Inclusion End of Summer BBQ" },
+    { id: 27, date: new Date(2024, 9, 12), title: "Vaseaux Lake Boardwalk" },
+    { id: 28, date: new Date(2024, 9, 19), title: "Sncewips Heritage Museum" },
+    { id: 29, date: new Date(2024, 9, 25), title: "Nk'Mp Desert Cultural Centre" },
+    { id: 30, date: new Date(2024, 9, 26), title: "Talking Circle" },
+    { id: 31, date: new Date(2024, 5, 27), title: "Orange Shirt Day at OI" },
+    { id: 32, date: new Date(2024, 9, 30), title: "Truth and Reconciliation Day" },
     { id: 100, date: new Date(2025, 0, 1), title: "New Year's Day" },
 
 
