@@ -96,6 +96,9 @@ function Navbar() {
                                     <Link to="/accreditation" className={"dropdown-item" + (url === "/accreditation" ? " active" : "")} onClick={closeMobileMenu}>
                                         Accreditation
                                     </Link>    
+                                    /* <Link to="/outcomesmanagementreport" className={"dropdown-item" + (url === "/outcomesmanagementreport" ? " active" : "")} onClick={closeMobileMenu}>
+                                        Outcomes Management Report
+                                    </Link>  */
                                 </div>
                             )}
                         </div>

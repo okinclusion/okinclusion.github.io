@@ -20,7 +20,9 @@ import Resources from './components/pages/Resources';
 import News from './components/pages/News';
 import Contact from './components/pages/Contact';
 import Login from './components/pages/Login.js';
-import Staff from './components/pages/Staff';
+import Staff from './components/pages/Staff.js';
+import OMR from './components/OMR.js';
+
 
 function App() {
   return (
@@ -47,6 +49,7 @@ function App() {
           <Route path="/contact" element={<Contact/>}/>
           <Route path="/login" element={<Login/>}/>
           <Route path="/staff" element={<Staff/>}/>
+          <Route path="/OMR" element={<OMR/>}/>
         </Routes>
       </Router>
     </>
