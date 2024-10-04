@@ -1,5 +1,4 @@
 import React from 'react'
-import backgroundVideo from '../videos/snow.mp4';
 import { TypeAnimation } from 'react-type-animation';     
 import './ContactForm.css';
 import './Main.css';

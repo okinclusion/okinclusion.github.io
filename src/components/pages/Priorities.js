@@ -1,7 +1,6 @@
 import React from 'react';
 import '../PrioritiesItem.css';
-import { TypeAnimation } from 'react-type-animation';       
-import backgroundVideo from '../../videos/snow.mp4';
+import { TypeAnimation } from 'react-type-animation';  
 import PrioritiesItem from '../PrioritiesItem';
 import Footer from '../Footer';
 

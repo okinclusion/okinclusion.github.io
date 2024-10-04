@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-import { Box } from '@mui/material';
+import React from "react";
 import Footer from '../Footer';
 import { TypeAnimation } from 'react-type-animation';  
 
