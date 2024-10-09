@@ -16,6 +16,36 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+.main-all {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    margin-bottom: -250px;
+    font-family: 'Montserrat', sans-serif;
+    max-height: 800px;
+    background-image: url(../images/background.png);
+    background-size: cover;
+    max-height: 800px;
+}
+
+.exception{
+    background-image: url(../images/background.png);
+    background-size: cover;
+    max-height: 768px;
+}
+
+.responsive-type-animation1 {
+    font-size: 12vw;
+    text-align: center;
+    vertical-align: middle;
+    padding-bottom: 15%;
+}
+
+
 /* Carousel */
 a {
     font-family: 'Montserrat', sans-serif;

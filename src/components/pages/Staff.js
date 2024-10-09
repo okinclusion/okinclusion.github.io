@@ -9,8 +9,8 @@ import Relias from '../../images/relias.png';
 
 export default function Staff() {
     return <> 
-    <div className='main-container'>
-        <div className='responsive-type-animation'>
+    <div className='main-all'>
+        <div className='responsive-type-animation1'>
           <TypeAnimation className='name' sequence={["Staff Resources", 1000]} speed={20} style={{ fontSize: '12vmin', fontFamily: 'Montserrat', textShadow: '3px 2px #5b05f9', color: '#fff'}}/>
         </div> 
     </div>

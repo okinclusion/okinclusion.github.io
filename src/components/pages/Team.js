@@ -7,8 +7,8 @@ import { TypeAnimation } from 'react-type-animation';
 
 export default function Team() {
     return <> 
-    <div className='main-container'>
-        <div className='responsive-type-animation'>
+    <div className='main-all'>
+        <div className='responsive-type-animation1'>
           <TypeAnimation className='name' sequence={["Meet The Team", 1000]} speed={5} style={{ fontSize: '12vmin', fontFamily: 'Montserrat', textShadow: '3px 2px #5b05f9', color: '#fff'}}/>
         </div> 
     </div>
