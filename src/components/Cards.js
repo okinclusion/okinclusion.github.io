@@ -7,8 +7,9 @@ function Cards() {
   const sherylEmail = "sherylm.okinclusion@shaw.ca";
   const michelleFEmail = "michelleb.okinclusion@shaw.ca";
   const michelleYEmail = "KeremeosCO.okinclusion@shaw.ca";
-  const amyEmail = "tbd";
-  const andreaEmail = "tbd";
+  const amyEmail = "pc2@okinclusion.ca";
+  const andreaEmail = "s.emp@okinclusion.ca";
+  const sierraEmail = 'it@okinclusion.ca';
 
   return (
     <div className='cards'>
@@ -27,12 +28,12 @@ function Cards() {
                   text="Sheryl Martin"
                   label="Program Coordinator"
                   email={sherylEmail}/>
-                  <CardItem
-                    src="images/comingsoon.png"
-                    text="Michelle Fritsche"
-                    label="Home Share Coordinator" 
-                    email={michelleFEmail}/>
                   <br/>
+                  <CardItem
+                src="images/comingsoon.png"
+                text="Amy Temple"
+                label="Program Coordinator" 
+                email={amyEmail}/>
               </ul>
               <ul className='cards__items'>
               <CardItem
@@ -41,18 +42,18 @@ function Cards() {
                   label="Program Coordinator" 
                   email={michelleYEmail}/>
                 <br/>
-              <CardItem
-                src="images/comingsoon.png"
-                text="Amy Temple"
-                label="Program Coordinator" 
-                email={amyEmail}/>
               <CardItem 
                 src="images/comingsoon.png"
                 text="Andrea Scarfo"
                 label="Employment Specialist/Job Developer"
                 email={andreaEmail}/>
-
+                <CardItem
+                  src="images/comingsoon.png"
+                  text="Sierra Williams"
+                  label="IT" 
+                  email={sierraEmail}/>
                 </ul>
+                <br/>
             </div>
         </div>
     </div>
