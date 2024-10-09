@@ -73,10 +73,10 @@ const ToolTip = () => {
         <div className='seal-wrapper'> 
             <img className='seal' src={CARFSeal}/>
         </div>
-        <div className="main" style={{ height: '100vh', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+        <div style={{ height: '100vh', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
             <iframe 
                 src={`${process.env.PUBLIC_URL}/accreditationreport.pdf`}
-                style={{ width: '80%', height: '90%', border: 'none', paddingTop: '80px'}}
+                style={{ width: '80%', height: '90%', border: 'none'}}
                 title="OMR PDF"
             />
         </div>

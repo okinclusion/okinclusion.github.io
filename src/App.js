@@ -23,6 +23,7 @@ import Contact from './components/pages/Contact';
 import Login from './components/pages/Login.js';
 import Staff from './components/pages/Staff.js';
 import OMR from './components/pages/OMR.js';
+import Scope from './components/pages/Scope.js';
 
 
 function App() {
@@ -52,6 +53,7 @@ function App() {
           <Route path="/login" element={<Login/>}/>
           <Route path="/staff" element={<Staff/>}/>
           <Route path="/OMR" element={<OMR/>}/>
+          <Route path="/scopeofservices" element={<Scope/>}/>
         </Routes>
       </Router>
     </>

@@ -135,6 +135,9 @@ function Navbar() {
                                     <Link to="/respite" className={"dropdown-item" + (url === "/respite" ? " active" : "")} onClick={closeMobileMenu}>
                                         Respite
                                     </Link>    
+                                    <Link to="scopeofservices" className={"dropdown-item" + (url === "scopeofservices" ? " active": "")} onClick={closeMobileMenu}>
+                                    Scope of Services
+                                    </Link>
                                 </div>
                             )}
                         </div>
