@@ -12,7 +12,7 @@ export default function Mission() {
           <TypeAnimation className='name' sequence={["Mission + Vision", 1000]} speed={20} style={{ fontSize: '12vmin', fontFamily: 'Montserrat', textShadow: '3px 2px #5b05f9', color: '#fff'}}/>
         </div> 
     </div>
-    <div className='coming-soon'>
+    <div className='main'>
       <Box textAlign="center" className="background" fontFamily="Tahoma" fontSize="3vmin" p={1} padding={"50px 30px"}>
 			  
           <p className="p"><b className="ap">Mission:</b> We support adults with developmental disabilities to participate meaningfully in all aspects of community life.</p>

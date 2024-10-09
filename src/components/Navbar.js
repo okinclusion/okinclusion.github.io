@@ -60,7 +60,8 @@ function Navbar() {
         '/missionvision',
         '/team',
         '/strategicpriorities',
-        '/accreditation'
+        '/accreditation',
+        '/OMR'
     ];
 
     const isAboutUsActive = aboutUsPaths.includes(url);
@@ -95,10 +96,10 @@ function Navbar() {
                                     </Link>    
                                     <Link to="/accreditation" className={"dropdown-item" + (url === "/accreditation" ? " active" : "")} onClick={closeMobileMenu}>
                                         Accreditation
-                                    </Link>    
-                                    /* <Link to="/outcomesmanagementreport" className={"dropdown-item" + (url === "/outcomesmanagementreport" ? " active" : "")} onClick={closeMobileMenu}>
+                                    </Link>
+                                    <Link to="/OMR" className={"dropdown-item" + (url === "/OMR" ? " active" : "")} onClick={closeMobileMenu}>
                                         Outcomes Management Report
-                                    </Link>  */
+                                    </Link> 
                                 </div>
                             )}
                         </div>

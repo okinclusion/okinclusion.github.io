@@ -22,7 +22,7 @@ import News from './components/pages/News';
 import Contact from './components/pages/Contact';
 import Login from './components/pages/Login.js';
 import Staff from './components/pages/Staff.js';
-import OMR from './components/OMR.js';
+import OMR from './components/pages/OMR.js';
 
 
 function App() {

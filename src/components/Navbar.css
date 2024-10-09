@@ -44,6 +44,8 @@
   display: inline;
 }
 
+
+
 .nav-links {
   color: #000;
   display: flex;
@@ -68,8 +70,12 @@
   cursor: pointer;
 }
 
-.dropdown-menu {
+.dropdown:hover .dropdown-menu {
   display: flex;
+}
+
+.dropdown-menu {
+  display: none;
   flex-direction: column;
   position: absolute;
   top: 100%;
