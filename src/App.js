@@ -42,8 +42,8 @@ function App() {
           <Route path="/keremeos" element={<Keremeos/>}/>
           <Route path="/homeshare" element={<HomeShare/>}/>
           <Route path="/homeshare-apply" element={<HomeShareApply/>}/>
-          <Route path="/careers" element={<Careers/>}/>
-          <Route path="/careers-apply" element={<CareersApply/>}/>
+          <Route path="/employment" element={<Careers/>}/>
+          <Route path="/employment-apply" element={<CareersApply/>}/>
           <Route path="/supportedliving" element={<SupportedLiving/>}/>
           <Route path="/supportedemployment" element={<SupportedEmployment/>}/>
           <Route path="/respite" element={<Respite/>}/>
