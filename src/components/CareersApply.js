@@ -1,6 +1,5 @@
 import React from 'react';
-import { TypeAnimation } from 'react-type-animation';       
-import backgroundVideo from '../videos/snow.mp4';
+import { TypeAnimation } from 'react-type-animation';  
 import Footer from './Footer';
 import CareersForm from './CareersForm';
 
