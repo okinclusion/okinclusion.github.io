@@ -12,9 +12,10 @@ import Penticton from './components/pages/Penticton';
 import Keremeos from './components/pages/Keremeos';
 import HomeShare from './components/pages/HomeShare';
 import HomeShareApply from './components/HomeShareApply';
-import Employment from './components/pages/Employment';
-import EmploymentApply from './components/EmploymentApply';
+import Careers from './components/pages/Careers';
+import CareersApply from './components/CareersApply';
 import SupportedLiving from './components/pages/SupportedLiving';
+import SupportedEmployment from './components/pages/SupportedEmployment.js';
 import Respite from './components/pages/Respite';
 import Resources from './components/pages/Resources';
 import News from './components/pages/News';
@@ -40,9 +41,10 @@ function App() {
           <Route path="/keremeos" element={<Keremeos/>}/>
           <Route path="/homeshare" element={<HomeShare/>}/>
           <Route path="/homeshare-apply" element={<HomeShareApply/>}/>
-          <Route path="/employment" element={<Employment/>}/>
-          <Route path="/employment-apply" element={<EmploymentApply/>}/>
+          <Route path="/careers" element={<Careers/>}/>
+          <Route path="/careers-apply" element={<CareersApply/>}/>
           <Route path="/supportedliving" element={<SupportedLiving/>}/>
+          <Route path="/supportedemployment" element={<SupportedEmployment/>}/>
           <Route path="/respite" element={<Respite/>}/>
           <Route path="/news" element={<News/>}/>
           <Route path="/resources" element={<Resources/>}/>

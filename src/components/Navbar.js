@@ -122,9 +122,12 @@ function Navbar() {
                                     <Link to="/homeshare" className={"dropdown-item" + (url === "/homeshare" ? " active" : "")} onClick={closeMobileMenu}>
                                         Home Share
                                     </Link>   
-                                    <Link to="/employment" className={"dropdown-item" + (url === "/employment" ? " active" : "")} onClick={closeMobileMenu}>
-                                        Employment
+                                    <Link to="/careers" className={"dropdown-item" + (url === "/careers" ? " active" : "")} onClick={closeMobileMenu}>
+                                        Careers
                                     </Link>     
+                                    <Link to="/supportedemployment" className={"dropdown-item" + (url === "/supportedemployment" ? " active" : "")} onClick={closeMobileMenu}>
+                                        Supported Employment
+                                    </Link>  
                                     <Link to="/supportedliving" className={"dropdown-item" + (url === "/supportedliving" ? " active" : "")} onClick={closeMobileMenu}>
                                         Supported Living
                                     </Link>    

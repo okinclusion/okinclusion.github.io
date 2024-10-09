@@ -2,7 +2,7 @@ import React from 'react';
 import { TypeAnimation } from 'react-type-animation';       
 import backgroundVideo from '../videos/snow.mp4';
 import Footer from './Footer';
-import EmploymentForm from './EmploymentForm';
+import CareersForm from './CareersForm';
 
 function Apply() { 
 
@@ -17,7 +17,7 @@ function Apply() {
             </div> 
         </div>
         <div className='main-card'>
-            <EmploymentForm/>
+            <CareersForm/>
         </div>
         <Footer/>
     </>
