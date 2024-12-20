@@ -63,3 +63,13 @@ ul {
 li {
     margin-left: 50px;
 }
+
+.link {
+    text-align: center;
+    font-size: larger;
+    color: #5b05f9;
+}
+
+.link a:hover {
+    color: #5b05f9;
+}
