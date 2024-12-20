@@ -80,7 +80,7 @@ function Employment() {
             )}
             <br/>
             <div className='link'>
-              <a href='https://communitylivingcareers.ca'>Careers In Community Living</a>
+              Click for more information <a href='https://communitylivingcareers.ca'>Careers In Community Living</a>
             </div>
             <div className='main-btns apply'>
                 <Button className='btns' link="/employment-apply" buttonStyle='btn--outline' buttonSize='btn--large'>

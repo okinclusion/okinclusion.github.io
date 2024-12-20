@@ -67,9 +67,12 @@ li {
 .link {
     text-align: center;
     font-size: larger;
+}
+
+.link a {
     color: #5b05f9;
 }
 
 .link a:hover {
-    color: #5b05f9;
+    color: #5a5a5c;
 }
