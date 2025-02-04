@@ -14,7 +14,14 @@ export default function Resources() {
     </div>
     <div className='main'>
       <Box textAlign="center" className="background" fontFamily="Tahoma" fontSize="3vmin" p={1} padding={"50px 30px"}>
-			  <h1>Coming Soon</h1>
+			  <h1>Partners</h1>
+        <div className='main_info' style={{fontSize: '3vmin'}}>
+            <a href="https://inclusionbc.org"><img width="100px" src="images/inclusionBClogo.jpg"/></a>
+            &nbsp;
+            <a href="https://www.communitylivingbc.ca"><img width="150px" src="images/CLBClogo.png"/></a>
+            &nbsp;
+            <a href="https://www.cape.ca"><img width="140px" src="images/CAPElogo.png"/></a>
+            </div>
         </Box>
 		</div>
     {/* <Item/> */}
