@@ -24,13 +24,6 @@ export default function Resources() {
             </div>
         </Box>
 		</div>
-    {/* <Item/> */}
     <Footer/>
 </>;
 }
-
-/* 
-arrow: Down arrow icons created by th studio - Flaticon
-
-*/
-

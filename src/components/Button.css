@@ -76,3 +76,10 @@ li {
 .link a:hover {
     color: #5a5a5c;
 }
+
+@media screen and (min-width: 1110px) {
+    .main_info {
+        font-size: 3vmax;
+    }
+    
+}
