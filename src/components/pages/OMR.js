@@ -7,7 +7,6 @@ const OMR = () => {
               <iframe 
                 src="https://okincbucket.s3.us-east-1.amazonaws.com/OMR2023"
                 style={{ width: '80%', height: '90%', border: 'none', paddingTop: '80px'}}
-                title="OMR PDF"
                 title="OutcomesManagementReportPDF"
                 />
         </div>
