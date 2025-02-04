@@ -20,7 +20,7 @@ export default function Resources() {
             &nbsp;
             <a href="https://www.communitylivingbc.ca"><img width="150px" src="images/CLBClogo.png"/></a>
             &nbsp;
-            <a href="https://www.cape.ca"><img width="140px" src="images/CAPElogo.png"/></a>
+            <a href="https://www.supportedemployment.ca"><img width="400px" src="images/CASElogo.webp"/></a>
             </div>
         </Box>
 		</div>
