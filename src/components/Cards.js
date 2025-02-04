@@ -6,7 +6,7 @@ function Cards() {
   const leanneEmail = "ceo@okinclusion.ca";
   const sherylEmail = "sherylm.okinclusion@shaw.ca";
   const michelleFEmail = "michelleb.okinclusion@shaw.ca";
-  const michelleYEmail = "KeremeosCO.okinclusion@shaw.ca";
+  const michelleYEmail = "keremeosco.okinclusion@shaw.ca";
   const amyEmail = "pc2@okinclusion.ca";
   const andreaEmail = "s.emp@okinclusion.ca";
   const sierraEmail = 'it@okinclusion.ca';
@@ -25,9 +25,9 @@ function Cards() {
                   <br/>
                   <CardItem
                   src="images/comingsoon.png"
-                  text="Sheryl Martin"
-                  label="Program Coordinator"
-                  email={sherylEmail}/>
+                  text="Michelle Fritsche"
+                  label="Home Share Coordinator"
+                  email={michelleFEmail}/>
                   <br/>
                   <CardItem
                 src="images/comingsoon.png"
