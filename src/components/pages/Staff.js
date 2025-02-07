@@ -15,7 +15,7 @@ export default function Staff() {
         </div>
     <div className='main'>
 		<Box textAlign="center" margin="100px 0 0 0" fontFamily="Montserrat" fontSize="1.25rem" p={1} padding={"50px 30px"}>
-        <h5 className='main-text' style={{fontFamily: 'Montserrat'}}>Click the Link to Access the Webpage.</h5>
+        <h5 className='main-text' style={{fontFamily: 'Montserrat', margin: '0 0 -50px 0'}}>Click the Link to Access the Webpage.</h5>
             <div className="links">
                 <img className="pics" src={ShareVision} width={"150px"}/>
                 <br/>

@@ -10,17 +10,18 @@ export const EventProvider = ({ children }) => {
   // Predefined events
   const [events] = useState([
     // January
-    { id: 0, date: new Date(2024, 0, 1), title: "New Year's Day" },
+    { id: 0, date: new Date(2025, 0, 1), title: "New Year's Day" },
     // February
-    { id: 1, date: new Date(2024, 1, 1), title: "Black History Month" },
-    { id: 2, date: new Date(2024, 1, 14), title: "Valentine's Day" },
-    { id: 3, date: new Date(2024, 1, 17), title: "Random Acts of Kindness Day" },
-    { id: 4, date: new Date(2024, 1, 28), title: "Pink Shirt Day" },
+    { id: 1, date: new Date(2025, 1, 1), title: "Black History Month" },
+    { id: 2, date: new Date(2025, 1, 14), title: "Valentine's Day" },
+    { id: 3, date: new Date(2025, 1, 17), title: "Random Acts of Kindness Day" },
+    { id: 4, date: new Date(2025, 1, 17), title: "Family Day"},
+    { id: 5, date: new Date(2025, 1, 26), title: "Pink Shirt Day" },
     // March
-    { id: 5, date: new Date(2024, 2, 1), title: "Cerebral Palsy Awareness Month" },
-    { id: 6, date: new Date(2024, 2, 8), title: "International Women's Day" },
-    { id: 7, date: new Date(2024, 2, 21), title: "World Down Syndrome Day" },
-    { id: 8, date: new Date(2024, 2, 26), title: "Purple Day for Epilepsy" },
+    { id: 5, date: new Date(2025, 2, 1), title: "Cerebral Palsy Awareness Month" },
+    { id: 6, date: new Date(2025, 2, 8), title: "International Women's Day" },
+    { id: 7, date: new Date(2025, 2, 21), title: "World Down Syndrome Day" },
+    { id: 8, date: new Date(2025, 2, 26), title: "Purple Day for Epilepsy" },
 
     { id: 9, date: new Date(2024, 2, 31), title: "International Transgender Day of Visibility" },
     // April
