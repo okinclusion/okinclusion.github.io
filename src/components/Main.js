@@ -7,7 +7,7 @@ import { Button2 } from './Button2';
 function Main() { 
   return (
     <div className='main-container'>
-        <div className='name' style={{fontSize:'8vmax', fontFamily: 'Montserrat', color: '#fff', textShadow: '3px 2px #5b05f9'}}>
+        <div className='main-name' style={{fontSize:'8vmax', fontFamily: 'Montserrat', color: '#fff', textShadow: '3px 2px #5b05f9'}}>
           Okanagan Inclusion        
           </div> 
         <p className='title'>Est. 2013</p>

@@ -3,14 +3,13 @@ import '../../App.css';
 import '../Item.css';
 import Item from "../Item.js";
 import Footer from '../Footer';
-import { TypeAnimation } from 'react-type-animation';  
 
 export default function History() {
     return <> 
       <div className='main-all'>
-          <div className='responsive-type-animation1'>
-            <TypeAnimation className='name' sequence={["About Us", 1000]} speed={20} style={{ fontSize: '12vmin', fontFamily: 'Montserrat', textShadow: '3px 2px #5b05f9', color: '#fff'}}/>
-          </div> 
+        <div className='name' style={{fontSize:'8vmax', fontFamily: 'Montserrat', color: '#fff', textShadow: '3px 2px #5b05f9'}}>
+          About Us        
+        </div> 
       </div>
     <Item/>
     <Footer/>

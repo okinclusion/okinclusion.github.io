@@ -3,7 +3,7 @@ import './Accessibility.css';
 
 // Function to adjust font size
 const adjustFontSize = (delta) => {
-  const textElements = document.querySelectorAll('p, h1, h2, h3, h4, h5, h6, span, a, li, label, textarea');
+  const textElements = document.querySelectorAll('p, div, h1, h2, h3, h4, h5, h6, span, a, li, label, textarea');
   textElements.forEach(element => {
     const currentSize = window.getComputedStyle(element, null).getPropertyValue('font-size');
     const newSize = parseFloat(currentSize) + delta;
