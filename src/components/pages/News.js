@@ -2,7 +2,6 @@ import React from "react";
 import Calendar from "../Calendar.js";
 import '../../App.css';
 import Footer from '../Footer';
-import { TypeAnimation } from 'react-type-animation'; 
 import { EventProvider } from "../EventContext.js"; 
 
 function News() {
