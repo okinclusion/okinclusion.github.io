@@ -12,11 +12,12 @@ function Penticton() {
 
     return (
     <> 
-    <div className='main-all exception'>
-        <div className='responsive-type-animation1'>
-          <TypeAnimation className='name' sequence={["Penticton", 1000]} speed={20} style={{ fontSize: '12vmin', fontFamily: 'Montserrat', textShadow: '3px 2px #5b05f9', color: '#fff'}}/>
+    <div className='main-all'>
+    <div className='name' style={{fontSize:'8vmin', fontFamily: 'Montserrat', color: '#fff', textShadow: '3px 2px #6C3092'}}>
+        Penticton
         </div> 
     </div>
+    <div className='main-text' style={{margin: '0 0 60px 0'}}></div>
     <div className='container'>
         <InclusionItem
         hours=' Monday to Friday: 8:30am to 4:30pm'

@@ -7,20 +7,21 @@ import { TypeAnimation } from 'react-type-animation';
 
 export default function Resources() {
     return <> 
-    <div className='main-all exception'>
-        <div className='responsive-type-animation1'>
-          <TypeAnimation className='name' sequence={["Resources", 1000]} speed={20} style={{ fontSize: '12vmin', fontFamily: 'Montserrat', textShadow: '3px 2px #5b05f9', color: '#fff'}}/>
+    <div className='main-all'>
+    <div className='name' style={{fontSize:'8vmin', fontFamily: 'Montserrat', color: '#fff', textShadow: '3px 2px #6C3092'}}>
+         Resources    
         </div> 
     </div>
-    <div className='main'>
+    <div className='main main-text'>
+      
       <Box textAlign="center" className="background" fontFamily="Tahoma" fontSize="3vmin" p={1} padding={"50px 30px"}>
 			  <h1>Partners</h1>
         <div className='main_info' style={{fontSize: '3vmin'}}>
-            <a href="https://inclusionbc.org"><img width="100px" src="images/inclusionBClogo.jpg"/></a>
+            <a href="https://inclusionbc.org"><img width="100px" src="images/OrganizationLogos/inclusionBClogo.jpg"/></a>
             &nbsp;
-            <a href="https://www.communitylivingbc.ca"><img width="150px" src="images/CLBClogo.png"/></a>
+            <a href="https://www.communitylivingbc.ca"><img width="150px" src="images/OrganizationLogos/CLBClogo.png"/></a>
             &nbsp;
-            <a href="https://www.supportedemployment.ca"><img width="400px" src="images/CASElogo.webp"/></a>
+            <a href="https://www.supportedemployment.ca"><img width="400px" src="images/OrganizationLogos/CASElogo.webp"/></a>
             </div>
         </Box>
 		</div>

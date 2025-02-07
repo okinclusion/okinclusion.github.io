@@ -66,7 +66,7 @@ h1 {
 } 
 
 .react-calendar__month-view__days__day--weekend { 
-	color: #5b05f9; 
+	color: #6C3092; 
 } 
 
 .react-calendar__tile:enabled:hover, 
@@ -84,7 +84,7 @@ h1 {
 } 
 
 .event-marked { 
-	background-color: #5b05f9; 
+	background-color: #6C3092; 
 	color: white; 
 }
 
@@ -101,6 +101,6 @@ h1 {
 	font-size: 18px;
 	margin-top: 10px;
 	list-style: none;
-	color: #5b05f9;
+	color: #6C3092;
 	font-style: italic;
 }

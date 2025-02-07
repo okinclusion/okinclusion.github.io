@@ -35,7 +35,7 @@
 }
 
 .nav-item.active {
-  border-bottom: 4px solid #5b05f9;
+  border-bottom: 4px solid #6C3092;
   transition: all 0.2s ease-out;
 }
 
@@ -43,8 +43,6 @@
   height: 4vmax;
   display: inline;
 }
-
-
 
 .nav-links {
   color: #000;
@@ -61,7 +59,7 @@
 }
 
 .nav-links:hover {
-  border-bottom: 4px solid #5b05f9;
+  border-bottom: 4px solid #6C3092;
   transition: all 0.2s ease-out;
 }
 
@@ -171,7 +169,7 @@
   }
 
   .nav-links:hover {
-    background-color: #5b05f9;
+    background-color: #6C3092;
     color: #fff;
     border-radius: 0;
   }
@@ -235,5 +233,5 @@
 }
 
 .nav-item.dropdown:hover + .nav-item {
-  margin-top: 160px; /* Adjust this value based on the height of your dropdown */
+  margin-top: 32px; /* Adjust this value based on the height of your dropdown */
 }

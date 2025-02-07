@@ -12,6 +12,8 @@ function Cards() {
   const sierraEmail = 'it@okinclusion.ca';
 
   return (
+    <>
+   
     <div className='cards'>
         <h1 className='title-work'></h1>
         <div className='cards__container'>
@@ -30,7 +32,7 @@ function Cards() {
                   email={michelleFEmail}/>
                   <br/>
                   <CardItem
-                src="images/comingsoon.png"
+                src="images/StaffPhotos/AmyTemple.jpeg"
                 text="Amy Temple"
                 label="Program Coordinator" 
                 email={amyEmail}/>
@@ -48,7 +50,7 @@ function Cards() {
                 label="Employment Specialist/Job Developer"
                 email={andreaEmail}/>
                 <CardItem
-                  src="images/comingsoon.png"
+                  src="images/StaffPhotos/SierraWilliams.jpg"
                   text="Sierra Williams"
                   label="IT" 
                   email={sierraEmail}/>
@@ -57,6 +59,7 @@ function Cards() {
             </div>
         </div>
     </div>
+    </>
   )
 }
 

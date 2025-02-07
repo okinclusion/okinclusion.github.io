@@ -12,18 +12,18 @@
 
 .btn--primary {
     background-color: var(--primary);
-    color: #5b05f9;
+    color: #6C3092;
     border: 1px solid var(--primary);
-    box-shadow: 5px 5px #5b05f9;
+    box-shadow: 5px 5px #6C3092;
 
 }
 
 .btn--outline {
     background-color: #fff;
-    color: #5b05f9;
+    color: #6C3092;
     padding: 8px 20px;
-    border: #5b05f9 1px solid;
-    box-shadow: 5px 5px #5b05f9;
+    border: #6C3092 1px solid;
+    box-shadow: 5px 5px #6C3092;
     transition: all 0.3s ease-out;
 }
 
@@ -70,7 +70,7 @@ li {
 }
 
 .link a {
-    color: #5b05f9;
+    color: #6C3092;
 }
 
 .link a:hover {

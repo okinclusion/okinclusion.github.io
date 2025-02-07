@@ -8,6 +8,7 @@ function Contact () {
     return (
         <>
             <ContactMain/>
+            <div className='main-text' style={{margin: '0 0 60px 0'}}></div>
             <ContactForm/>
             <Footer/>
         </>

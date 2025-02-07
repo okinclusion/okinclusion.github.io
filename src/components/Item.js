@@ -6,40 +6,41 @@ function Item(props, { fontSize }) {
   return (
     <>
 	<div className='main'>
+		<div className='main-text'></div>
 	<section class="carousel">
 		<div class="reel">
 			<article>
-				<a href="/communityinclusion" class="image featured"><img class="images" src="images/okinc-pic01.jpg" alt=""/></a>
+				<a href="/communityinclusion" class="image featured"><img class="images" src="images/ClientPhotos/okinc-pic01.jpg" alt=""/></a>
 				<header>
 					<h3><a href="penticton.html">Community Inclusion</a></h3>
 				</header>
 			</article>
 			<article>
-				<a href="/news#events" class="image featured"><img class="images" src="images/okinc-pic02.jpg" alt=""/></a>
+				<a href="/news#events" class="image featured"><img class="images" src="images/ClientPhotos/okinc-pic02.jpg" alt=""/></a>
 				<header>
 					<h3><a href="news.html#events">Events</a></h3>
 				</header>
 			</article>
 			<article>
-				<a href="/news" class="image featured"><img class="images" src="images/okinc-pic08.jpg"  alt="" /></a>
+				<a href="/news" class="image featured"><img class="images" src="images/ClientPhotos/okinc-pic08.jpg"  alt="" /></a>
 				<header>
 					<h3><a href="news.html">News</a></h3>
 				</header>
 			</article>
 			<article>
-				<a href="/missionvision" class="image featured"><img class="images" src="images/okinc-pic11.jpg" alt="" /></a>
+				<a href="/missionvision" class="image featured"><img class="images" src="images/ClientPhotos/okinc-pic11.jpg" alt="" /></a>
 				<header>
 					<h3><a href="mission-vision.html">Mission + Vision</a></h3>
 				</header>
 			</article>
 			<article>
-				<a href="/employment" class="image featured"><img class="images" src="images/okinc-pic06.jpg" alt="" /></a>
+				<a href="/employment" class="image featured"><img class="images" src="images/ClientPhotos/okinc-pic06.jpg" alt="" /></a>
 				<header>
 					<h3><a href="employment.html">Employment</a></h3>
 				</header>
 			</article>
 			<article>
-				<a href="/resources" class="image featured"><img class="images" src="images/okinc-pic10.jpg" alt="" /></a>
+				<a href="/resources" class="image featured"><img class="images" src="images/ClientPhotos/okinc-pic10.jpg" alt="" /></a>
 				<header>
 					<h3><a href="resources.html">Resources</a></h3>
 				</header>

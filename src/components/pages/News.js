@@ -9,11 +9,12 @@ function News() {
 
     return(
         <>
-            <div className='main-all exception'>
-                <div className='responsive-type-animation1'>
-                <TypeAnimation className='name' sequence={["News", 1000]} speed={20} style={{ fontSize: '12vmin', fontFamily: 'Montserrat', textShadow: '3px 2px #5b05f9', color: '#fff'}}/>
-                </div> 
-            </div>
+            <div className='main-all'>
+            <div className='name' style={{fontSize:'8vmin', fontFamily: 'Montserrat', color: '#fff', textShadow: '3px 2px #6C3092'}}>
+          News
+        </div> 
+            </div> 
+            <div className='main-text' style={{margin: '0 0 60px 0'}}></div>
             <div className="container">
                 <EventProvider>
                     <Calendar/>

@@ -6,9 +6,9 @@ import './Item.css';
 
 function ContactMain() {
   return (
-    <div className='main-all exception'>
-        <div className='responsive-type-animation1'>
-          <TypeAnimation className='name' sequence={["Contact", 1000]} speed={20} style={{ fontSize: '8vw', fontFamily: 'Montserrat', textShadow: '3px 2px #5b05f9', color: '#fff'}}/>
+    <div className='main-all'>
+        <div className='name' style={{fontSize:'8vmin', fontFamily: 'Montserrat', color: '#fff', textShadow: '3px 2px #6C3092'}}>
+          Contact Us    
         </div> 
     </div>
   )

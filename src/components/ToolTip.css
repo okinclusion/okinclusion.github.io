@@ -13,13 +13,13 @@
   
   .tooltip-trigger {
     cursor: pointer;
-    color: #5b05f9;
+    color: #6C3092;
     margin: 5px;
   }
   
   /* Tooltip styles */
   .tooltip {
-    background-color: #5b05f9;
+    background-color: #6C3092;
     color: #fff;
     border-radius: 4px;
     padding: 8px;

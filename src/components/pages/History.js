@@ -7,7 +7,7 @@ import Footer from '../Footer';
 export default function History() {
     return <> 
       <div className='main-all'>
-        <div className='name' style={{fontSize:'8vmax', fontFamily: 'Montserrat', color: '#fff', textShadow: '3px 2px #5b05f9'}}>
+        <div className='name' style={{fontSize:'8vmin', fontFamily: 'Montserrat', color: '#fff', textShadow: '3px 2px #6C3092'}}>
           About Us        
         </div> 
       </div>

@@ -1,7 +1,6 @@
 import React from 'react';
 import '../../App.css';
-import '../Main.css';
-import { TypeAnimation } from 'react-type-animation';       
+import '../Main.css';   
 import ToolTip from '../ToolTip';
 import Footer from '../Footer';
 
@@ -9,10 +8,11 @@ function Accreditation() {
   return (
     <>
     <div className='main-all'>
-        <div className='responsive-type-animation1'>
-          <TypeAnimation className='name' sequence={["Accreditation", 1000]} speed={20} style={{ fontSize: '12vmin', fontFamily: 'Montserrat', textShadow: '3px 2px #5b05f9', color: '#fff'}}/>
+    <div className='name' style={{fontSize:'8vmin', fontFamily: 'Montserrat', color: '#fff', textShadow: '3px 2px #6C3092'}}>
+      Accreditation
         </div> 
     </div>
+    <div className='main-text' style={{margin: '0 0 60px 0'}}></div>
     <ToolTip/>
     <Footer/>
     </>
