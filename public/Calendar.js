@@ -7,6 +7,7 @@ import { useEventContext } from "./EventContext";
 const App = () => {
   const { events } = useEventContext();
   const [selectedDate, setSelectedDate] = useState(null);
+  const [monthlyEvents, setMonthlyEvents] = useState([]);
 
 
   const handleDateClick = (date) => {
@@ -15,11 +16,11 @@ const App = () => {
 
   const handleMonthChange = (newDate) => {
     setSelectedDate(newDate);
-  }
+  };
 
   const getEventsForDate = (date) => {
     return events.filter(
-      (event) => event.date instanceof Date && event.date.toDateString() === date.toDateString()
+      (event) => event.startDate <= date && event.endDate >= date
     );
   };
 
@@ -38,7 +39,6 @@ const App = () => {
   const selectedMonth = selectedDate ? selectedDate.getMonth() : new Date().getMonth();
   const selectedYear = selectedDate ? selectedDate.getFullYear() : new Date().getFullYear();
 
-  const monthlyEvents = getMonthlyEvents(selectedMonth, selectedYear);
 
   return (
     <div className="app">

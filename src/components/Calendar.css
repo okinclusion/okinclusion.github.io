@@ -15,6 +15,15 @@ body {
 	font-size: 2.5rem; 
 	text-align: center;
   }
+
+  h2 {
+	font-size: 1.5em;
+  }
+
+  .react-calendar__navigation__label__labelText .react-calendar__navigation__label__labelText--from {
+	font-size: 20px;
+	font-family: Montserrat, sans-serif;
+  }
   
   .container { 
 	display: flex; 
@@ -25,30 +34,28 @@ body {
 	transition: all 0.3s ease;
   }
   
-  .calendar-container, .event-list, .event-container {
+  .calendar-container, .event-list {
 	transition: width 0.3s ease;
 	padding: 0;
 	margin: 0;
-	flex: 1; /* Ensure they take up equal space */
   }
   
-  .container-selected .calendar-container, 
-  .container-selected .event-list, 
-  .container-selected .event-container {
-	width: 33%; /* Make each take up 33% when a date is selected */
+  .container-selected .calendar-container, .container-selected .event-list {
+	width: 33%;
   }
   
-  .container:not(.selected) .calendar-container, 
-  .container:not(.selected) .event-list {
-	width: 50%; /* Make these 50% width before selecting a date */
+  .container:not(.selected) .calendar-container, .container:not(.selected) .event-list {
+	width: 50%;
   }
   
   .calendar-container { 
+	flex: 1; 
 	max-width: 500px; 
 	margin-right: 1rem;
   }
   
   .event-container { 
+	flex: 1; 
 	max-width: 500px; 
   }
   
