@@ -21,8 +21,7 @@ export const EventProvider = ({ children }) => {
     { id: 7, date:  new Date(2025, 1, 26), title: "Pink Shirt Day" },
     { id: 8, date:  new Date(2025, 1, 26), title: "Maha Shivaratri" },
     // March
-    { id: 9, date: new Date(2025, 2, 0), title: "Cerebral Palsy Awareness Month", isWholeMonthEvent: true },
-    { id: 10, date: new Date(2025, 2, 0), title: "Ramadan", isWholeMonthEvent: true },
+    { id: 9, date: new Date(2025, 2, 1), title: "Cerebral Palsy Awareness Month", isWholeMonthEvent: true },
     { id: 11, date: new Date(2025, 2, 8), title: "International Women's Day" },
     { id: 12, date: new Date(2025, 2, 9), title: "Daylight Savings" },
     { id: 13, date: new Date(2025, 2, 10), title: "Holi" },
