@@ -42,10 +42,11 @@ const App = () => {
 
   return (
     <div className="app">
-      <h1>Events at OI</h1>
+      <h1>OI News</h1>
       <div class="link-container">
-        <a href="https://www.castanet.net/news/StandOUT/600316/Okanagan-Inclusion-looking-for-home-share-providers-who-will-make-big-impact#600316">Castanet: <span>Okanagan Inclusion looking for home share providers who will make big impact.</span></a>
+        <a href="https://www.castanet.net/news/StandOUT/600316/Okanagan-Inclusion-looking-for-home-share-providers-who-will-make-big-impact#600316">Article on Castanet recruiting Homeshare providers/n<span>Okanagan Inclusion looking for home share providers who will make big impact.</span></a>
       </div>
+      <h1>Events at OI</h1>
       <div className="container">
         <div className="event-list">
           <h2>Monthly Events</h2>
