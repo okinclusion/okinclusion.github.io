@@ -129,3 +129,11 @@ body {
 	font-style: italic;
   }
   
+  .link-container {
+	padding: 10px 0px;
+  }
+  
+  .link-container a span {
+	color: rgb(108, 48, 146);
+  }
+  
