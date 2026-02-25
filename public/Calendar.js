@@ -43,6 +43,9 @@ const App = () => {
   return (
     <div className="app">
       <h1>Events at OI</h1>
+      <div class="link-container">
+        <a href="https://www.castanet.net/news/StandOUT/600316/Okanagan-Inclusion-looking-for-home-share-providers-who-will-make-big-impact#600316">Okanagan Inclusion looking for home share providers who will make big impact.</a>
+      </div>
       <div className="container">
         <div className="event-list">
           <h2>Monthly Events</h2>
