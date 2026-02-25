@@ -23,7 +23,7 @@ function Main() {
             </Button2>
         </div>
       <div className='poster-container'>
-        <img src="/Users/sierrawilliams/Documents/GitHub/okinclusion.github.io/public/images/Caregiver.png"/>
+        <img src="../../images/Caregiver.png"/>
       </div>
     </div>
   )
