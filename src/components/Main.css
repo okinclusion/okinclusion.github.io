@@ -2,6 +2,7 @@
     background-image: url(../images/background2.jpg);
     background-size: cover;
     min-height: 1119px;
+    height: 2200px !important;
 }
 
 .main-container > p {
@@ -17,6 +18,10 @@
 
 .main-btns .btn {
     margin: 6px;
+}
+
+.main-container .poster-container img {
+    width: 1000px;
 }
 
 

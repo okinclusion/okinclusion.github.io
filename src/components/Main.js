@@ -7,9 +7,6 @@ import { Button2 } from './Button2';
 function Main() { 
   return (
     <div className='main-container'>
-        <div className='main-name' style={{fontSize:'8vmin', fontFamily: 'Montserrat', color: '#fff', textShadow: '3px 2px #6C3092'}}>
-          Okanagan Inclusion        
-          </div> 
         <p className='title'>Est. 2013</p>
         <div className='main-btns'>
             <a href="/team"><Button className='btns' link="/team" buttonStyle='btn--outline'
