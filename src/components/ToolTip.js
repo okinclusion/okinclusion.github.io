@@ -75,7 +75,7 @@ const ToolTip = () => {
         </div>
         <div style={{ height: '100vh', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
         <iframe 
-          src="https://okincbucket.s3.us-east-1.amazonaws.com/Accreditation-Report-187038-2026"
+          src="https://okincbucket.s3.us-east-1.amazonaws.com/Accreditation-Report-2026"
           style={{ width: '80%', height: '90%', border: 'none'}}
           title="AccreditationReportPDF"
         />
