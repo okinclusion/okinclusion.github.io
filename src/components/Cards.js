@@ -4,11 +4,12 @@ import './Cards.css';
 
 function Cards() {
   const leanneEmail = "ceo@okinclusion.ca";
-  const sherylEmail = "sherylm.okinclusion@shaw.ca";
   const michelleFEmail = "michelleb.okinclusion@shaw.ca";
-  const michelleYEmail = "keremeosco.okinclusion@shaw.ca";
+  const michelleYEmail = "homeshare@okinclusion.ca";
+  const bethEmail = "kcommunityoptions@okinclusion.ca"
   const amyEmail = "pc2@okinclusion.ca";
   const andreaEmail = "s.emp@okinclusion.ca";
+  const kobeEmail = 'asstpcpen@okinclusion.ca';
   const sierraEmail = 'it@okinclusion.ca';
 
   return (
@@ -28,7 +29,7 @@ function Cards() {
                   <CardItem
                   src="images/comingsoon.png"
                   text="Michelle Fritsche"
-                  label="Home Share Coordinator"
+                  label="Director of Share Living"
                   email={michelleFEmail}/>
                   <br/>
                   <CardItem
@@ -39,7 +40,7 @@ function Cards() {
               </ul>
               <ul className='cards__items'>
               <CardItem
-                  src="images/comingsoon.png"
+                  src="images/MichelleYoung.jpeg"
                   text="Michelle Young"
                   label="Program Coordinator" 
                   email={michelleYEmail}/>
@@ -48,12 +49,26 @@ function Cards() {
                 src="images/comingsoon.png"
                 text="Andrea Scarfo"
                 label="Employment Specialist/Job Developer"
-                email={andreaEmail}/>
-                <CardItem
-                  src="images/StaffPhotos/SierraWilliams.jpg"
-                  text="Sierra Williams"
-                  label="IT" 
-                  email={sierraEmail}/>
+                email={andreaEmail}
+              />
+              <CardItem
+                src="images/StaffPhotos/KobeHutchinson.jpg"
+                text="Kobe Hutchinson"
+                label="Assistant Program Coordinator" 
+                email={kobeEmail}
+              />
+              <CardItem
+                src="images/StaffPhotos/BethRoth.jpg"
+                text="Elizabeth Roth"
+                label="Assistant Program Coordinator" 
+                email={bethEmail}
+              />
+              <CardItem
+                src="images/StaffPhotos/SierraWilliams.jpg"
+                text="Sierra Williams"
+                label="IT" 
+                email={sierraEmail}
+              />
                 </ul>
                 <br/>
             </div>
