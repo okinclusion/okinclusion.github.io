@@ -329,6 +329,7 @@
   .nb-menu      { display: none; }
   .nb-hamburger { display: block; }
   .nb-drawer    { display: flex; }
+}
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600;700&family=DM+Sans:wght@300;400;500&display=swap');
 
 /* ── VARIABLES ───────────────────────────────── */
