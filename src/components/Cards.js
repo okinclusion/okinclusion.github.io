@@ -45,12 +45,6 @@ function Cards() {
                   label="Program Coordinator" 
                   email={michelleYEmail}/>
                 <br/>
-              <CardItem 
-                src="images/comingsoon.png"
-                text="Andrea Scarfo"
-                label="Employment Specialist/Job Developer"
-                email={andreaEmail}
-              />
               <CardItem
                 src="images/StaffPhotos/KobeHutchinson.jpg"
                 text="Kobe Hutchinson"
@@ -58,10 +52,17 @@ function Cards() {
                 email={kobeEmail}
               />
               <CardItem
-                src="images/StaffPhotos/BethRoth.jpg"
+                src="images/StaffPhotos/BethRoth.JPG"
                 text="Elizabeth Roth"
                 label="Assistant Program Coordinator" 
                 email={bethEmail}
+              />
+              <br/>
+              <CardItem 
+                src="images/comingsoon.png"
+                text="Andrea Scarfo"
+                label="Employment Specialist/Job Developer"
+                email={andreaEmail}
               />
               <CardItem
                 src="images/StaffPhotos/SierraWilliams.jpg"
