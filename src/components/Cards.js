@@ -21,57 +21,60 @@ function Cards() {
             <div className='cards__wrapper'>
               <ul className='cards__items'>
               <CardItem
-                  src="images/comingsoon.png"
-                  text="Leanne Williams"
-                  label="CEO" 
-                  email={leanneEmail} />
-                  <br/>
-                  <CardItem
-                  src="images/comingsoon.png"
-                  text="Michelle Fritsche"
-                  label="Director of Share Living"
-                  email={michelleFEmail}/>
-                  <br/>
-                  <CardItem
+                src="images/comingsoon.png"
+                text="Leanne Williams"
+                label="CEO" 
+                email={leanneEmail} 
+              />
+              <br/>
+              <CardItem
+                src="images/comingsoon.png"
+                text="Michelle Fritsche"
+                label="Director of Share Living"
+                email={michelleFEmail}
+              />
+              <br/>
+              <CardItem
                 src="images/StaffPhotos/AmyTemple.jpeg"
                 text="Amy Temple"
                 label="Program Coordinator" 
-                email={amyEmail}/>
+                email={amyEmail}
+              />
               </ul>
               <ul className='cards__items'>
-              <CardItem
+                <CardItem
                   src="images/StaffPhotos/MichelleYoung.jpeg"
                   text="Michelle Young"
                   label="Program Coordinator" 
-                  email={michelleYEmail}/>
+                  email={michelleYEmail}
+                />
                 <br/>
-              <CardItem
-                src="images/StaffPhotos/KobeHutchinson.jpg"
-                text="Kobe Hutchinson"
-                label="Assistant Program Coordinator" 
-                email={kobeEmail}
-              />
-              <CardItem
-                src="images/StaffPhotos/BethRoth.JPG"
-                text="Elizabeth Roth"
-                label="Assistant Program Coordinator" 
-                email={bethEmail}
-              />
-              <br/>
-              <CardItem 
-                src="images/comingsoon.png"
-                text="Andrea Scarfo"
-                label="Employment Specialist/Job Developer"
-                email={andreaEmail}
-              />
-              <CardItem
-                src="images/StaffPhotos/SierraWilliams.jpg"
-                text="Sierra Williams"
-                label="IT" 
-                email={sierraEmail}
-              />
-                </ul>
-                <br/>
+                <CardItem
+                  src="images/StaffPhotos/KobeHutchinson.jpg"
+                  text="Kobe Hutchinson"
+                  label="Assistant Program Coordinator" 
+                  email={kobeEmail}
+                />
+                <CardItem
+                  src="images/StaffPhotos/BethRoth.JPG"
+                  text="Elizabeth Roth"
+                  label="Assistant Program Coordinator" 
+                  email={bethEmail}
+                />
+              <ul className='cards__items'>
+                <CardItem 
+                  src="images/comingsoon.png"
+                  text="Andrea Scarfo"
+                  label="Employment Specialist/Job Developer"
+                  email={andreaEmail}
+                />
+                <CardItem
+                  src="images/StaffPhotos/SierraWilliams.jpg"
+                  text="Sierra Williams"
+                  label="IT" 
+                  email={sierraEmail}
+                />
+              </ul>
             </div>
         </div>
     </div>
