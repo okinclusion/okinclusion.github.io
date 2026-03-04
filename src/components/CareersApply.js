@@ -7,7 +7,7 @@ function Apply() {
 
   return (
     <>
-        <div className='main-container'>
+        <div className='main-all'>
             <div className='responsive-type-animation'>
             <TypeAnimation className='name' sequence={["Work With Us", 1000]} speed={20} style={{ fontSize: '12vmin', fontFamily: 'Tahoma', textShadow: '3px 2px #5b05f9', color: '#fff'}}/>
             </div> 

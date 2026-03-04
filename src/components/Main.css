@@ -1,8 +1,7 @@
 .main-container {
-    background: linear-gradient(180deg, #F4F0FA 0%, #D9C7F5 100%);
+    background: linear-gradient(180deg, #D9C7F5 0%, #D9C7F5 100%);
     background-size: cover;
-    min-height: 1119px;
-    height: 2200px !important;
+    height: 1600px !important;
 }
 
 .main-container > p {
