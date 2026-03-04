@@ -16,10 +16,10 @@ function Cards() {
     <>
    
     <div className='cards'>
-        <h1 className='title-work'></h1>
-        <div className='cards__container'>
-            <div className='cards__wrapper'>
-              <ul className='cards__items'>
+      <h1 className='title-work'></h1>
+      <div className='cards__container'>
+          <div className='cards__wrapper'>
+            <ul className='cards__items'>
               <CardItem
                 src="images/comingsoon.png"
                 text="Leanne Williams"
@@ -61,6 +61,7 @@ function Cards() {
                   label="Assistant Program Coordinator" 
                   email={bethEmail}
                 />
+              </ul>
               <ul className='cards__items'>
                 <CardItem 
                   src="images/comingsoon.png"
