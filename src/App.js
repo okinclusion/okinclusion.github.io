@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from './components/pages/Home';
+import Home from './components/pages/Home.jsx';
 import History from './components/pages/History';
 import Mission from './components/pages/Mission';
 import Team from './components/pages/Team';
