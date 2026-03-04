@@ -2,6 +2,7 @@ import React from 'react';
 import { TypeAnimation } from 'react-type-animation';   
 import Footer from './Footer';
 import HomeShareForm from './HomeShareForm';
+import './Main.css';
 
 function Apply() { 
 

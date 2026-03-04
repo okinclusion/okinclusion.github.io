@@ -35,3 +35,7 @@
     background-image: url(../images/background2.jpg);
     background-size: cover;
 }
+
+.apply-form {
+    padding-top: 100px;
+}

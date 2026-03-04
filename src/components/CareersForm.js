@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import './Main.css';
 
 function EmploymentForm() {
     const form = useRef();
@@ -22,7 +23,7 @@ function EmploymentForm() {
     <div className='container'>
         <div className='contact-container'>
             <h1 className='messageTitle'>Send Us Your Resume</h1>
-            <form ref={form} onSubmit={sendEmail}>
+            <form ref={form} onSubmit={sendEmail} className='apply-form'>
                 <label className='name'>Name:</label>
                 <br/>
                 <input type="text" name="user_name" />
