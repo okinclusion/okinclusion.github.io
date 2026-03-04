@@ -14,7 +14,7 @@ export const EventProvider = ({ children }) => {
     { id: 1, date: new Date(2026, 0, 4), title: "World Braille Day" },
     { id: 2, date: new Date(2026, 0, 3), title: "Mahayana New Year" },
     // February
-    { id: 3, date: new Date(2026, 1, 0), title: "Black History Month", isWholeMonthEvent: true },
+    { id: 3, date: new Date(2026, 1, 1), title: "Black History Month", isWholeMonthEvent: true },
     { id: 4, date: new Date(2026, 1, 14), title: "Valentine's Day", color: "#FF1493" },
     { id: 5, date: new Date(2026, 1, 17), title: "Random Acts of Kindness Day" },
     { id: 6, date: new Date(2026, 1, 17), title: "Chinese New Year", color: "#FF0000" },
@@ -75,14 +75,14 @@ export const EventProvider = ({ children }) => {
     { id: 60, date: new Date(2026, 2, 31), title: "Friends in Motion" },
     { id: 61, date: new Date(2026, 2, 31), title: "SOEC Walk" },
     // April
-    { id: 62, date: new Date(2026, 3, 0), title: "Autism Acceptance Month", isWholeMonthEvent: true },
+    { id: 62, date: new Date(2026, 3, 1), title: "Autism Acceptance Month", isWholeMonthEvent: true },
     { id: 63, date: new Date(2026, 3, 2), title: "World Autism Day" },
     { id: 64, date: new Date(2026, 3, 14), title: "Vaisakhi" },
     { id: 65, date: new Date(2026, 3, 3), title: "Good Friday" },
     { id: 66, date: new Date(2026, 3, 29), title: "Easter Sunday" },
     { id: 67, date: new Date(2026, 3, 28), title: "Easter Monday" },
     // May
-    { id: 68, date: new Date(2026, 4, 0), title: "Mental Health Awareness Month", isWholeMonthEvent: true },
+    { id: 68, date: new Date(2026, 4, 1), title: "Mental Health Awareness Month", isWholeMonthEvent: true },
     { id: 69, date: new Date(2026, 4, 17), title: "International Day Against Homophobia, Transphobia, and Biphobia" },
     { id: 70, date: new Date(2026, 4, 10), title: "Mother's Day" },
     { id: 71, date: new Date(2026, 4, 15), title: "Global Accessibility Awareness Day" },
@@ -97,19 +97,19 @@ export const EventProvider = ({ children }) => {
     
     // June
     { id: 80, date: new Date(2026, 5, 3), title: "Red Shirt Day" },
-    { id: 81, date: new Date(2026, 5, 0), title: "Pride Month", isWholeMonthEvent: true },
+    { id: 81, date: new Date(2026, 5, 1), title: "Pride Month", isWholeMonthEvent: true },
     { id: 82, date: new Date(2026, 5, 21), title: "National Indigenous Peoples Day" },
     // July
-    { id: 83, date: new Date(2026, 6, 0), title: "Disability Pride Month", isWholeMonthEvent: true },
+    { id: 83, date: new Date(2026, 6, 1), title: "Disability Pride Month", isWholeMonthEvent: true },
     { id: 84, date: new Date(2026, 6, 1), title: "Canada Day" },
     { id: 85, date: new Date(2026, 6, 14), title: "International Non-Binary People's Day"},
     // August
-    { id: 86, date: new Date("2026, 7, 0"), title: "Intersectionality Awareness Month", isWholeMonthEvent: false },
+    { id: 86, date: new Date("2026, 7, 1"), title: "Intersectionality Awareness Month", isWholeMonthEvent: false },
     { id: 87, date: new Date("2026, 8, 13"), title: "Ganesh Chaturthi", isWholeMonthEvent: false },
     { id: 88, date: new Date("2026, 8, 14"), title: "Ganesh Chaturthi", isWholeMonthEvent: false },
 
     // September
-    { id: 89, date: new Date("2026, 8, 0"), title: "Hispanic Heritage Month", isWholeMonthEvent: true},
+    { id: 89, date: new Date("2026, 8, 1"), title: "Hispanic Heritage Month", isWholeMonthEvent: true},
     { id: 90, date: new Date(2026, 8, 7), title: "Labour Day" },
     { id: 91, date: new Date(2026, 8, 9), title: "FASD Day" },
     { id: 92, date: new Date(2026, 8, 10), title: "World Suicide Prevention Day" },
@@ -124,11 +124,11 @@ export const EventProvider = ({ children }) => {
     { id: 100, date: new Date(2026, 9, 31), title: "Halloween" },
 
     // November
-    { id: 101, date: new Date(2026, 10, 0), title: "Hindu Heritage Month", isWholeMonthEvent: true},
+    { id: 101, date: new Date(2026, 10, 1), title: "Hindu Heritage Month", isWholeMonthEvent: true},
     { id: 102, date: new Date(2026, 10, 11), title: "Remembrance Day" },
     { id: 103, date: new Date(2026, 10, 20), title: "Transgender Day of Remembrance" },
     // December
-    { id: 104, date: new Date(2026, 11, 0), title: "Universal Human Rights Month", isWholeMonthEvent: true},
+    { id: 104, date: new Date(2026, 11, 1), title: "Universal Human Rights Month", isWholeMonthEvent: true},
     { id: 105, date: new Date(2026, 11, 3), title: "International Day of Persons with Disabilities" },
     { id: 106, date: new Date(2026, 11, 10), title: "International Human Rights Day" },
     { id: 107, date: new Date(2026, 11, 4), title: "Hanukkah Begins" },
