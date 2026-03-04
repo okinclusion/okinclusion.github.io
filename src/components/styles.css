@@ -676,7 +676,7 @@
 
 .nb-dropdown__panel {
   position: absolute;
-  top: calc(100% + 10px);
+  top: calc(100%);
   left: 50%;
   transform: translateX(-50%);
   background: var(--nb-white);
