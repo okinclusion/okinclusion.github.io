@@ -4,7 +4,7 @@ import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './components/pages/Home';
 import History from './components/pages/History';
-import Mission from './components/pages/Mission';
+import Mission from './components/pages/Mission-Vision.jsx';
 import Team from './components/pages/Team';
 import Priorities from './components/pages/Priorities';
 import Accreditation from './components/pages/Accreditation.js';
