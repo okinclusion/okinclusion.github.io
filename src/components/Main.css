@@ -4,6 +4,10 @@
     height: 1600px !important;
 }
 
+.main-container .main-title {
+    padding: 50px;
+}
+
 .main-container > p {
     margin-top: 8px;
     color: #ffffff;

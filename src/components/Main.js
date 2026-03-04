@@ -7,7 +7,7 @@ import { Button2 } from './Button2';
 function Main() { 
   return (
     <div className='main-container'>
-        <p className='title'>Okanagan Inclusion provides Agency Coordinated Home Sharing, Respite, Employment and Community Inclusion programs to adults with developmental disabilities.</p>
+        <p className='main-title'>Okanagan Inclusion provides Agency Coordinated Home Sharing, Respite, Employment and Community Inclusion programs to adults with developmental disabilities.</p>
         <div className='main-btns'>
             <a href="/team"><Button className='btns' link="/team" buttonStyle='btn--outline'
             buttonSize='btn--large'>
