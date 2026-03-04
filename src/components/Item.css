@@ -27,12 +27,12 @@
     margin-bottom: -300px;
     font-family: 'Montserrat', sans-serif;
     max-height: 800px;
-    background-image: url(../images/background2.jpg);
+    background: linear-gradient(180deg, #F4F0FA 0%, #D9C7F5 100%);
     background-size: cover;
 }
 
 .exception{
-    background-image: url(../images/background2.jpg);
+    background: linear-gradient(180deg, #F4F0FA 0%, #D9C7F5 100%);
     background-size: cover;
 }
 
