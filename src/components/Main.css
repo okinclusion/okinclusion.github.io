@@ -1,5 +1,5 @@
 .main-container {
-    background-image: url(../images/background2.jpg);
+    background: linear-gradient(180deg, #F4F0FA 0%, #D9C7F5 100%);
     background-size: cover;
     min-height: 1119px;
     height: 2200px !important;
@@ -32,7 +32,7 @@
     
 }
 .header-container {
-    background-image: url(../images/background2.jpg);
+    background: linear-gradient(180deg, #F4F0FA 0%, #D9C7F5 100%);
     background-size: cover;
 }
 
