@@ -40,7 +40,7 @@ function Cards() {
               </ul>
               <ul className='cards__items'>
               <CardItem
-                  src="images/MichelleYoung.jpeg"
+                  src="images/StaffPhotos/MichelleYoung.jpeg"
                   text="Michelle Young"
                   label="Program Coordinator" 
                   email={michelleYEmail}/>
