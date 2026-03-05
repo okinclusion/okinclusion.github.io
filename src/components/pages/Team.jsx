@@ -4,55 +4,63 @@ import '../../App.css';
 import '../styles.css';
 import Footer from '../Footer';
 import { TypeAnimation } from 'react-type-animation';
+import leanneImg   from '../../images/StaffPhotos/LeanneWilliams.jpeg';
+import michelleF   from '../../images/StaffPhotos/MichelleFritsche.jpg';
+import amyImg      from '../../images/StaffPhotos/AmyTemple.jpeg';
+import michelleY   from '../../images/StaffPhotos/MichelleYoung.jpeg';
+import kobeImg     from '../../images/StaffPhotos/KobeHutchinson.jpg';
+import bethImg     from '../../images/StaffPhotos/BethRoth.JPG';
+import sierraImg   from '../../images/StaffPhotos/SierraWilliams.jpg';
+import comingSoon  from '../../images/comingsoon.png';
 
 const team = [
   {
     name:  'Leanne Williams',
     role:  'CEO',
     email: 'ceo@okinclusion.ca',
-    src:   'images/comingsoon.png',
+    src:   leanneImg,
   },
   {
     name:  'Michelle Fritsche',
     role:  'Director of Share Living',
     email: 'michelleb.okinclusion@shaw.ca',
-    src:   'images/comingsoon.png',
+    src:   michelleF,
   },
   {
     name:  'Amy Temple',
     role:  'Program Coordinator',
     email: 'pc2@okinclusion.ca',
-    src:   'images/StaffPhotos/AmyTemple.jpeg',
+    src:   amyImg,
   },
   {
     name:  'Michelle Young',
     role:  'Program Coordinator',
     email: 'homeshare@okinclusion.ca',
-    src:   'images/StaffPhotos/MichelleYoung.jpeg',
+    src:   michelleY,
   },
   {
     name:  'Kobe Hutchinson',
     role:  'Assistant Program Coordinator',
     email: 'asstpcpen@okinclusion.ca',
-    src:   'images/StaffPhotos/KobeHutchinson.jpg',
+    src:   kobeImg,
   },
   {
     name:  'Elizabeth Roth',
     role:  'Assistant Program Coordinator',
     email: 'kcommunityoptions@okinclusion.ca',
-    src:   'images/StaffPhotos/BethRoth.JPG',
+    src:   bethImg,
   },
   {
     name:  'Andrea Scarfo',
     role:  'Employment Specialist / Job Developer',
     email: 's.emp@okinclusion.ca',
-    src:   'images/comingsoon.png',
+    src:   comingSoon,
   },
   {
     name:  'Sierra Williams',
     role:  'IT',
     email: 'it@okinclusion.ca',
-    src:   'images/StaffPhotos/SierraWilliams.jpg',
+    src:   sierraImg,
   },
 ];
 
