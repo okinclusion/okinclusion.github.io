@@ -6,7 +6,7 @@ import Home from './components/pages/Home.jsx';
 import History from './components/pages/History.jsx';
 import Mission from './components/pages/Mission-Vision.jsx';
 import Team from './components/pages/Team.jsx';
-import Priorities from './components/pages/Priorities';
+import Priorities from './components/pages/Strategric-Priorities.jsx';
 import Accreditation from './components/pages/Accreditation.js';
 import Penticton from './components/pages/Penticton';
 import Keremeos from './components/pages/Keremeos';
