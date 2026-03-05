@@ -10,6 +10,8 @@ import photo1 from '../../images/ClientPhotos/okinc-pic09.jpg';
 import photo2 from '../../images/ClientPhotos/okinc-pic10.jpg';
 import photo3 from '../../images/ClientPhotos/okinc-pic11.jpg';
 import photo4 from '../../images/ClientPhotos/okinc-pic12.jpeg';
+import photo5 from '../../images/ClientPhotos/okinc-pic14.jpg';
+import photo6 from '../../images/ClientPhotos/okinc-pic15.jpeg';
 
 // Fix leaflet default marker icon
 delete L.Icon.Default.prototype._getIconUrl;
@@ -25,6 +27,8 @@ const gallery = [
    { src: photo2, alt: 'Friends in Motion' },
    { src: photo3, alt: 'Time with Friends' },
    { src: photo4, alt: 'Pink Shirt Day' },
+   { src: photo5, alt: 'Learning is FUN!' },
+   { src: photo6, alt: 'Fun in the Sun' },
 ];
 
 const hours = [
