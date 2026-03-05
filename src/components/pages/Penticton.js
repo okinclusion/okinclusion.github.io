@@ -23,7 +23,7 @@ function Penticton() {
         hours=' Monday to Friday: 8:30am to 4:30pm'
         phone=' (236) 422-0055'
         fax=' (236) 422-0056'
-        email=' okinclusion@shaw.ca'
+        email=' pc2@okinclusion.ca'
         address=' 527 Ellis Street, Penticton, BC V2A 4M4'/>
         <MapView center={center}/>
     </div>
