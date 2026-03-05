@@ -17,7 +17,7 @@ import Careers from './components/pages/Careers.jsx';
 import CareersApply from './components/pages/Careers-Apply.jsx';
 import SupportedEmployment from './components/pages/Supported-Employment.jsx';
 import SupportedLiving from './components/pages/Supported-Living.jsx';
-import Respite from './components/pages/Respite';
+import Respite from './components/pages/Respite.jsx';
 import Resources from './components/pages/Resources';
 import News from './components/pages/News';
 import Contact from './components/pages/Contact';
