@@ -16,7 +16,7 @@ import HomeShareApply from './components/pages/HS-Apply.jsx';
 import Careers from './components/pages/Careers.jsx';
 import CareersApply from './components/pages/Careers-Apply.jsx';
 import SupportedEmployment from './components/pages/Supported-Employment.jsx';
-import SupportedLiving from './components/pages/SupportedLiving';
+import SupportedLiving from './components/pages/Supported-Living.jsx';
 import Respite from './components/pages/Respite';
 import Resources from './components/pages/Resources';
 import News from './components/pages/News';
