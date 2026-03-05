@@ -34,7 +34,7 @@ const hours = [
 const info = [
   { icon: '📞', label: 'Phone',   value: '(236) 422-0055',           href: 'tel:2364220055' },
   { icon: '📠', label: 'Fax',     value: '(236) 422-0056',           href: null },
-  { icon: '✉️', label: 'Email',   value: 'okinclusion@shaw.ca',       href: 'mailto:okinclusion@shaw.ca' },
+  { icon: '✉️', label: 'Email',   value: 'pc2@okinclusion.ca',       href: 'mailto:pc2@okinclusion.ca' },
   { icon: '📍', label: 'Address', value: '527 Ellis Street, Penticton, BC V2A 4M4', href: 'https://maps.google.com/?q=527+Ellis+Street+Penticton+BC' },
 ];
 
