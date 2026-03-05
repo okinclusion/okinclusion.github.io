@@ -8,6 +8,7 @@ import Mission from './components/pages/Mission-Vision.jsx';
 import Team from './components/pages/Team.jsx';
 import Priorities from './components/pages/Strategic-Priorities.jsx';
 import Accreditation from './components/pages/Accreditation.jsx';
+import OMR from './components/pages/Outcomes-Management.jsx';
 import Penticton from './components/pages/Penticton';
 import Keremeos from './components/pages/Keremeos';
 import HomeShare from './components/pages/HomeShare';
@@ -22,7 +23,6 @@ import News from './components/pages/News';
 import Contact from './components/pages/Contact';
 import Login from './components/pages/Login.js';
 import Staff from './components/pages/Staff.js';
-import OMR from './components/pages/OMR.js';
 import Scope from './components/pages/Scope.js';
 
 
