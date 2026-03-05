@@ -10,8 +10,8 @@ import photo1 from '../../images/ClientPhotos/okinc-pic09.jpg';
 import photo2 from '../../images/ClientPhotos/okinc-pic10.jpg';
 import photo3 from '../../images/ClientPhotos/okinc-pic11.jpg';
 import photo4 from '../../images/ClientPhotos/okinc-pic12.jpeg';
-import photo5 from '../../images/ClientPhotos/okinc-pic14.jpg';
-import photo6 from '../../images/ClientPhotos/okinc-pic15.jpeg';
+import photo5 from '../../images/ClientPhotos/okinc-pic14.JPG';
+import photo6 from '../../images/ClientPhotos/okinc-pic15.JPG';
 
 // Fix leaflet default marker icon
 delete L.Icon.Default.prototype._getIconUrl;
