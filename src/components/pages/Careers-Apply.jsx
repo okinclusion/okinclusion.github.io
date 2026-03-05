@@ -6,7 +6,7 @@ import '../styles.css';
 import Footer from '../Footer';
 import { TypeAnimation } from 'react-type-animation';
 
-const EMAILJS_SERVICE_ID  = 'service_0ohyycb';
+const EMAILJS_SERVICE_ID  = 'service_26h3nd7';
 const EMAILJS_TEMPLATE_ID = 'template_ijg3p4h';
 const EMAILJS_PUBLIC_KEY  = 'TInXkn9D4lftKds5g';
 
