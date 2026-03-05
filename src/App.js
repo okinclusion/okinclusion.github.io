@@ -18,12 +18,12 @@ import CareersApply from './components/pages/Careers-Apply.jsx';
 import SupportedEmployment from './components/pages/Supported-Employment.jsx';
 import SupportedLiving from './components/pages/Supported-Living.jsx';
 import Respite from './components/pages/Respite.jsx';
+import Scope from './components/pages/Scope-of-Services.jsx';
 import Resources from './components/pages/Resources';
 import News from './components/pages/News';
 import Contact from './components/pages/Contact';
 import Login from './components/pages/Login.js';
 import Staff from './components/pages/Staff.js';
-import Scope from './components/pages/Scope.js';
 
 function App() {
   return (
