@@ -19,7 +19,7 @@ import SupportedEmployment from './components/pages/Supported-Employment.jsx';
 import SupportedLiving from './components/pages/Supported-Living.jsx';
 import Respite from './components/pages/Respite.jsx';
 import Scope from './components/pages/Scope-of-Services.jsx';
-import Resources from './components/pages/Resources';
+import Resources from './components/pages/Resources.jsx';
 import News from './components/pages/News.jsx';
 import Contact from './components/pages/Contact';
 import Login from './components/pages/Login.js';
