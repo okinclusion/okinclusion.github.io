@@ -21,7 +21,7 @@ import Respite from './components/pages/Respite.jsx';
 import Scope from './components/pages/Scope-of-Services.jsx';
 import Resources from './components/pages/Resources.jsx';
 import News from './components/pages/News.jsx';
-import Contact from './components/pages/Contact';
+import Contact from './components/pages/Contact.jsx';
 import Login from './components/pages/Login.js';
 import Staff from './components/pages/Staff.js';
 
