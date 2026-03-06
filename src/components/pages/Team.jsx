@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { Link } from 'react-router-dom';
 import '../../App.css';
 import '../styles.css';
-import Footer from '../Footer';
+import Footer from './Footer';
 import { TypeAnimation } from 'react-type-animation';
 import leanneImg   from '../../images/StaffPhotos/LeanneWilliams.jpeg';
 import michelleF   from '../../images/StaffPhotos/MichelleFritsche.jpg';

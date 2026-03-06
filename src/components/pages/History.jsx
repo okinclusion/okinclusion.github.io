@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 import { Link } from 'react-router-dom';
 import '../../App.css';
 import '../styles.css';
-import Footer from '../Footer';
+import Footer from './Footer';
 import { TypeAnimation } from 'react-type-animation';
 
 const photoCards = [

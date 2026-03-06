@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import '../../App.css';
 import '../styles.css';
-import Footer from '../Footer';
+import Footer from './Footer.jsx';
 import { TypeAnimation } from 'react-type-animation';
 
 const requirements = [

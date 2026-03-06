@@ -3,7 +3,7 @@ import emailjs from '@emailjs/browser';
 import { Link } from 'react-router-dom';
 import '../../App.css';
 import '../styles.css';
-import Footer from '../Footer';
+import Footer from './Footer';
 import { TypeAnimation } from 'react-type-animation';
 
 const EMAILJS_SERVICE_ID  = 'service_26h3nd7';

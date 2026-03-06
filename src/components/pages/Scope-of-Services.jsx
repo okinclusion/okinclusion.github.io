@@ -1,7 +1,7 @@
 import React from "react";
 import '../../App.css';
 import '../styles.css';
-import Footer from '../Footer';
+import Footer from './Footer';
 import { TypeAnimation } from 'react-type-animation';
 
 export default function Scope() {

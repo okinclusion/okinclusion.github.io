@@ -2,7 +2,7 @@ import React, { useState, useRef } from "react";
 import emailjs from '@emailjs/browser';
 import '../../App.css';
 import '../styles.css';
-import Footer from '../Footer';
+import Footer from './Footer';
 import { TypeAnimation } from 'react-type-animation';
 
 const EMAILJS_SERVICE_ID  = 'service_0ohyycb';

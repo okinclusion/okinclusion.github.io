@@ -4,7 +4,7 @@ import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
 import '../../App.css';
 import '../styles.css';
-import Footer from '../Footer';
+import Footer from './Footer';
 import { TypeAnimation } from 'react-type-animation';
 import photo1 from '../../images/ClientPhotos/okinc-pic09.jpg';
 import photo2 from '../../images/ClientPhotos/okinc-pic10.jpg';
