@@ -2,8 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAlignJustify, faAngleDoubleRight, faChevronDown, faChevronRight } from '@fortawesome/free-solid-svg-icons';
-import Accessibility from './Accessibility';
-import '../components/styles.css';
+import './styles.css';
 
 function Navbar() {
   const [click, setClick]               = useState(false);
@@ -41,7 +40,7 @@ function Navbar() {
 
         {/* Logo */}
         <Link to="/" className="nb-logo" onClick={closeMobileMenu}>
-          <img src="../../images/logocrop-nobg.png" alt="Okanagan Inclusion" />
+          <img src="../images/logocrop-nobg.png" alt="Okanagan Inclusion" />
         </Link>
 
         {/* Desktop menu */}
@@ -127,14 +126,6 @@ function Navbar() {
           <Link to="/news"      className={`nb-link${url === '/news'      ? ' nb-link--active' : ''}`}>News</Link>
           <Link to="/resources" className={`nb-link${url === '/resources' ? ' nb-link--active' : ''}`}>Resources</Link>
           <Link to="/contact"   className={`nb-link nb-link--cta${url === '/contact' ? ' nb-link--active' : ''}`}>Contact Us</Link>
-        </div>
-
-        {/* Accessibility + hamburger */}
-        <div className="nb-right">
-          <Accessibility />
-          <button className="nb-hamburger" onClick={handleClick} aria-label="Toggle menu">
-            <FontAwesomeIcon icon={click ? faAngleDoubleRight : faAlignJustify} />
-          </button>
         </div>
       </div>
 
