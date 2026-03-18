@@ -6,12 +6,12 @@ import Footer from './Footer';
 import { TypeAnimation } from 'react-type-animation';
 
 const photoCards = [
-  { src: 'https://okincbucket.s3.us-east-1.amazonaws.com/okinc-pic01.jpg', label: 'Community Inclusion', to: '/communityinclusion' },
-  { src: 'https://okincbucket.s3.us-east-1.amazonaws.com/okinc-pic02.jpg',             label: 'Events',              to: '/news' },
-  { src: 'https://okincbucket.s3.us-east-1.amazonaws.com/okinc-pic05.jpg',               label: 'News',                to: '/news' },
-  { src: 'https://okincbucket.s3.us-east-1.amazonaws.com/okinc-pic06.jpg',      label: 'Mission + Vision',    to: '/missionvision' },
-  { src: 'https://okincbucket.s3.us-east-1.amazonaws.com/okinc-pic07.jpg',         label: 'Employment',          to: '/employment' },
-  { src: 'https://okincbucket.s3.us-east-1.amazonaws.com/okinc-pic08.jpg',          label: 'Resources',           to: '/resources' },
+  { src: 'https://okincbucket.s3.us-east-1.amazonaws.com/icon-community-inclusion.png', label: 'Community Inclusion', to: '/communityinclusion' },
+  { src: 'https://okincbucket.s3.us-east-1.amazonaws.com/icon-events.png',             label: 'Events',              to: '/news' },
+  { src: 'https://okincbucket.s3.us-east-1.amazonaws.com/icon-news.png',               label: 'News',                to: '/news' },
+  { src: 'https://okincbucket.s3.us-east-1.amazonaws.com/icon-mission-vision.png',      label: 'Mission + Vision',    to: '/missionvision' },
+  { src: 'https://okincbucket.s3.us-east-1.amazonaws.com/icon-employment.png',         label: 'Employment',          to: '/employment' },
+  { src: 'https://okincbucket.s3.us-east-1.amazonaws.com/icon-resources.png',          label: 'Resources',           to: '/resources' },
 ];
 
 const milestones = [
