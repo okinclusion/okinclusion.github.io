@@ -98,7 +98,7 @@ const events = {
   '2026-05-12': [{ name: 'Friends in Motion',   type: 'program' }, { name: 'Yoga/Lunch at Okanagan Lake',   type: 'program' }],
   '2026-05-13': [{ name: 'Library Craft',   type: 'program' }, { name: 'Cubby Clean',   type: 'program' }],
   '2026-05-14': [{ name: 'Client Meeting',   type: 'program' }, { name: 'Okanagan Lake Walk',   type: 'program' }],
-  '2026-05-15': [{ name: 'Global Accessibility Awareness Day', type: 'awareness' }, { name: 'Friends in Music', type: 'program' }, { name: 'Bowling', type: 'program' }],
+  '2026-05-21': [{ name: 'Global Accessibility Awareness Day', type: 'awareness' }, { name: 'Friends in Music', type: 'program' }, { name: 'Bowling', type: 'program' }],
   '2026-05-17': [{ name: 'International Day Against Homophobia, Transphobia, and Biphobia', type: 'awareness' }],
   '2026-05-18': [{ name: 'Victoria Day - Closed',       type: 'holiday' }],
   '2026-05-19': [{ name: 'Friends in Motion', type: 'program' }, { name: 'Just for Fun Games', type: 'program' }],
